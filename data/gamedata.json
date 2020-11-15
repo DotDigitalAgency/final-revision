@@ -1,0 +1,325 @@
+{
+    "name": "Final Revision VII",
+    "base_value": 2000,
+    "gamedata":{
+        "stages" : {
+            "brief" : [
+                {   "name":"game_intro",
+                    "image": "../images/game_intro.gif",
+                    "text" : "Game intro text come hers",
+                    "actions" : [
+                        {   "title" : "Start", 
+                            "action": "next"
+                        }
+                    ]
+                },
+                {   "name":"brief_intro",
+                    "image": "../images/game_intro.gif",
+                    "text" : "Brief intro text come hers",
+                    "actions" : [
+                        {   "title" : "I'm ready", 
+                            "action": "next"
+                        }
+                    ]
+                },
+                {   "name":"brief_01",
+                    "image": "../images/game_intro.gif",
+                    "text" : "Brief text comes here",
+                    "actions" : [
+                        {   "title" : "Option A", 
+                            "outcome": "Something good happaned",
+                            "image":"../images/positive_choice.gif",
+                            "action": "render_outcome",
+                            "value": 0.1
+                        },
+                        {   "title" : "Option B", 
+                            "outcome": "Something bad",
+                            "image":"../images/negative_choice.gif",
+                            "action": "render_outcome",
+                            "value": -0.1
+                        }
+                    ]
+                },
+                {   "name":"brief_02",
+                    "image": "../images/game_intro.gif",
+                    "text" : "Brief text comes here",
+                    "actions" : [
+                        {   "title" : "Option A", 
+                            "outcome": "Something good happaned",
+                            "image":"../images/positive_choice.gif",
+                            "action": "render_outcome",
+                            "value": 0.1
+                        },
+                        {   "title" : "Option B", 
+                            "outcome": "Something bad",
+                            "image":"../images/negative_choice.gif",
+                            "action": "render_outcome",
+                            "value": -0.1
+                        }
+                    ]
+                },
+                {   "name":"brief_03",
+                    "image": "../images/game_intro.gif",
+                    "text" : "Brief text comes here",
+                    "actions" : [
+                        {   "title" : "Option A", 
+                            "outcome": "Something good happaned",
+                            "image":"../images/positive_choice.gif",
+                            "action": "render_outcome",
+                            "value": 0.1
+                        },
+                        {   "title" : "Option B", 
+                            "outcome": "Something bad",
+                            "image":"../images/negative_choice.gif",
+                            "action": "render_outcome",
+                            "value": -0.1
+                        }
+                    ]
+                },
+                {   "name":"presentation",
+                    "image": "../images/game_presentation.gif",
+                    "text" : "Creative presentation text comes here",
+                    "actions" : [
+                        {   "title" : "brief_presentation", 
+                            "outcome": "",
+                            "image":"../images/presentation_eoll.gif",
+                            "action": "presentation_roll",
+                            "value": 0.1
+                        }
+                    ]
+                }
+            ],
+            "creative" : [
+                {   "name":"creative_intro",
+                    "image": "../images/game_intro.gif",
+                    "text" : "Game intro text come hers",
+                    "actions" : [
+                        {   "title" : "Start", 
+                            "action": "next"
+                        }
+                    ]
+                },
+                {   "name":"creative_01",
+                    "image": "../images/game_intro.gif",
+                    "text" : "creative text comes here",
+                    "actions" : [
+                        {   "title" : "Option A", 
+                            "outcome": "Something good happaned",
+                            "image":"../images/positive_choice.gif",
+                            "action": "render_outcome",
+                            "value": 0.2
+                        },
+                        {   "title" : "Option B", 
+                            "outcome": "Something bad",
+                            "image":"../images/negative_choice.gif",
+                            "action": "render_outcome",
+                            "value": -0.2
+                        }
+                    ]
+                },
+                {   "name":"creative_02",
+                    "image": "../images/game_intro.gif",
+                    "text" : "creative text comes here",
+                    "actions" : [
+                        {   "title" : "Option A", 
+                            "outcome": "Something good happaned",
+                            "image":"../images/positive_choice.gif",
+                            "action": "render_outcome",
+                            "value": 0.2
+                        },
+                        {   "title" : "Option B", 
+                            "outcome": "Something bad",
+                            "image":"../images/negative_choice.gif",
+                            "action": "render_outcome",
+                            "value": -0.2
+                        }
+                    ]
+                },
+                {   "name":"creative_03",
+                    "image": "../images/game_intro.gif",
+                    "text" : "creative text comes here",
+                    "actions" : [
+                        {   "title" : "Option A", 
+                            "outcome": "Something good happaned",
+                            "image":"../images/positive_choice.gif",
+                            "action": "render_outcome",
+                            "value": 0.2
+                        },
+                        {   "title" : "Option B", 
+                            "outcome": "Something bad",
+                            "image":"../images/negative_choice.gif",
+                            "action": "render_outcome",
+                            "value": -0.2
+                        }
+                    ]
+                },
+                {   "name":"presentation",
+                    "image": "../images/game_presentation.gif",
+                    "text" : "Creative presentation text comes here",
+                    "actions" : [
+                        {   "title" : "creative_presentation", 
+                            "outcome": "",
+                            "image":"../images/presentation_eoll.gif",
+                            "action": "presentation_roll",
+                            "value": 0.2
+                        }
+                    ]
+                }
+            ],
+            "production" : [
+                {   "name":"production_intro",
+                    "image": "../images/game_intro.gif",
+                    "text" : "Game intro text come hers",
+                    "actions" : [
+                        {   "title" : "Start", 
+                            "action": "next"
+                        }
+                    ]
+                },
+                {   "name":"production_01",
+                    "image": "../images/game_intro.gif",
+                    "text" : "production text comes here",
+                    "actions" : [
+                        {   "title" : "Option A", 
+                            "outcome": "Something good happaned",
+                            "image":"../images/positive_choice.gif",
+                            "action": "render_outcome",
+                            "value": 0.2
+                        },
+                        {   "title" : "Option B", 
+                            "outcome": "Something bad",
+                            "image":"../images/negative_choice.gif",
+                            "action": "render_outcome",
+                            "value": -0.2
+                        }
+                    ]
+                },
+                {   "name":"production_02",
+                    "image": "../images/game_intro.gif",
+                    "text" : "production text comes here",
+                    "actions" : [
+                        {   "title" : "Option A", 
+                            "outcome": "Something good happaned",
+                            "image":"../images/positive_choice.gif",
+                            "action": "render_outcome",
+                            "value": 0.2
+                        },
+                        {   "title" : "Option B", 
+                            "outcome": "Something bad",
+                            "image":"../images/negative_choice.gif",
+                            "action": "render_outcome",
+                            "value": -0.2
+                        }
+                    ]
+                },
+                {   "name":"production_03",
+                    "image": "../images/game_intro.gif",
+                    "text" : "production text comes here",
+                    "actions" : [
+                        {   "title" : "Option A", 
+                            "outcome": "Something good happaned",
+                            "image":"../images/positive_choice.gif",
+                            "action": "render_outcome",
+                            "value": 0.2
+                        },
+                        {   "title" : "Option B", 
+                            "outcome": "Something bad",
+                            "image":"../images/negative_choice.gif",
+                            "action": "render_outcome",
+                            "value": -0.2
+                        }
+                    ]
+                },
+                {   "name":"presentation",
+                    "image": "../images/game_presentation.gif",
+                    "text" : "production presentation text comes here",
+                    "actions" : [
+                        {   "title" : "production_presentation", 
+                            "outcome": "",
+                            "image":"../images/presentation_eoll.gif",
+                            "action": "presentation_roll",
+                            "value": 0.2
+                        }
+                    ]
+                }
+            ],
+            "onair" : [
+                {   "name":"onair_intro",
+                    "image": "../images/game_intro.gif",
+                    "text" : "Game intro text come hers",
+                    "actions" : [
+                        {   "title" : "Start", 
+                            "action": "next"
+                        }
+                    ]
+                },
+                {   "name":"onair_01",
+                    "image": "../images/game_intro.gif",
+                    "text" : "onair text comes here",
+                    "actions" : [
+                        {   "title" : "Option A", 
+                            "outcome": "Something good happaned",
+                            "image":"../images/positive_choice.gif",
+                            "action": "render_outcome",
+                            "value": 0.2
+                        },
+                        {   "title" : "Option B", 
+                            "outcome": "Something bad",
+                            "image":"../images/negative_choice.gif",
+                            "action": "render_outcome",
+                            "value": -0.2
+                        }
+                    ]
+                },
+                {   "name":"onair_02",
+                    "image": "../images/game_intro.gif",
+                    "text" : "onair text comes here",
+                    "actions" : [
+                        {   "title" : "Option A", 
+                            "outcome": "Something good happaned",
+                            "image":"../images/positive_choice.gif",
+                            "action": "render_outcome",
+                            "value": 0.2
+                        },
+                        {   "title" : "Option B", 
+                            "outcome": "Something bad",
+                            "image":"../images/negative_choice.gif",
+                            "action": "render_outcome",
+                            "value": -0.2
+                        }
+                    ]
+                },
+                {   "name":"onair_03",
+                    "image": "../images/game_intro.gif",
+                    "text" : "onair text comes here",
+                    "actions" : [
+                        {   "title" : "Option A", 
+                            "outcome": "Something good happaned",
+                            "image":"../images/positive_choice.gif",
+                            "action": "render_outcome",
+                            "value": 0.2
+                        },
+                        {   "title" : "Option B", 
+                            "outcome": "Something bad",
+                            "image":"../images/negative_choice.gif",
+                            "action": "render_outcome",
+                            "value": -0.2
+                        }
+                    ]
+                },
+                {   "name":"presentation",
+                    "image": "../images/game_presentation.gif",
+                    "text" : "onair presentation text comes here",
+                    "actions" : [
+                        {   "title" : "onair_presentation", 
+                            "outcome": "",
+                            "image":"../images/presentation_eoll.gif",
+                            "action": "presentation_roll",
+                            "value": 0.2
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
