@@ -9,6 +9,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "cash": "^0.8.0",
+    "cash-dom": "^8.1.0",
+    "data": "^0.6.1",
+    "gsap": "^3.5.1",
+    "nes.css": "^2.3.0",
     "vue": "^2.6.12",
     "vue-hot-reload-api": "^2.3.4"
   },

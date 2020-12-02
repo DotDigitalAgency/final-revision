@@ -1,325 +1,112 @@
 {
     "name": "Final Revision VII",
     "base_value": 2000,
-    "gamedata":{
-        "stages" : {
-            "brief" : [
-                {   "name":"game_intro",
-                    "image": "../images/game_intro.gif",
-                    "text" : "Game intro text come hers",
-                    "actions" : [
-                        {   "title" : "Start", 
-                            "action": "next"
-                        }
-                    ]
+    "screens": [
+        {   "title":"",
+            "image": "cover_1.png",
+            "text" : `Utolsó előtti héten, a céges karácsonyi bulin megcsörren a telefonod.<br/><br/>
+            <div class="nes-container with-title is-rounded is-dark"><h3 class="title">+72 40 512 879</h3>
+                Szia! Én vagyok a Mikulás, ho ho ho!<br/>
+                Egy karácsonyi promó kampányra lenne szükségünk itt, az északi sarkon! <br/><br/>
+                Mert egy gyerek sem maradhat ajándék nélkül. 
+            </div>`,
+            "actions" : [
+                {   "title" : "Megpróbálsz úgy tenni, mintha értenéd, amit mond", 
+                    "outcome": "positive",                    
+                    "text": "Valami Miklós éjszakai gyereksarkot akar?? Egyre furább ügyfeleid vannak. ",
+                    "cta": "Lerakod a telefont, és elmorzsolsz egy imát 🙏",
+                    "image":"pixelart3.gif",
+                    "icon":"win_icon.png",
+                    "action": "render_outcome",
+                    "value": 0.1
                 },
-                {   "name":"brief_intro",
-                    "image": "../images/game_intro.gif",
-                    "text" : "Brief intro text come hers",
-                    "actions" : [
-                        {   "title" : "I'm ready", 
-                            "action": "next"
-                        }
-                    ]
-                },
-                {   "name":"brief_01",
-                    "image": "../images/game_intro.gif",
-                    "text" : "Brief text comes here",
-                    "actions" : [
-                        {   "title" : "Option A", 
-                            "outcome": "Something good happaned",
-                            "image":"../images/positive_choice.gif",
-                            "action": "render_outcome",
-                            "value": 0.1
-                        },
-                        {   "title" : "Option B", 
-                            "outcome": "Something bad",
-                            "image":"../images/negative_choice.gif",
-                            "action": "render_outcome",
-                            "value": -0.1
-                        }
-                    ]
-                },
-                {   "name":"brief_02",
-                    "image": "../images/game_intro.gif",
-                    "text" : "Brief text comes here",
-                    "actions" : [
-                        {   "title" : "Option A", 
-                            "outcome": "Something good happaned",
-                            "image":"../images/positive_choice.gif",
-                            "action": "render_outcome",
-                            "value": 0.1
-                        },
-                        {   "title" : "Option B", 
-                            "outcome": "Something bad",
-                            "image":"../images/negative_choice.gif",
-                            "action": "render_outcome",
-                            "value": -0.1
-                        }
-                    ]
-                },
-                {   "name":"brief_03",
-                    "image": "../images/game_intro.gif",
-                    "text" : "Brief text comes here",
-                    "actions" : [
-                        {   "title" : "Option A", 
-                            "outcome": "Something good happaned",
-                            "image":"../images/positive_choice.gif",
-                            "action": "render_outcome",
-                            "value": 0.1
-                        },
-                        {   "title" : "Option B", 
-                            "outcome": "Something bad",
-                            "image":"../images/negative_choice.gif",
-                            "action": "render_outcome",
-                            "value": -0.1
-                        }
-                    ]
-                },
-                {   "name":"presentation",
-                    "image": "../images/game_presentation.gif",
-                    "text" : "Creative presentation text comes here",
-                    "actions" : [
-                        {   "title" : "brief_presentation", 
-                            "outcome": "",
-                            "image":"../images/presentation_eoll.gif",
-                            "action": "presentation_roll",
-                            "value": 0.1
-                        }
-                    ]
+                {   "title" : "Bevallod, hogy be vagy baszva és nem alkalmas", 
+                    "outcome": "negative",
+                    "text": "Elég fura, hogy délben iszol. De mivel mindenki be van baszva, hát... így jártunk.",
+                    "cta": "Keverek még egy Gin&Tonicot",
+                    "image":"pixelart4.gif",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": -0.1
                 }
-            ],
-            "creative" : [
-                {   "name":"creative_intro",
-                    "image": "../images/game_intro.gif",
-                    "text" : "Game intro text come hers",
-                    "actions" : [
-                        {   "title" : "Start", 
-                            "action": "next"
-                        }
-                    ]
-                },
-                {   "name":"creative_01",
-                    "image": "../images/game_intro.gif",
-                    "text" : "creative text comes here",
-                    "actions" : [
-                        {   "title" : "Option A", 
-                            "outcome": "Something good happaned",
-                            "image":"../images/positive_choice.gif",
-                            "action": "render_outcome",
-                            "value": 0.2
-                        },
-                        {   "title" : "Option B", 
-                            "outcome": "Something bad",
-                            "image":"../images/negative_choice.gif",
-                            "action": "render_outcome",
-                            "value": -0.2
-                        }
-                    ]
-                },
-                {   "name":"creative_02",
-                    "image": "../images/game_intro.gif",
-                    "text" : "creative text comes here",
-                    "actions" : [
-                        {   "title" : "Option A", 
-                            "outcome": "Something good happaned",
-                            "image":"../images/positive_choice.gif",
-                            "action": "render_outcome",
-                            "value": 0.2
-                        },
-                        {   "title" : "Option B", 
-                            "outcome": "Something bad",
-                            "image":"../images/negative_choice.gif",
-                            "action": "render_outcome",
-                            "value": -0.2
-                        }
-                    ]
-                },
-                {   "name":"creative_03",
-                    "image": "../images/game_intro.gif",
-                    "text" : "creative text comes here",
-                    "actions" : [
-                        {   "title" : "Option A", 
-                            "outcome": "Something good happaned",
-                            "image":"../images/positive_choice.gif",
-                            "action": "render_outcome",
-                            "value": 0.2
-                        },
-                        {   "title" : "Option B", 
-                            "outcome": "Something bad",
-                            "image":"../images/negative_choice.gif",
-                            "action": "render_outcome",
-                            "value": -0.2
-                        }
-                    ]
-                },
-                {   "name":"presentation",
-                    "image": "../images/game_presentation.gif",
-                    "text" : "Creative presentation text comes here",
-                    "actions" : [
-                        {   "title" : "creative_presentation", 
-                            "outcome": "",
-                            "image":"../images/presentation_eoll.gif",
-                            "action": "presentation_roll",
-                            "value": 0.2
-                        }
-                    ]
+            ]
+        },
+        {   "title":"",
+            "image": "pixelart2.gif",
+            "text" : `Szerencsére a telefont következő email váltásból midnen kitisztul.Te is érzed, hogy itt nem babra megy a játék. A világ legnagyobb love brandje pottyant az öledbe, kösd fel a gatyát, és mutasd meg, mi a kreatív szakma csúcsa!
+                    <br/><br/>Lehet, hogy az idő kevés, de jó munkát csak megalapozott stratégiával lehet végezni.`,
+            "actions" : [
+                {   "title" : "Kutatásra fel!", 
+                    "action": "next"
                 }
-            ],
-            "production" : [
-                {   "name":"production_intro",
-                    "image": "../images/game_intro.gif",
-                    "text" : "Game intro text come hers",
-                    "actions" : [
-                        {   "title" : "Start", 
-                            "action": "next"
-                        }
-                    ]
+            ]
+        },
+        {   "title":"",
+            "image": "pixelart5.gif",
+            "text" : `A stratégiai osztály nagy léptekkel próbál insightokat gyűjteni kiscsoportos interjúkkal, de Rudika üvöltve követeli magának a nintendót karácsonyra.`,
+            "actions" : [
+                {   "title" : "Kirakod az interjúról, nem törődve, hogy a az apja id. Rudolf elkaszálhatja emiatt a kampányod.", 
+                    "outcome": "negative",                    
+                    "text": "A Mikulás nem annyira értékeli, hogy nem tudsz bánni a gyerekekkel. Megigéred neki, hogy újra elvégzed a Code of Conduct traininget, két napig nem térsz magadhoz!",
+                    "cta": "Legalább békén hagynak egy időre...",
+                    "image":"pixelart3.gif",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": -0.1
                 },
-                {   "name":"production_01",
-                    "image": "../images/game_intro.gif",
-                    "text" : "production text comes here",
-                    "actions" : [
-                        {   "title" : "Option A", 
-                            "outcome": "Something good happaned",
-                            "image":"../images/positive_choice.gif",
-                            "action": "render_outcome",
-                            "value": 0.2
-                        },
-                        {   "title" : "Option B", 
-                            "outcome": "Something bad",
-                            "image":"../images/negative_choice.gif",
-                            "action": "render_outcome",
-                            "value": -0.2
-                        }
-                    ]
-                },
-                {   "name":"production_02",
-                    "image": "../images/game_intro.gif",
-                    "text" : "production text comes here",
-                    "actions" : [
-                        {   "title" : "Option A", 
-                            "outcome": "Something good happaned",
-                            "image":"../images/positive_choice.gif",
-                            "action": "render_outcome",
-                            "value": 0.2
-                        },
-                        {   "title" : "Option B", 
-                            "outcome": "Something bad",
-                            "image":"../images/negative_choice.gif",
-                            "action": "render_outcome",
-                            "value": -0.2
-                        }
-                    ]
-                },
-                {   "name":"production_03",
-                    "image": "../images/game_intro.gif",
-                    "text" : "production text comes here",
-                    "actions" : [
-                        {   "title" : "Option A", 
-                            "outcome": "Something good happaned",
-                            "image":"../images/positive_choice.gif",
-                            "action": "render_outcome",
-                            "value": 0.2
-                        },
-                        {   "title" : "Option B", 
-                            "outcome": "Something bad",
-                            "image":"../images/negative_choice.gif",
-                            "action": "render_outcome",
-                            "value": -0.2
-                        }
-                    ]
-                },
-                {   "name":"presentation",
-                    "image": "../images/game_presentation.gif",
-                    "text" : "production presentation text comes here",
-                    "actions" : [
-                        {   "title" : "production_presentation", 
-                            "outcome": "",
-                            "image":"../images/presentation_eoll.gif",
-                            "action": "presentation_roll",
-                            "value": 0.2
-                        }
-                    ]
+                {   "title" : "A szülei a felső vezetésben ülnek, inkább bent hagyod.", 
+                    "outcome": "positive",
+                    "text": "Kollégáid összesöprik a romjaidat a tárgyalóból. A sarkköri taskforce remekül szórakozott a műsoron. Úgy néz ki, megérte! ",
+                    "cta": "Haladjunk",
+                    "image":"pixelart4.gif",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": 0.1
                 }
-            ],
-            "onair" : [
-                {   "name":"onair_intro",
-                    "image": "../images/game_intro.gif",
-                    "text" : "Game intro text come hers",
-                    "actions" : [
-                        {   "title" : "Start", 
-                            "action": "next"
-                        }
-                    ]
+            ]
+        },
+        {   "title":"Brief Intro",
+            "image": "pixelart6.gif",
+            "text" : "Brief intro text come hers dsdsadas",
+            "actions" : [
+                {   "title" : "I'm ready", 
+                    "action": "next"
+                }
+            ]
+        },
+        {   "title":"Second Question",
+            "image": "pixelart9.gif",
+            "text" : "Brief text comes here",
+            "actions" : [
+                {   "title" : "Option A", 
+                    "outcome": "positive",
+                    "text": "Something good happaned",
+                    "cta": "Ok",
+                    "image":"pixelart3.gif",
+                    "icon":"win_icon.png",
+                    "action": "render_outcome",
+                    "value": 0.1
                 },
-                {   "name":"onair_01",
-                    "image": "../images/game_intro.gif",
-                    "text" : "onair text comes here",
-                    "actions" : [
-                        {   "title" : "Option A", 
-                            "outcome": "Something good happaned",
-                            "image":"../images/positive_choice.gif",
-                            "action": "render_outcome",
-                            "value": 0.2
-                        },
-                        {   "title" : "Option B", 
-                            "outcome": "Something bad",
-                            "image":"../images/negative_choice.gif",
-                            "action": "render_outcome",
-                            "value": -0.2
-                        }
-                    ]
-                },
-                {   "name":"onair_02",
-                    "image": "../images/game_intro.gif",
-                    "text" : "onair text comes here",
-                    "actions" : [
-                        {   "title" : "Option A", 
-                            "outcome": "Something good happaned",
-                            "image":"../images/positive_choice.gif",
-                            "action": "render_outcome",
-                            "value": 0.2
-                        },
-                        {   "title" : "Option B", 
-                            "outcome": "Something bad",
-                            "image":"../images/negative_choice.gif",
-                            "action": "render_outcome",
-                            "value": -0.2
-                        }
-                    ]
-                },
-                {   "name":"onair_03",
-                    "image": "../images/game_intro.gif",
-                    "text" : "onair text comes here",
-                    "actions" : [
-                        {   "title" : "Option A", 
-                            "outcome": "Something good happaned",
-                            "image":"../images/positive_choice.gif",
-                            "action": "render_outcome",
-                            "value": 0.2
-                        },
-                        {   "title" : "Option B", 
-                            "outcome": "Something bad",
-                            "image":"../images/negative_choice.gif",
-                            "action": "render_outcome",
-                            "value": -0.2
-                        }
-                    ]
-                },
-                {   "name":"presentation",
-                    "image": "../images/game_presentation.gif",
-                    "text" : "onair presentation text comes here",
-                    "actions" : [
-                        {   "title" : "onair_presentation", 
-                            "outcome": "",
-                            "image":"../images/presentation_eoll.gif",
-                            "action": "presentation_roll",
-                            "value": 0.2
-                        }
-                    ]
+                {   "title" : "Option B", 
+                    "outcome": "negative",
+                    "text": "Something bad happaned",
+                    "cta": "Ok",
+                    "image":"pixelart4.gif",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": -0.1
+                }
+            ]
+        },
+        {   "title":"☠️",
+            "image": "pixelart11.gif",
+            "text" : "Game over",
+            "actions" : [
+                {   "title" : "I'm ready", 
+                    "action": "next"
                 }
             ]
         }
-    }
+        
+    ]
 }

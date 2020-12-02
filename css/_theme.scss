@@ -1,0 +1,47 @@
+$bg-default: #38984D;
+$bg-default-light: hsla(105, 46%, 56%, 1);
+$gradient-default: linear-gradient(0deg, hsla(105, 46%, 56%, 1) 0%, hsla(105, 46%, 56%, 1) 19.9%, hsla(105, 46%, 56%, 0.8) 20%, hsla(105, 46%, 56%, 0.8) 39.9%, hsla(105, 46%, 56%, 0.6) 40%, hsla(105, 46%, 56%, 0.6) 59.9%, hsla(105, 46%, 56%, 0.4) 60%, hsla(105, 46%, 56%, 0.4) 79.9%, hsla(105, 46%, 56%, 0.2) 80%);
+
+$bg-good: #38984D;
+$bg-good-light: hsla(105, 46%, 56%, 1);
+$gradient-good: linear-gradient(0deg, hsla(105, 46%, 56%, 1) 0%, hsla(105, 46%, 56%, 1) 19.9%, hsla(105, 46%, 56%, 0.8) 20%, hsla(105, 46%, 56%, 0.8) 39.9%, hsla(105, 46%, 56%, 0.6) 40%, hsla(105, 46%, 56%, 0.6) 59.9%, hsla(105, 46%, 56%, 0.4) 60%, hsla(105, 46%, 56%, 0.4) 79.9%, hsla(105, 46%, 56%, 0.2) 80%);
+
+$bg-bad: hsla(9,100,61,1);
+$bg-bad-light: hsla(29,100,63,1);
+$gradient-bad: linear-gradient(0deg, hsla(29,100,63, 1) 0%, hsla(29,100,63, 1) 19.9%, hsla(29,100,63, 0.8) 20%, hsla(29,100,63, 0.8) 39.9%, hsla(29,100,63, 0.6) 40%, hsla(29,100,63, 0.6) 59.9%, hsla(29,100,63, 0.4) 60%, hsla(29,100,63, 0.4) 79.9%, hsla(29,100,63, 0.2) 80%);
+
+$base-padding: 10px;
+$text_color: white;
+
+$status-height: 5vh;
+$font-base_size:24pt;
+
+
+
+@font-face {
+    font-family: 'NeuePixelGrotesk';
+    src: url('fonts/NeuePixelGrotesk.woff2') format('woff2'),
+        url('fonts/NeuePixelGrotesk.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'AprilSans-Regular';
+    src: url('fonts/AprilSans-Regular.woff2') format('woff2'),
+        url('fonts/AprilSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@mixin font-text($_color: $text_color) {
+    font-family: 'AprilSans-Regular';
+    color: $_color;
+}
+
+@mixin font-numbers($_color: $text_color) {
+    font-family: 'NeuePixelGrotesk';
+    color: $_color;
+}

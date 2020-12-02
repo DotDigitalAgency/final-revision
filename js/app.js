@@ -1,16 +1,40 @@
-import Vue from "vue/dist/vue.js";
-
+import $ from "cash-dom";
 import gameData from "../data/gamedata.json";
-import gameScreen from "./components/screen.vue";
+import gameController from "./gameController.js";
+import "nes.css/css/nes.min.css";
 
-var app = new Vue({
-    el: '#app',
-    data: {
-      message: 'Hello Vue!'
-    },
-    components: {
-        'gamescreen': gameScreen,
-    }
-  })
+$(function () {
+  let frController = new gameController(gameData,$('#app'));
+  
+});
 
-  console.log(gameData);
+
+// import Vue from "vue/dist/vue.js";
+
+// import gameData from "../data/gamedata.json";
+// import gameScreen from "./components/screen.vue";
+
+// var app = new Vue({
+//     el: '#app',
+//     data: {
+//       myMessage: 'Hello Vue!'
+//     },
+//     components: {
+//         'gamescreen': gameScreen,
+//     },
+//     methods: {
+//         getData() {
+//             console.log("mounted");
+//         }
+//     }
+//   })
+
+
+
+ 
+
+//   var tag = document.createElement("gamescreen");
+//   var text = document.createTextNode("Tutorix is the best e-learning platform");
+//   tag.appendChild(text);
+//   var element = document.getElementById("app");
+//   element.appendChild(tag);
