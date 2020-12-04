@@ -1499,22 +1499,22 @@ module.exports = {
   "screens": [{
     "title": "",
     "image": "cover_1.png",
-    "text": "Utols\xF3 el\u0151tti h\xE9ten, a c\xE9ges kar\xE1csonyi bulin megcs\xF6rren a telefonod.<br/><br/>\n            <div class=\"nes-container with-title is-rounded is-dark\"><h3 class=\"title\">+72 40 512 879</h3>\n                Szia! \xC9n vagyok a Mikul\xE1s, ho ho ho!<br/>\n                Egy kar\xE1csonyi prom\xF3 kamp\xE1nyra lenne sz\xFCks\xE9g\xFCnk itt, az \xE9szaki sarkon! <br/><br/>\n                Mert egy gyerek sem maradhat aj\xE1nd\xE9k n\xE9lk\xFCl. \n            </div>",
+    "text": "Utols\xF3 el\u0151tti h\xE9ten, a c\xE9ges kar\xE1csonyi bulin megcs\xF6rren a telefonod.<br/><br/>\n            <div class=\"nes-container with-title is-rounded is-dark\"><h3 class=\"title\">+72 40 512 879</h3>\n                <p class=\"typewriter\">Szia! \xC9n vagyok a Mikul\xE1s, ho ho ho!<br/>\n                Egy kar\xE1csonyi prom\xF3 kamp\xE1nyra lenne sz\xFCks\xE9g\xFCnk itt, az \xE9szaki sarkon! <br/><br/>\n                Mert egy gyerek sem maradhat aj\xE1nd\xE9k n\xE9lk\xFCl. </p>\n            </div>",
     "actions": [{
       "title": "Megpróbálsz úgy tenni, mintha értenéd, amit mond",
       "outcome": "positive",
-      "text": "Valami Miklós éjszakai gyereksarkot akar?? Egyre furább ügyfeleid vannak. ",
+      "text": "<p class=\"\">Valami Mikl\xF3s \xE9jszakai gyereksarkot akar?? Egyre fur\xE1bb \xFCgyfeleid vannak.</p>",
       "cta": "Lerakod a telefont, és elmorzsolsz egy imát 🙏",
-      "image": "pixelart3.gif",
+      "image": "win_cover.png",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
     }, {
       "title": "Bevallod, hogy be vagy baszva és nem alkalmas",
       "outcome": "negative",
-      "text": "Elég fura, hogy délben iszol. De mivel mindenki be van baszva, hát... így jártunk.",
+      "text": "<p class=\"\">El\xE9g fura, hogy d\xE9lben iszol. De mivel mindenki be van baszva, h\xE1t... \xEDgy j\xE1rtunk.</p>",
       "cta": "Keverek még egy Gin&Tonicot",
-      "image": "pixelart4.gif",
+      "image": "lose_cover.png",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -1597,20 +1597,20 @@ module.exports = "/coin.fa42f039.gif";
 module.exports = "/cover_1.916796b9.png";
 },{}],"img/lose_cover.png":[function(require,module,exports) {
 module.exports = "/lose_cover.cc07fd4f.png";
-},{}],"img/lose_icon.png":[function(require,module,exports) {
-module.exports = "/lose_icon.d988ab9a.png";
 },{}],"img/pixelart1.gif":[function(require,module,exports) {
 module.exports = "/pixelart1.3a5df554.gif";
+},{}],"img/lose_icon.png":[function(require,module,exports) {
+module.exports = "/lose_icon.d988ab9a.png";
 },{}],"img/pixelart10.gif":[function(require,module,exports) {
 module.exports = "/pixelart10.d3979a72.gif";
-},{}],"img/pixelart11.gif":[function(require,module,exports) {
-module.exports = "/pixelart11.9b961add.gif";
 },{}],"img/pixelart12.gif":[function(require,module,exports) {
 module.exports = "/pixelart12.bd354962.gif";
-},{}],"img/pixelart13.gif":[function(require,module,exports) {
-module.exports = "/pixelart13.dd37c657.gif";
+},{}],"img/pixelart11.gif":[function(require,module,exports) {
+module.exports = "/pixelart11.9b961add.gif";
 },{}],"img/pixelart14.gif":[function(require,module,exports) {
 module.exports = "/pixelart14.8eaa46aa.gif";
+},{}],"img/pixelart13.gif":[function(require,module,exports) {
+module.exports = "/pixelart13.dd37c657.gif";
 },{}],"img/pixelart15.gif":[function(require,module,exports) {
 module.exports = "/pixelart15.a7679b9f.gif";
 },{}],"img/pixelart16.gif":[function(require,module,exports) {
@@ -1621,14 +1621,14 @@ module.exports = "/pixelart17.4f251858.gif";
 module.exports = "/pixelart18.7002eb20.gif";
 },{}],"img/pixelart19.gif":[function(require,module,exports) {
 module.exports = "/pixelart19.2c93cdb7.gif";
-},{}],"img/pixelart2.gif":[function(require,module,exports) {
-module.exports = "/pixelart2.bbe23e6b.gif";
 },{}],"img/pixelart20.gif":[function(require,module,exports) {
 module.exports = "/pixelart20.2aefe58d.gif";
-},{}],"img/pixelart21.gif":[function(require,module,exports) {
-module.exports = "/pixelart21.920ee41f.gif";
+},{}],"img/pixelart2.gif":[function(require,module,exports) {
+module.exports = "/pixelart2.bbe23e6b.gif";
 },{}],"img/pixelart22.gif":[function(require,module,exports) {
 module.exports = "/pixelart22.217eeb67.gif";
+},{}],"img/pixelart21.gif":[function(require,module,exports) {
+module.exports = "/pixelart21.920ee41f.gif";
 },{}],"img/pixelart23.gif":[function(require,module,exports) {
 module.exports = "/pixelart23.6cf80f8e.gif";
 },{}],"img/pixelart24.gif":[function(require,module,exports) {
@@ -1643,10 +1643,10 @@ module.exports = "/pixelart3.d4c16ed8.gif";
 module.exports = "/pixelart4.2c025679.gif";
 },{}],"img/pixelart5.gif":[function(require,module,exports) {
 module.exports = "/pixelart5.1b85ec8c.gif";
-},{}],"img/pixelart6.gif":[function(require,module,exports) {
-module.exports = "/pixelart6.3075d96d.gif";
 },{}],"img/pixelart7.gif":[function(require,module,exports) {
 module.exports = "/pixelart7.a4200065.gif";
+},{}],"img/pixelart6.gif":[function(require,module,exports) {
+module.exports = "/pixelart6.3075d96d.gif";
 },{}],"img/pixelart8.gif":[function(require,module,exports) {
 module.exports = "/pixelart8.bbaa74ce.gif";
 },{}],"img/pixelart9.gif":[function(require,module,exports) {
@@ -1666,26 +1666,26 @@ module.exports = {
   "lose_cover": {
     "png": require("./lose_cover.png")
   },
-  "lose_icon": {
-    "png": require("./lose_icon.png")
-  },
   "pixelart1": {
     "gif": require("./pixelart1.gif")
+  },
+  "lose_icon": {
+    "png": require("./lose_icon.png")
   },
   "pixelart10": {
     "gif": require("./pixelart10.gif")
   },
-  "pixelart11": {
-    "gif": require("./pixelart11.gif")
-  },
   "pixelart12": {
     "gif": require("./pixelart12.gif")
   },
-  "pixelart13": {
-    "gif": require("./pixelart13.gif")
+  "pixelart11": {
+    "gif": require("./pixelart11.gif")
   },
   "pixelart14": {
     "gif": require("./pixelart14.gif")
+  },
+  "pixelart13": {
+    "gif": require("./pixelart13.gif")
   },
   "pixelart15": {
     "gif": require("./pixelart15.gif")
@@ -1702,17 +1702,17 @@ module.exports = {
   "pixelart19": {
     "gif": require("./pixelart19.gif")
   },
-  "pixelart2": {
-    "gif": require("./pixelart2.gif")
-  },
   "pixelart20": {
     "gif": require("./pixelart20.gif")
   },
-  "pixelart21": {
-    "gif": require("./pixelart21.gif")
+  "pixelart2": {
+    "gif": require("./pixelart2.gif")
   },
   "pixelart22": {
     "gif": require("./pixelart22.gif")
+  },
+  "pixelart21": {
+    "gif": require("./pixelart21.gif")
   },
   "pixelart23": {
     "gif": require("./pixelart23.gif")
@@ -1735,11 +1735,11 @@ module.exports = {
   "pixelart5": {
     "gif": require("./pixelart5.gif")
   },
-  "pixelart6": {
-    "gif": require("./pixelart6.gif")
-  },
   "pixelart7": {
     "gif": require("./pixelart7.gif")
+  },
+  "pixelart6": {
+    "gif": require("./pixelart6.gif")
   },
   "pixelart8": {
     "gif": require("./pixelart8.gif")
@@ -1754,7 +1754,7 @@ module.exports = {
     "png": require("./win_icon.png")
   }
 };
-},{"./coin.gif":"img/coin.gif","./cover_1.png":"img/cover_1.png","./lose_cover.png":"img/lose_cover.png","./lose_icon.png":"img/lose_icon.png","./pixelart1.gif":"img/pixelart1.gif","./pixelart10.gif":"img/pixelart10.gif","./pixelart11.gif":"img/pixelart11.gif","./pixelart12.gif":"img/pixelart12.gif","./pixelart13.gif":"img/pixelart13.gif","./pixelart14.gif":"img/pixelart14.gif","./pixelart15.gif":"img/pixelart15.gif","./pixelart16.gif":"img/pixelart16.gif","./pixelart17.gif":"img/pixelart17.gif","./pixelart18.gif":"img/pixelart18.gif","./pixelart19.gif":"img/pixelart19.gif","./pixelart2.gif":"img/pixelart2.gif","./pixelart20.gif":"img/pixelart20.gif","./pixelart21.gif":"img/pixelart21.gif","./pixelart22.gif":"img/pixelart22.gif","./pixelart23.gif":"img/pixelart23.gif","./pixelart24.gif":"img/pixelart24.gif","./pixelart25.gif":"img/pixelart25.gif","./pixelart26.gif":"img/pixelart26.gif","./pixelart3.gif":"img/pixelart3.gif","./pixelart4.gif":"img/pixelart4.gif","./pixelart5.gif":"img/pixelart5.gif","./pixelart6.gif":"img/pixelart6.gif","./pixelart7.gif":"img/pixelart7.gif","./pixelart8.gif":"img/pixelart8.gif","./pixelart9.gif":"img/pixelart9.gif","./win_cover.png":"img/win_cover.png","./win_icon.png":"img/win_icon.png"}],"node_modules/gsap/gsap-core.js":[function(require,module,exports) {
+},{"./coin.gif":"img/coin.gif","./cover_1.png":"img/cover_1.png","./lose_cover.png":"img/lose_cover.png","./pixelart1.gif":"img/pixelart1.gif","./lose_icon.png":"img/lose_icon.png","./pixelart10.gif":"img/pixelart10.gif","./pixelart12.gif":"img/pixelart12.gif","./pixelart11.gif":"img/pixelart11.gif","./pixelart14.gif":"img/pixelart14.gif","./pixelart13.gif":"img/pixelart13.gif","./pixelart15.gif":"img/pixelart15.gif","./pixelart16.gif":"img/pixelart16.gif","./pixelart17.gif":"img/pixelart17.gif","./pixelart18.gif":"img/pixelart18.gif","./pixelart19.gif":"img/pixelart19.gif","./pixelart20.gif":"img/pixelart20.gif","./pixelart2.gif":"img/pixelart2.gif","./pixelart22.gif":"img/pixelart22.gif","./pixelart21.gif":"img/pixelart21.gif","./pixelart23.gif":"img/pixelart23.gif","./pixelart24.gif":"img/pixelart24.gif","./pixelart25.gif":"img/pixelart25.gif","./pixelart26.gif":"img/pixelart26.gif","./pixelart3.gif":"img/pixelart3.gif","./pixelart4.gif":"img/pixelart4.gif","./pixelart5.gif":"img/pixelart5.gif","./pixelart7.gif":"img/pixelart7.gif","./pixelart6.gif":"img/pixelart6.gif","./pixelart8.gif":"img/pixelart8.gif","./pixelart9.gif":"img/pixelart9.gif","./win_cover.png":"img/win_cover.png","./win_icon.png":"img/win_icon.png"}],"node_modules/gsap/gsap-core.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7482,10 +7482,13 @@ var GameController = /*#__PURE__*/function () {
   function GameController(datasource, root) {
     _classCallCheck(this, GameController);
 
-    _gsap.gsap.registerPlugin(_TextPlugin.default); //append status bar template to dom
+    _gsap.gsap.registerPlugin(_TextPlugin.default);
+
+    _gsap.gsap.ticker.fps(12); //Set fps to five for retro feelings
+    //append status bar template to dom
 
 
-    var tmp_statusbar = root.append("<section class=\"statusbar\">\n                                            <ul></ul>\n                                            <div>\n                                                <img src=\"".concat(_.default.coin.gif, "\" alt=\"Money icon\" class=\"coin\">\n                                                <span></span>\n                                            </div>\n                                        </section>")); //generate progress icons
+    var tmp_statusbar = root.append("<section class=\"statusbar\">\n                                            <ul></ul>\n                                            <div>\n                                                <img src=\"".concat(_.default.coin.gif, "\" alt=\"Money icon\" class=\"coin\">\n                                                <span class=\"money\"></span>\n                                            </div>\n                                        </section>")); //generate progress icons
 
     datasource.screens.forEach(function (item) {
       tmp_statusbar.find('ul').append("<li></li>");
@@ -7503,7 +7506,7 @@ var GameController = /*#__PURE__*/function () {
     this.progress = 0; //set progress;
     //lets add the first screen
 
-    this.addScreen(datasource.screens[this.progress]);
+    this._animateIntro(this.addScreen(datasource.screens[this.progress]));
   } //Set progress bar to proper value
   //TODO: Optimize
 
@@ -7527,7 +7530,7 @@ var GameController = /*#__PURE__*/function () {
         icon_filename = _.default[icon_filename[0]][icon_filename[1]];
       }
 
-      var screen_template = "<section class=\"screen ".concat(data.outcome, "\">\n                                    <img class=\"cover\" src=\"").concat(cover_filename, "\" alt=\"\">\n                                    <h1> <img src=\"").concat(icon_filename, "\" /> ").concat(data.title, "</h1>\n                                    <div class=\"text\">").concat(data.text, "</div>\n                                    <div class=\"gradient\"></div>\n                                    <div class=\"buttons\"></div>\n                                </section>");
+      var screen_template = "<section class=\"screen ".concat(data.outcome, "\">\n                                    <img class=\"cover\" src=\"").concat(cover_filename, "\" alt=\"\">\n                                    <h1> <img src=\"").concat(icon_filename, "\" /><span>").concat(data.title, "</span></h1>\n                                    <div class=\"text\">").concat(data.text, "</div>\n                                    <div class=\"gradient\"></div>\n                                    <div class=\"buttons\"></div>\n                                </section>");
       var scr_dom = (0, _cashDom.default)(screen_template).appendTo(this._app);
 
       if (!visible) {
@@ -7577,13 +7580,7 @@ var GameController = /*#__PURE__*/function () {
   }, {
     key: "_animateTransition",
     value: function _animateTransition(current, next) {
-      //Animate transition
-      _gsap.gsap.ticker.fps(5); //reduce fps for old school animation
-
-
       this._animateOutro(current);
-
-      next.show();
 
       this._animateIntro(next); // var content = next.find('div.text').text();
       // console.log(content)
@@ -7597,11 +7594,47 @@ var GameController = /*#__PURE__*/function () {
     key: "_animateIntro",
     value: function _animateIntro(screen) {
       // gsap.to(screen, {autoAlpha: 0, duration: 0.5});
+      screen.css('opacity', 0).show(); //coun up number if needed
+
+      if (screen.hasClass('positive') || screen.hasClass('negative')) {
+        //it's a positive screen
+        // screen.find('h1 span').text('$0')
+        var txt = screen.find('h1 span').text();
+        var num_value = parseInt(txt.slice(0, 1) + txt.slice(2));
+        var y_offset = num_value < 0 ? -30 : 30; // y_offset = 0;
+
+        var Cont = {
+          val: 0
+        };
+
+        _gsap.gsap.to(Cont, 2, {
+          val: num_value,
+          roundProps: "val",
+          onUpdate: function onUpdate() {
+            var render_str = num_value < 0 ? "-$".concat(Math.abs(Cont.val)) : "+$".concat(Cont.val);
+            screen.find('h1 span').text(render_str); //     // document.getElementById("counter").innerHTML=Cont.val
+          }
+        }); // gsap.from(screen.find('h1'),{ autoAlpha:0, y:y_offset, duration: 1})
+
+      }
+
       _gsap.gsap.fromTo(screen, {
         autoAlpha: 0
       }, {
         autoAlpha: 1,
-        duration: 0.5
+        duration: 1
+      }); //fade in
+
+
+      var content = screen.find('.typewriter').text(); //animte with the typewriter effect
+
+      _gsap.gsap.to(screen.find('.typewriter').empty(), {
+        duration: 1,
+        text: {
+          value: content,
+          padSpace: false
+        },
+        ease: "none"
       });
     }
   }, {
@@ -7609,7 +7642,10 @@ var GameController = /*#__PURE__*/function () {
     value: function _animateOutro(screen) {
       _gsap.gsap.to(screen, {
         autoAlpha: 0,
-        duration: 0.5
+        duration: 1,
+        onComplete: function onComplete() {
+          screen.detach();
+        }
       });
     } //Show outcome screen
 
@@ -7660,7 +7696,7 @@ var GameController = /*#__PURE__*/function () {
     set: function set(data) {
       this._money = data;
 
-      this._statusbar.find('span').text(data);
+      this._statusbar.find('span.money').text(data);
     } //return money
     ,
     get: function get() {
@@ -7807,9 +7843,9 @@ var checkedAssets, assetsToAccept;
 var parent = module.bundle.parent;
 
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
-  var hostname = "0.0.0.0" || location.hostname;
+  var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61242" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60097" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

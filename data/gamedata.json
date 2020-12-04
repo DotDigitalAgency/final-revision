@@ -6,25 +6,25 @@
             "image": "cover_1.png",
             "text" : `Utolsó előtti héten, a céges karácsonyi bulin megcsörren a telefonod.<br/><br/>
             <div class="nes-container with-title is-rounded is-dark"><h3 class="title">+72 40 512 879</h3>
-                Szia! Én vagyok a Mikulás, ho ho ho!<br/>
+                <p class="typewriter">Szia! Én vagyok a Mikulás, ho ho ho!<br/>
                 Egy karácsonyi promó kampányra lenne szükségünk itt, az északi sarkon! <br/><br/>
-                Mert egy gyerek sem maradhat ajándék nélkül. 
+                Mert egy gyerek sem maradhat ajándék nélkül. </p>
             </div>`,
             "actions" : [
                 {   "title" : "Megpróbálsz úgy tenni, mintha értenéd, amit mond", 
                     "outcome": "positive",                    
-                    "text": "Valami Miklós éjszakai gyereksarkot akar?? Egyre furább ügyfeleid vannak. ",
+                    "text": `<p class="">Valami Miklós éjszakai gyereksarkot akar?? Egyre furább ügyfeleid vannak.</p>`,
                     "cta": "Lerakod a telefont, és elmorzsolsz egy imát 🙏",
-                    "image":"pixelart3.gif",
+                    "image":"win_cover.png",
                     "icon":"win_icon.png",
                     "action": "render_outcome",
                     "value": 0.1
                 },
                 {   "title" : "Bevallod, hogy be vagy baszva és nem alkalmas", 
                     "outcome": "negative",
-                    "text": "Elég fura, hogy délben iszol. De mivel mindenki be van baszva, hát... így jártunk.",
+                    "text": `<p class="">Elég fura, hogy délben iszol. De mivel mindenki be van baszva, hát... így jártunk.</p>`,
                     "cta": "Keverek még egy Gin&Tonicot",
-                    "image":"pixelart4.gif",
+                    "image":"lose_cover.png",
                     "icon":"lose_icon.png",
                     "action": "render_outcome",
                     "value": -0.1

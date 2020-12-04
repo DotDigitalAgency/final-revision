@@ -10,12 +10,13 @@ export default class GameController {
     constructor(datasource,root) {
         
         gsap.registerPlugin(TextPlugin);
+        gsap.ticker.fps(12); //Set fps to five for retro feelings
         //append status bar template to dom
         var tmp_statusbar = root.append(`<section class="statusbar">
                                             <ul></ul>
                                             <div>
                                                 <img src="${images.coin.gif}" alt="Money icon" class="coin">
-                                                <span></span>
+                                                <span class="money"></span>
                                             </div>
                                         </section>`); 
           
@@ -34,7 +35,7 @@ export default class GameController {
         this.progress = 0; //set progress;
 
         //lets add the first screen
-        this.addScreen(datasource.screens.[this.progress]);
+        this._animateIntro(this.addScreen(datasource.screens.[this.progress]));
     }
 
     //Set progress bar to proper value
@@ -61,7 +62,7 @@ export default class GameController {
     //set money
     set money(data) {
         this._money = data;
-        this._statusbar.find('span').text(data);
+        this._statusbar.find('span.money').text(data);
     }
 
     //return money
@@ -86,7 +87,7 @@ export default class GameController {
         
         var screen_template = `<section class="screen ${data.outcome}">
                                     <img class="cover" src="${cover_filename}" alt="">
-                                    <h1> <img src="${icon_filename}" /> ${data.title}</h1>
+                                    <h1> <img src="${icon_filename}" /><span>${data.title}</span></h1>
                                     <div class="text">${data.text}</div>
                                     <div class="gradient"></div>
                                     <div class="buttons"></div>
@@ -129,11 +130,7 @@ export default class GameController {
 
     //Animate  transition between two screen
     _animateTransition(current,next) {
-        //Animate transition
-        gsap.ticker.fps(5); //reduce fps for old school animation
         this._animateOutro(current);
-        
-        next.show();
         this._animateIntro(next);
         // var content = next.find('div.text').text();
         // console.log(content)
@@ -146,11 +143,39 @@ export default class GameController {
 
     _animateIntro(screen) {
         // gsap.to(screen, {autoAlpha: 0, duration: 0.5});
-        gsap.fromTo(screen, {autoAlpha: 0}, {autoAlpha:1, duration: 0.5});
+        screen.css('opacity',0).show();
+
+
+         //coun up number if needed
+        if (screen.hasClass('positive') || screen.hasClass('negative')) { //it's a positive screen
+            
+            // screen.find('h1 span').text('$0')
+            var txt = screen.find('h1 span').text()
+            var num_value = parseInt(txt.slice(0, 1) + txt.slice(2)); 
+            
+            var y_offset = (num_value < 0) ? -30 : 30 
+            // y_offset = 0;
+  
+            var Cont={val:0};
+            gsap.to(Cont,2,{val:num_value,roundProps:"val",onUpdate:function(){
+                    var render_str = (num_value < 0) ? `-$${Math.abs(Cont.val)}` : `+$${Cont.val}`;
+                    screen.find('h1 span').text(render_str);
+            //     // document.getElementById("counter").innerHTML=Cont.val
+            }});
+
+            // gsap.from(screen.find('h1'),{ autoAlpha:0, y:y_offset, duration: 1})
+        } 
+
+        gsap.fromTo(screen, {autoAlpha: 0}, {autoAlpha:1, duration: 1}); //fade in
+        
+        var content = screen.find('.typewriter').text(); //animte with the typewriter effect
+        gsap.to(screen.find('.typewriter').empty(), {duration: 1, text: {value:content,padSpace:false},  ease: "none"});
     }
 
     _animateOutro(screen) {
-        gsap.to(screen, {autoAlpha: 0, duration: 0.5});
+        gsap.to(screen, {autoAlpha: 0, duration: 1, onComplete:() => {
+            screen.detach();
+        }});
     }
 
     //Show outcome screen
