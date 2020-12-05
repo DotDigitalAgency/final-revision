@@ -218,6 +218,8 @@ section.screen {
         align-items: center;
     }
 
+    //flexbox - children
+
     section.screen img.cover {
         max-width: 480px;
         max-height: 480px;
@@ -231,4 +233,11 @@ section.screen {
         margin-left: 2.5%;
     }
 
+    section.screen.positive h1 img {
+        max-width: 100px;
+    }
+    
+    section.screen.negative h1 img {
+        max-width: 100px;
+    }
 }

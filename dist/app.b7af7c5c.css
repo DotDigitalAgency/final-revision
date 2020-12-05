@@ -196,6 +196,14 @@ section.screen button {
     max-width: 480px;
     margin-left: 2.5%;
   }
+
+  section.screen.positive h1 img {
+    max-width: 100px;
+  }
+
+  section.screen.negative h1 img {
+    max-width: 100px;
+  }
 }
 
 /*# sourceMappingURL=/app.b7af7c5c.css.map */
