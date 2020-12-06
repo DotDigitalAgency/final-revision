@@ -227,15 +227,39 @@ section.screen {
     }
 
     .text_wrapper{
-        border: 2px solid rgba(255, 255, 255, 0.7);
-        border-radius: 4px;
+        border-left: 4px solid rgba(255, 255, 255, 0.7);
+        border-right: 4px solid rgba(255, 255, 255, 0.7);
         width: 25%;
         max-width: 480px;
         margin-left: 2.5%;
+        position:relative;
     }
 
-    //response img
+    //right column fake top border
+   div.text_wrapper h1 ::before {
+       content: ' ';
+       position: absolute;
+       display: block;
+       height: 4px;
+       background-color: rgba(255, 255, 255, 0.7);
+       top: -2px;
+       left: 0px;
+       right: 0px;
+   }
 
+    //right column fake bottom border
+   .button_wrapper ::after {
+       content: ' ';
+       position: absolute;
+       display: block;
+       height: 4px;
+       background-color: rgba(255, 255, 255, 0.7);
+       bottom: -4px;
+       left: 0px;
+       right: 0px;
+   }
+
+    //response img size fix (positive, negative)
     section.screen.positive h1 img {
         width: 25%;
         max-width: 100px;
@@ -246,5 +270,4 @@ section.screen {
         max-width: 100px;
     }
 
-   
 }

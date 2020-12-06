@@ -91,7 +91,9 @@ export default class GameController {
                                         <h1> <img src="${icon_filename}" /><span>${data.title}</span></h1>
                                         <div class="text">${data.text}</div>
                                         <div class="gradient"></div>
-                                        <div class="buttons"></div>
+                                        <div class='button_wrapper'>
+                                            <div class="buttons"></div>
+                                        </div>
                                     </div>
                                 </section>`;
 
