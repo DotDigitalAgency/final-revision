@@ -207,18 +207,16 @@ section.screen {
 
 }
 
-//screen size: desktop
+//--------------    Screen Size: Desktop    ----------------------
 
 @media screen and (min-width: 1024px){
     section.screen {
         flex-direction: row;
-        width: 80%;
         justify-content: center;
-        left:10%;
         align-items: center;
     }
 
-    //flexbox - children
+    //flexbox - children layout
 
     section.screen img.cover {
         max-width: 480px;
@@ -233,6 +231,8 @@ section.screen {
         margin-left: 2.5%;
     }
 
+    //response img
+
     section.screen.positive h1 img {
         max-width: 100px;
     }
@@ -240,4 +240,6 @@ section.screen {
     section.screen.negative h1 img {
         max-width: 100px;
     }
+
+   
 }
