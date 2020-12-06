@@ -183,23 +183,28 @@ section.screen button {
   }
 
   section.screen img.cover {
+    width: 25%;
     max-width: 480px;
-    max-height: 480px;
     margin: 0;
     object-fit: contain;
     margin-right: 2.5%;
   }
 
   .text_wrapper {
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+    width: 25%;
     max-width: 480px;
     margin-left: 2.5%;
   }
 
   section.screen.positive h1 img {
+    width: 25%;
     max-width: 100px;
   }
 
   section.screen.negative h1 img {
+    width: 25%;
     max-width: 100px;
   }
 }
