@@ -234,29 +234,26 @@ section.screen {
         margin-left: 2.5%;
         position:relative;
     }
+    //left column fake border top and bottom
+    div.text_wrapper h1 ::before,
+    .button_wrapper ::after{
+        content: ' ';
+        position: absolute;
+        display: block;
+        height: 4px;
+        background-color: rgba(255, 255, 255, 0.7);
+        left: 0px;
+        right: 0px; 
+    }
 
-    //right column fake top border
+    //right column fake top border position
    div.text_wrapper h1 ::before {
-       content: ' ';
-       position: absolute;
-       display: block;
-       height: 4px;
-       background-color: rgba(255, 255, 255, 0.7);
        top: -2px;
-       left: 0px;
-       right: 0px;
    }
 
-    //right column fake bottom border
+    //right column fake bottom border position
    .button_wrapper ::after {
-       content: ' ';
-       position: absolute;
-       display: block;
-       height: 4px;
-       background-color: rgba(255, 255, 255, 0.7);
        bottom: -4px;
-       left: 0px;
-       right: 0px;
    }
 
     //response img size fix (positive, negative)

@@ -199,26 +199,23 @@ section.screen button {
     position: relative;
   }
 
-  div.text_wrapper h1 ::before {
+  div.text_wrapper h1 ::before,
+.button_wrapper ::after {
     content: " ";
     position: absolute;
     display: block;
     height: 4px;
     background-color: rgba(255, 255, 255, 0.7);
-    top: -2px;
     left: 0px;
     right: 0px;
   }
 
+  div.text_wrapper h1 ::before {
+    top: -2px;
+  }
+
   .button_wrapper ::after {
-    content: " ";
-    position: absolute;
-    display: block;
-    height: 4px;
-    background-color: rgba(255, 255, 255, 0.7);
     bottom: -4px;
-    left: 0px;
-    right: 0px;
   }
 
   section.screen.positive h1 img {
