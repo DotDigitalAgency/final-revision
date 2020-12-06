@@ -182,9 +182,13 @@ section.screen button {
     align-items: center;
   }
 
-  section.screen img.cover {
-    width: 25%;
+  section.screen img.cover,
+.text_wrapper {
+    width: 30%;
     max-width: 480px;
+  }
+
+  section.screen img.cover {
     margin: 0;
     object-fit: contain;
     margin-right: 2.5%;
@@ -193,8 +197,6 @@ section.screen button {
   .text_wrapper {
     border-left: 4px solid rgba(255, 255, 255, 0.7);
     border-right: 4px solid rgba(255, 255, 255, 0.7);
-    width: 25%;
-    max-width: 480px;
     margin-left: 2.5%;
     position: relative;
   }
@@ -218,12 +220,8 @@ section.screen button {
     bottom: -4px;
   }
 
-  section.screen.positive h1 img {
-    width: 25%;
-    max-width: 100px;
-  }
-
-  section.screen.negative h1 img {
+  section.screen.positive h1 img,
+section.screen.negative h1 img {
     width: 25%;
     max-width: 100px;
   }
