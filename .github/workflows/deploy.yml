@@ -1,24 +1,24 @@
 name: Publish Website
 
 on:
+  # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: # triggers on any push to master
-    - master
+    branches: [ main ]
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - run: node --version
-    - name: Cache node modules
-      uses: actions/cache@v1
-      with:
-        path: ~/.npm
-        key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-npm-
-    - name: Install dependencies
-      run: npm ci
-    - name: Build
-      run: npm run prod --if-present
+      - uses: actions/checkout@v2
+      - run: node --version
+#    - name: Cache node modules
+#      uses: actions/cache@v1
+#      with:
+#        path: ~/.npm
+#        key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+#        restore-keys: |
+#          ${{ runner.os }}-npm-
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run prod --if-present
