@@ -54,7 +54,7 @@
                     "action": "render_outcome",
                     "value": -0.1
                 },
-                {   "title" : "A szülei a felső vezetésben ülnek, inkább bent hagyod.", 
+                {   "title" : "A szülei a felső vezetésben ülnek, inkább bent hagyod. De miert?", 
                     "outcome": "positive",
                     "text": "Kollégáid összesöprik a romjaidat a tárgyalóból. A sarkköri taskforce remekül szórakozott a műsoron. Úgy néz ki, megérte! ",
                     "cta": "Haladjunk",
