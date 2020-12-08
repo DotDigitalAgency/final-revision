@@ -29,6 +29,4 @@ jobs:
           remote: scp/directory
           host: ${{ secrets.HOST }}
           username: ${{ secrets.SSH_USER }}
-#          password: ${{ secrets.PASSWORD }}
-          rmRemote: true
-          privateKey: ${{ secrets.PRIVATE_KEY}}
+          password: ${{ secrets.PASSWORD }}
