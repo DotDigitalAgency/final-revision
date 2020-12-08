@@ -206,3 +206,65 @@ section.screen {
 
 
 }
+
+//--------------    Screen Size: Desktop    ----------------------
+
+@media screen and (min-width: 1024px){
+    section.screen {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    //flexbox - children layout
+    section.screen img.cover,
+    .text_wrapper {
+        width:30%;
+        max-width: 480px;
+    }
+
+
+    section.screen img.cover {
+        margin: 0;
+        object-fit: contain;
+        margin-right:2.5%;
+    }
+
+    .text_wrapper{
+        border-left: 4px solid rgba(255, 255, 255, 0.7);
+        border-right: 4px solid rgba(255, 255, 255, 0.7);
+        margin-left: 2.5%;
+        position:relative;
+    }
+    
+    //left column fake border top and bottom
+    div.text_wrapper h1 ::before,
+    .button_wrapper ::after{
+        content: ' ';
+        position: absolute;
+        display: block;
+        height: 4px;
+        background-color: rgba(255, 255, 255, 0.7);
+        left: 0px;
+        right: 0px; 
+    }
+
+    //right column fake top border position
+   div.text_wrapper h1 ::before {
+       top: -2px;
+   }
+
+    //right column fake bottom border position
+   .button_wrapper ::after {
+       bottom: -4px;
+   }
+
+    //response img size fix (positive, negative)
+    section.screen.positive h1 img,
+    section.screen.negative h1 img{
+        width: 25%;
+        max-width: 100px;
+    }
+    
+
+}

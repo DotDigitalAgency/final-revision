@@ -86,10 +86,14 @@ export default class GameController {
         
         var screen_template = `<section class="screen ${data.outcome}">
                                     <img class="cover" src="${cover_filename}" alt="">
-                                    <h1> <img src="${icon_filename}" /><span>${data.title}</span></h1>
-                                    <div class="text">${data.text}</div>
-                                    <div class="gradient"></div>
-                                    <div class="buttons"></div>
+                                    <div class='text_wrapper'>
+                                        <h1> <img src="${icon_filename}" /><span>${data.title}</span></h1>
+                                        <div class="text">${data.text}</div>
+                                        <div class="gradient"></div>
+                                        <div class='button_wrapper'>
+                                            <div class="buttons"></div>
+                                        </div>
+                                    </div>
                                 </section>`;
 
         var scr_dom = $(screen_template).appendTo(this._app);
