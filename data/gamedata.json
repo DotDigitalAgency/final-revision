@@ -13,7 +13,7 @@
             "actions" : [
                 {   "title" : "Megpróbálsz úgy tenni, mintha értenéd, amit mond", 
                     "outcome": "positive",                    
-                    "text": `<p class="">Valami Miklós éjszakai gyereksarkot akar?? Egyre furább ügyfeleid vannak.</p>`,
+                    "text": `<p>Valami Miklós éjszakai gyereksarkot akar?? Egyre furább ügyfeleid vannak.</p>`,
                     "cta": "Lerakod a telefont, és elmorzsolsz egy imát 🙏",
                     "image":"win_cover.png",
                     "icon":"win_icon.png",
@@ -22,7 +22,7 @@
                 },
                 {   "title" : "Bevallod, hogy be vagy baszva és nem alkalmas", 
                     "outcome": "negative",
-                    "text": `<p class="">Elég fura, hogy délben iszol. De mivel mindenki be van baszva, hát... így jártunk.</p>`,
+                    "text": `<p>Elég fura, hogy délben iszol. De mivel mindenki be van baszva, hát... így jártunk.</p>`,
                     "cta": "Keverek még egy Gin&Tonicot",
                     "image":"lose_cover.png",
                     "icon":"lose_icon.png",
@@ -49,7 +49,7 @@
                     "outcome": "negative",                    
                     "text": "A Mikulás nem annyira értékeli, hogy nem tudsz bánni a gyerekekkel. Megigéred neki, hogy újra elvégzed a Code of Conduct traininget, két napig nem térsz magadhoz!",
                     "cta": "Legalább békén hagynak egy időre...",
-                    "image":"pixelart3.gif",
+                    "image":"lose_cover.png",
                     "icon":"lose_icon.png",
                     "action": "render_outcome",
                     "value": -0.1
@@ -58,55 +58,364 @@
                     "outcome": "positive",
                     "text": "Kollégáid összesöprik a romjaidat a tárgyalóból. A sarkköri taskforce remekül szórakozott a műsoron. Úgy néz ki, megérte! ",
                     "cta": "Haladjunk",
-                    "image":"pixelart4.gif",
-                    "icon":"lose_icon.png",
+                    "image":"win_cover.png",
+                    "icon":"win_icon.png",
                     "action": "render_outcome",
                     "value": 0.1
                 }
             ]
         },
-        {   "title":"Brief Intro",
+        {   "title":"",
             "image": "pixelart6.gif",
-            "text" : "Brief intro text come hers dsdsadas",
+            "text" : "Az ügyfél ragaszkodik a versenytárs elemzéshez. Bár nem egészen világos, hogy karácsonykor ki lehet a versenytárs.",
             "actions" : [
-                {   "title" : "I'm ready", 
-                    "action": "next"
+                {   "title" : "Maradsz Mikulás sztorinál és a krampuszról készítesz desktop research-öt.", 
+                    "outcome": "negative",                    
+                    "text": "Hamarabb végeztél, de mint kiderült a krampusz is a Mikulás alkalmazottja. Kuka az egész munka.",
+                    "cta": "Ok",
+                    "image":"lose_cover.png",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": -0.1
+                },
+                {   "title" : "Összegyűjtöd a világ összes vallásos és nem vallásos ünnepének kölönböző aktivációs szokásait, abból baj nem lehet.", 
+                    "outcome": "positive",
+                    "text": "3 napod elment, a client service director őrjöng, de a Mikulás hálás az alapos munkáért.",
+                    "cta": "Ok",
+                    "image":"win_cover.png",
+                    "icon":"win_icon.png",
+                    "action": "render_outcome",
+                    "value": 0.1
                 }
             ]
         },
-        {   "title":"Second Question",
-            "image": "pixelart9.gif",
-            "text" : "Brief text comes here",
+        {   "title":"",
+            "image": "pixelart7.gif",
+            "text" : "Az insight kutatás és a versenytárs elemzés már elegendő, hogy egy minimális briefet összerakjon a stratégiai osztály. Még talán egy picit hosszabb is lett mint kellene.",
             "actions" : [
-                {   "title" : "Option A", 
-                    "outcome": "positive",
-                    "text": "Something good happaned",
+                {   "title" : "Megkéred, a plannereket, hogy húzzanak a 73 oldalból, és megkíméled a kreatívokat?", 
+                    "outcome": "positive",                    
+                    "text": "A kreatívok lelkesek. Már csak napok kérdése és feldolgozzák az információt!",
                     "cta": "Ok",
-                    "image":"pixelart3.gif",
+                    "image":"win_cover.png",
                     "icon":"win_icon.png",
                     "action": "render_outcome",
                     "value": 0.1
                 },
-                {   "title" : "Option B", 
+                {   "title" : "A több az jobb. Ha nem marad ki semmi, kevesebb a hibalehetőség.", 
                     "outcome": "negative",
-                    "text": "Something bad happaned",
+                    "text": "Hát nem maradt ki semmit. Három Art Director, egy copywriter és egy ppc-s  felmond. Az utóbbinak nem világos a relevanciája.",
                     "cta": "Ok",
-                    "image":"pixelart4.gif",
+                    "image":"lose_cover.png",
                     "icon":"lose_icon.png",
                     "action": "render_outcome",
                     "value": -0.1
                 }
             ]
         },
-        {   "title":"☠️",
-            "image": "pixelart11.gif",
-            "text" : "Game over",
+        {   "title":"",
+            "image": "pixelart8.gif",
+            "text" : "Biztos, ami biztos, az ügyfélnél megfuttatod a briefet. Bízol benne, hogy az egyetlen reakciója, az lesz, hogy “Ho Ho Ho”... Még csak fél 11 van,  de már harmadszor hív. A hajnali órákban nem vagy ügyfélkompatibilis.",
             "actions" : [
-                {   "title" : "I'm ready", 
+                {   "title" : "Unatkozom, hátha mond valami érdekeset.", 
+                    "outcome": "positive",                    
+                    "text": "Megérte felvenni, budget-et akarnak növelni. Ez már nem sülhet el rosszul... - Gondolod, tévesen :D ",
+                    "cta": "Ok",
+                    "image":"win_cover.png",
+                    "icon":"win_icon.png",
+                    "action": "render_outcome",
+                    "value": 0.1
+                },
+                {   "title" : "Nem ma fogok hajnali telefonokra válaszolgatni", 
+                    "outcome": "negative",
+                    "text": "Harmadszorra is hagyod csörögni, majd hív mást ha fontos, de azt már a Mikulás is felfelejti. Így sosem tudod meg miről maradsz le... ha ha ha... khm... ho ho ho.",
+                    "cta": "Ok",
+                    "image":"lose_cover.png",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": -0.1
+                }
+            ]
+        },
+        {   "title":"",
+            "image": "pixelart9.gif",
+            "text" : `Gratulálok! A Mikulás elégedett a brieffel! Tovább haladsz, és megnézed hogyan lesz a bíztató kezdésből katasztrófális folytatás?`,
+            "actions" : [
+                {   "title" : "Nem", 
                     "action": "next"
                 }
             ]
+        },
+        {   "title":"",
+            "image": "pixelart10.gif",
+            "text" : `Nincs menekvés, az őrület folytatódik.`,
+            "actions" : [
+                {   "title" : "Ok", 
+                    "action": "next"
+                }
+            ]
+        },
+        {   "title":"",
+            "image": "pixelart11.gif",
+            "text" : "Kezedben érzed a Cannes Liont, annyira jó ötlet találtatok ki tegnap éjjel a Központ pultosával.Vegyesen szerepelnek benne kemény drogok, kurvák és gyerekkórus, de tudod hogy konform ötletek a kukának készülnek.",
+            "actions" : [
+                {   "title" : "Így hogy aludtál rá, lehet tényleg kicsit meredek lett ez a koncepció. Finomitasz rajta egy kicsit.", 
+                    "outcome": "positive",                    
+                    "text": "Jót tett az ötletnek hogy kicsit visszavettél, igy mar anyádnak is tetszik.",
+                    "cta": "Ok",
+                    "image":"win_cover.png",
+                    "icon":"win_icon.png",
+                    "action": "render_outcome",
+                    "value": 0.1
+                },
+                {   "title" : "Házon belül is néznek nagyokat, de ezt most nem a elengedni.", 
+                    "outcome": "negative",
+                    "text": " Számitottál a botrányra, de a fizetéscsökkentés es a kirugásod kilátásba helyezése még is meglepett.",
+                    "cta": "Ok",
+                    "image":"lose_cover.png",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": -0.1
+                }
+            ]
+        },
+        {   "title":"",
+            "image": "pixelart12.gif",
+            "text" : "Az első önálló ötlet körön túl agytok. A reviewról természetesen fél órát késik a kreatív igazgató.",
+            "actions" : [
+                {   "title" : "Várjunk rá, hiszen mégiscsak ő dönt.", 
+                    "outcome": "negative",                    
+                    "text": `Mindegy volt, hogy vártatok-e rá vagy sem. Mikor fél órás késéssel megérkezett a "kaszás", mindent kikukázott`,
+                    "cta": "Ok",
+                    "image":"lose_cover.png",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": -0.1
+                },
+                {   "title" : "Kezdjünk bele, legalább haladunk.", 
+                    "outcome": "negative",
+                    "text": `Mindegy volt, hogy vártatok-e rá vagy sem. Mikor fél órás késéssel megérkezett a "kaszás", mindent kikukázott`,
+                    "cta": "Ok",
+                    "image":"lose_cover.png",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": -0.1
+                }
+            ]
+        },
+        {   "title":"",
+            "image": "pixelart13.gif",
+            "text" : `A kreatívok természetesen most is a "játék szobában" szeretnék folytatni az ötletelést.`,
+            "actions" : [
+                {   "title" : "Az ötletek csak akkor jönnek, ha  ingergazdag környezetben vagy.", 
+                    "outcome": "negative",                    
+                    "text": `Hát, izé... egy picit elment az idő a Nerf-özéssel.`,
+                    "cta": "Ok",
+                    "image":"lose_cover.png",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": -0.1
+                },
+                {   "title" : "Kezdjünk bele, legalább haladunk.", 
+                    "outcome": "positive",
+                    "text": `Fél óra alatt 4 kerek koncepció.  Mit kell ezt túlizgulni.`,
+                    "cta": "Ok",
+                    "image":"win_cover.png",
+                    "icon":"win_icon.png",
+                    "action": "render_outcome",
+                    "value": 0.1
+                }
+            ]
+        },
+        {   "title":"",
+            "image": "pixelart14.gif",
+            "text" : `Kitchen meetingen egyeztetnél a Mikulással a félkész koncepciókról, de a Mikulás manóinak darkweben töltött kalandózásainak nyomán a Sarkköri intranet meglehetősen vírusos. Mindenki meglepetésére egy hekker csapat, két Live Jasmin lány, és Donald Trump is csatlakozik a confcall-hoz.`,
+            "actions" : [
+                {   "title" : "Ok", 
+                    "action": "next"
+                }
+            ]
+        },
+        {   "title":"",
+            "image": "pixelart15.gif",
+            "text" : `A vetkőzős lányok szerint nem elég a kampány engagement ereje, és egy tök új ötlettel állnak elő. A hekker csapat szerint Bill Gates maga az ördög. Donald szerint tökmindegy mik a koncepciók, ő nyert.`,
+            "actions" : [
+                {   "title" : "Megszakítod a hívást, és újra próbálsz csatlakozni.", 
+                    "outcome": "negative",                    
+                    "text": `Pech, újrahívásnál is ugyanaz a csapat fogad. A Mikulás elégedettnek tűnik a lányok ötletével kénytelen vagy azzal tovább menni. `,
+                    "cta": "Ok",
+                    "image":"lose_cover.png",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": -0.1
+                },
+                {   "title" : "A lányok ötletével mész tovább.", 
+                    "outcome": "positive",
+                    "text": `Nem úgy tűnik, mintha a Mikulást zavarnák a kaotikus körülmények. Szerinte remekül halad a munka.`,
+                    "cta": "Ok",
+                    "image":"lose_cover.png",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": 0.1
+                }
+            ]
+        },
+        {   "title":"",
+            "image": "pixelart16.gif",
+            "text" : `A feedback kör után, kreatívként új koncepciót próbálsz kicsiholni magadból, de semmi értelmes dolog nem jut az eszedbe, ami megfelelhet a kreatív igazgatónak.`,
+            "actions" : [
+                {   "title" : `Felcsapod a Cannes-i gyűjteményed, és folytatod a "good fight"-ot.`, 
+                    "outcome": "negative",                    
+                    "text": `Mindig a kreatív igazgató ötlete a legjobb. Utána jön az ügyfél, a mély tekintetű szövegíró, aki tetszik, és csak utána a Cannes Lions!`,
+                    "cta": "Ok",
+                    "image":"lose_cover.png",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": -0.1
+                },
+                {   "title" : "Inkább kidolgozod a kreatív igazgató korábban bedobott ötletét, hiszen mégiscsak ő áll a tápláléklánc csúcsán.", 
+                    "outcome": "positive",
+                    "text": `Nalátod, nem vagy te hülye gyerek! A kreatív igazgató ötlete a legjobb ötlet. Mindig!`,
+                    "cta": "Ok",
+                    "image":"win_cover.png",
+                    "icon":"win_icon.png",
+                    "action": "render_outcome",
+                    "value": 0.1
+                }
+            ]
+        },
+        {   "title":"",
+            "image": "pixelart17.gif",
+            "text" : "A kreatív igazgató és a Live Jazmin lányok ötlete kezd egyenesbe érni, de az ügynökség ügyvezetője egy harmadik koncepcióval áll elő. Sajnos csak kettő koncepciót lehet tesztelni. Egyet ki kell ejteni.",
+            "actions" : [
+                {   "title" : "Az ügyvezető “üti” a kreatív igazgatót..", 
+                    "outcome": "negative",                    
+                    "text": `Csak nem gondoltad, hogy ebből akárhogy jól lehet kijönni?! 😈`,
+                    "cta": "Ok",
+                    "image":"lose_cover.png",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": -0.1
+                },
+                {   "title" : "Az ügyvezető úgysem szokott belefolyni a dolgokba és a kreatív fejlesztéshez sem ért. Az Ő ötlete marad ki.", 
+                    "outcome": "negative",
+                    "text": `Csak nem gondoltad, hogy ebből akárhogy jól lehet kijönni?! 😈`,
+                    "cta": "Ok",
+                    "image":"lose_cover.png",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": -0.1
+                }
+            ]
+        },
+        {   "title":"",
+            "image": "pixelart18.gif",
+            "text" : `Az ügyfél prezire Suzzy Melon, és Alyshya VIP, a két Live Jazmin lány is felutaznak Ukrajnából, hogy maguk prezentálhassák a koncepciójukat.`,
+            "actions" : [
+                {   "title" : `Őket egy másik tárgyalóba küldöd, hogy ott várják a Mikulást.`, 
+                    "outcome": "negative",                    
+                    "text": `Mikor megérkezett a Mikulás a lányokhoz ment elsőre, pedig a recin mondták, hogy ne oda! Kezded elveszíteni a pozíciód az ügyfélnél.`,
+                    "cta": "Ok",
+                    "image":"lose_cover.png",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": -0.1
+                },
+                {   "title" : "Mi baj lehet?! Minél nagyobb a prezi csapat annál jobb!", 
+                    "outcome": "positive",
+                    "text": `A Mikulás nem örül, hogy Suzzy és Alyshya ilyen visszalépést tettek a karrierjükben. De ha boldogok a reklámszakmában, akkor miért ne...`,
+                    "cta": "Ok",
+                    "image":"win_cover.png",
+                    "icon":"win_icon.png",
+                    "action": "render_outcome",
+                    "value": 0.1
+                }
+            ]
+        },
+        {   "title":"",
+            "image": "pixelart19.gif",
+            "text" : `Ez nem volt egyszerű menet, de a neheze még hátra van! Egy éjszakád van lenyomni a gyártást. Ezt lehetetlen!`,
+            "actions" : [
+                {   "title" : "Ok", 
+                    "action": "next"
+                }
+            ]
+        },
+        {   "title":"",
+            "image": "pixelart20.gif",
+            "text" : `Azonnal beszállítóra van szükséged, de már mindenki elment téli szünetre!`,
+            "actions" : [
+                {   "title" : `Haladékot kérsz a Mikulástól! Eltolhatná pár nappal a karácsonyt!`, 
+                    "outcome": "negative",                    
+                    "text": `A Mikulás alig várja már a Karácsonyt, nincs halasztás! Marad a dugi pia? :'(`,
+                    "cta": "Ok",
+                    "image":"lose_cover.png",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": -0.1
+                },
+                {   "title" : "Előveszed a dugi piát, és nézed ahogy békésen esik a hó.", 
+                    "outcome": "positive",
+                    "text": `Túl sok rajtad a stressz mostanában. Egy kis lazítás jót fog tenni.`,
+                    "cta": "Ok",
+                    "image":"win_cover.png",
+                    "icon":"win_icon.png",
+                    "action": "render_outcome",
+                    "value": 0.1
+                }
+            ]
+        },
+        {   "title":"",
+            "image": "pixelart21.gif",
+            "text" : `Kitöltesz egy pohár italt magadnak, közben megérkezik az isteni szikra! Beírod a googlebe: "karácsonyi reklámanyag gyártás azonnali határidőre." És az első találat... :O Csak nem?? Ez mindig itt volt, vagy csak most került ide??? Karácsonyi csoda?! A géped ekkor szikrázni kezd és kigyullad.`,
+            "actions" : [
+                {   "title" : `Kiviszed a mosdóba, lelocsolod vízzel, és sztoikus nyugalommal ledőlsz a kanapéra.`, 
+                    "outcome": "negative",                    
+                    "text": `Minden hiába. A kimerültség és a kitöltött pia megteszi a hatását. 1 percen belül elalszol. Mi lesz így a karácsonnyal?`,
+                    "cta": "Ok",
+                    "image":"lose_cover.png",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": -0.1
+                },
+                {   "title" : `Eloltod a géped, és kétségbeesetten próbálsz életet lehelni bele!`, 
+                    "outcome": "negative",
+                    "text": `Minden hiába. A kimerültség és a kitöltött pia megteszi a hatását. 1 percen belül elalszol. Mi lesz így a karácsonnyal?`,
+                    "cta": "Ok",
+                    "image":"lose_cover.png",
+                    "icon":"lose_icon.png",
+                    "action": "render_outcome",
+                    "value": 0.1
+                }
+            ]
+        },
+        {   "title":"",
+            "image": "pixelart22.gif",
+            "text" : `A leadás káosza teljesen kiütött téged. Másnap reggel az irodában ébredsz halk karácsonyi zenére és a rénszarvasok neszére. A Mikulás érkezett meg hatalmas ajándékokkal, akit követnek a boldog kollégák. Érthetelen ami történik! Hát nem tudják, hogy nem tudtad leadni a megrendelést??`,
+            "actions" : [
+                {   "title" : "Mi lesz most?!", 
+                    "action": "next"
+                }
+            ]
+        },
+        {   "title":"",
+            "image": "pixelart23.gif",
+            "text" : `A Mikulás hatalmas mosollyal fordul hozzád. "Csak nem gondolod, hogy a karácsonnyal bármi rossz történhet?!" :D Próbálod feldolgozni a történteket, de úgy tűnik a legjobb, ha átadod magad az ünneplésnek!`,
+            "actions" : [
+                {   "title" : "Boldog Karácsonyt!", 
+                    "action": "next"
+                }
+            ]
+        },
+        {   "title":"",
+            "image": "pixelart24.gif",
+            "text" : `Gratulálok, megnyerted a játékot!`,
+            "type" : "game_won",
+            "actions" : [
+                {   "title" : "Feliratkozom a toplistára!", 
+                    "action": "highscore"
+                }
+            ]
         }
-        
     ]
 }

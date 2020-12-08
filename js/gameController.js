@@ -7,7 +7,7 @@ import TextPlugin from 'gsap/TextPlugin';
 
 export default class GameController {
     
-    constructor(datasource,root) {
+    constructor(datasource,root,startProgress = 0) {
         
         gsap.registerPlugin(TextPlugin);
         gsap.ticker.fps(12); //Set fps to five for retro feelings
@@ -32,7 +32,7 @@ export default class GameController {
         this._ds = datasource; //make config class wide
 
         this.money = datasource.base_value; //set money
-        this.progress = 0; //set progress;
+        this.progress = startProgress; //set progress;
 
         //lets add the first screen
         this._animateIntro(this.addScreen(datasource.screens.[this.progress]));
@@ -72,7 +72,6 @@ export default class GameController {
     
     //Generate new screen
     addScreen(data,visible = true) {
-        console.log(data);        
 
         var cover_filename = data.image.split('.');
         cover_filename = images[cover_filename[0]][cover_filename[1]];
@@ -180,12 +179,10 @@ export default class GameController {
 
     //Show outcome screen
     _renderOutcome(current,screenData) {
-        var move_value = this.money * screenData.value;
+        var move_value = Math.round(this.money * screenData.value);
         var title_str;
         
-       
-
-        this.money += move_value//Update money value
+        this.money += move_value;    //Update money value
 
         //restructure data to make it addscreen compatible
         var active_screen = $(current).parent().parent();

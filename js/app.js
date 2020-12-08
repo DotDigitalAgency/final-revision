@@ -2,10 +2,12 @@ import $ from "cash-dom";
 import gameData from "../data/gamedata.json";
 import gameController from "./gameController.js";
 import "nes.css/css/nes.min.css";
+import * as dat from 'dat.gui';
+
 
 $(function () {
-  let frController = new gameController(gameData,$('#app'));
-  
+  let frController = new gameController(gameData,$('#app'),0);
+  //const gui = new dat.GUI();
 });
 
 
@@ -28,10 +30,6 @@ $(function () {
 //         }
 //     }
 //   })
-
-
-
- 
 
 //   var tag = document.createElement("gamescreen");
 //   var text = document.createTextNode("Tutorix is the best e-learning platform");

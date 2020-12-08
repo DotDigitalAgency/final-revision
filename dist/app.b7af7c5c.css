@@ -87,6 +87,7 @@ section.screen {
 section.screen img.cover {
   width: 100%;
   margin: auto;
+  max-height: 40vh;
   object-fit: cover;
   image-rendering: pixelated;
 }
