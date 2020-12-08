@@ -20,5 +20,15 @@ jobs:
 #          ${{ runner.os }}-npm-
       - name: Install dependencies
         run: npm ci
-      - name: Build
+      - name: Build Parcel
         run: npm run prod --if-present
+      - name: Copy folder content recursively to remote
+        uses: garygrossgarten/github-action-scp@release
+        with:
+          local: dist
+          remote: scp/directory
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.SSH_USER }}
+#          password: ${{ secrets.PASSWORD }}
+          rmRemote: true
+          privateKey: ${{ secrets.PRIVATE_KEY}}
