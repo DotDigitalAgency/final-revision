@@ -1,0 +1,24 @@
+name: Publish Website
+
+on:
+  push:
+    branches: # triggers on any push to master
+    - master
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: node --version
+    - name: Cache node modules
+      uses: actions/cache@v1
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-npm-
+    - name: Install dependencies
+      run: npm ci
+    - name: Build
+      run: npm run prod --if-present
