@@ -35,7 +35,7 @@ export default class GameController {
         this.progress = startProgress; //set progress;
 
         //lets add the first screen
-        this._animateIntro(this.addScreen(datasource.screens.[this.progress]));
+        this._animateIntro(this.addScreen(datasource.screens[this.progress]));
     }
 
     //Set progress bar to proper value
@@ -124,7 +124,7 @@ export default class GameController {
     _nextScreen(current) {
         this.progress += 1;
         var active_screen = $(current).parent().parent();
-        var next_data = this._ds.screens.[this.progress];
+        var next_data = this._ds.screens[this.progress];
         var next_screen = this.addScreen(next_data,true);
 
         this._animateTransition(active_screen,next_screen);

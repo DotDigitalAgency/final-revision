@@ -1541,7 +1541,7 @@ module.exports = {
       "action": "render_outcome",
       "value": -0.1
     }, {
-      "title": "A szülei a felső vezetésben ülnek, inkább bent hagyod.",
+      "title": "A szülei a felső vezetésben ülnek, inkább bent hagyod. De miert?",
       "outcome": "positive",
       "text": "Kollégáid összesöprik a romjaidat a tárgyalóból. A sarkköri taskforce remekül szórakozott a műsoron. Úgy néz ki, megérte! ",
       "cta": "Haladjunk",
@@ -1885,10 +1885,10 @@ module.exports = {
     }]
   }]
 };
-},{}],"img/cover_1.png":[function(require,module,exports) {
-module.exports = "/cover_1.916796b9.png";
 },{}],"img/coin.gif":[function(require,module,exports) {
 module.exports = "/coin.fa42f039.gif";
+},{}],"img/cover_1.png":[function(require,module,exports) {
+module.exports = "/cover_1.916796b9.png";
 },{}],"img/lose_icon.png":[function(require,module,exports) {
 module.exports = "/lose_icon.d988ab9a.png";
 },{}],"img/lose_cover.png":[function(require,module,exports) {
@@ -1911,51 +1911,51 @@ module.exports = "/pixelart15.a7679b9f.gif";
 module.exports = "/pixelart16.19ba4018.gif";
 },{}],"img/pixelart17.gif":[function(require,module,exports) {
 module.exports = "/pixelart17.4f251858.gif";
-},{}],"img/pixelart19.gif":[function(require,module,exports) {
-module.exports = "/pixelart19.2c93cdb7.gif";
 },{}],"img/pixelart18.gif":[function(require,module,exports) {
 module.exports = "/pixelart18.7002eb20.gif";
+},{}],"img/pixelart19.gif":[function(require,module,exports) {
+module.exports = "/pixelart19.2c93cdb7.gif";
 },{}],"img/pixelart2.gif":[function(require,module,exports) {
 module.exports = "/pixelart2.bbe23e6b.gif";
 },{}],"img/pixelart20.gif":[function(require,module,exports) {
 module.exports = "/pixelart20.2aefe58d.gif";
-},{}],"img/pixelart21.gif":[function(require,module,exports) {
-module.exports = "/pixelart21.920ee41f.gif";
 },{}],"img/pixelart22.gif":[function(require,module,exports) {
 module.exports = "/pixelart22.217eeb67.gif";
+},{}],"img/pixelart21.gif":[function(require,module,exports) {
+module.exports = "/pixelart21.920ee41f.gif";
 },{}],"img/pixelart23.gif":[function(require,module,exports) {
 module.exports = "/pixelart23.6cf80f8e.gif";
+},{}],"img/pixelart25.gif":[function(require,module,exports) {
+module.exports = "/pixelart25.f7da3088.gif";
 },{}],"img/pixelart24.gif":[function(require,module,exports) {
 module.exports = "/pixelart24.ade7a2db.gif";
 },{}],"img/pixelart26.gif":[function(require,module,exports) {
 module.exports = "/pixelart26.9def933f.gif";
-},{}],"img/pixelart25.gif":[function(require,module,exports) {
-module.exports = "/pixelart25.f7da3088.gif";
 },{}],"img/pixelart3.gif":[function(require,module,exports) {
 module.exports = "/pixelart3.d4c16ed8.gif";
-},{}],"img/pixelart5.gif":[function(require,module,exports) {
-module.exports = "/pixelart5.1b85ec8c.gif";
 },{}],"img/pixelart4.gif":[function(require,module,exports) {
 module.exports = "/pixelart4.2c025679.gif";
+},{}],"img/pixelart5.gif":[function(require,module,exports) {
+module.exports = "/pixelart5.1b85ec8c.gif";
 },{}],"img/pixelart6.gif":[function(require,module,exports) {
 module.exports = "/pixelart6.3075d96d.gif";
-},{}],"img/pixelart7.gif":[function(require,module,exports) {
-module.exports = "/pixelart7.a4200065.gif";
-},{}],"img/pixelart9.gif":[function(require,module,exports) {
-module.exports = "/pixelart9.0a3057ee.gif";
 },{}],"img/pixelart8.gif":[function(require,module,exports) {
 module.exports = "/pixelart8.bbaa74ce.gif";
 },{}],"img/win_cover.png":[function(require,module,exports) {
 module.exports = "/win_cover.7e212c11.png";
+},{}],"img/pixelart7.gif":[function(require,module,exports) {
+module.exports = "/pixelart7.a4200065.gif";
+},{}],"img/pixelart9.gif":[function(require,module,exports) {
+module.exports = "/pixelart9.0a3057ee.gif";
 },{}],"img/win_icon.png":[function(require,module,exports) {
 module.exports = "/win_icon.3b946e2a.png";
 },{}],"img/*.*":[function(require,module,exports) {
 module.exports = {
-  "cover_1": {
-    "png": require("./cover_1.png")
-  },
   "coin": {
     "gif": require("./coin.gif")
+  },
+  "cover_1": {
+    "png": require("./cover_1.png")
   },
   "lose_icon": {
     "png": require("./lose_icon.png")
@@ -1990,11 +1990,11 @@ module.exports = {
   "pixelart17": {
     "gif": require("./pixelart17.gif")
   },
-  "pixelart19": {
-    "gif": require("./pixelart19.gif")
-  },
   "pixelart18": {
     "gif": require("./pixelart18.gif")
+  },
+  "pixelart19": {
+    "gif": require("./pixelart19.gif")
   },
   "pixelart2": {
     "gif": require("./pixelart2.gif")
@@ -2002,14 +2002,17 @@ module.exports = {
   "pixelart20": {
     "gif": require("./pixelart20.gif")
   },
-  "pixelart21": {
-    "gif": require("./pixelart21.gif")
-  },
   "pixelart22": {
     "gif": require("./pixelart22.gif")
   },
+  "pixelart21": {
+    "gif": require("./pixelart21.gif")
+  },
   "pixelart23": {
     "gif": require("./pixelart23.gif")
+  },
+  "pixelart25": {
+    "gif": require("./pixelart25.gif")
   },
   "pixelart24": {
     "gif": require("./pixelart24.gif")
@@ -2017,26 +2020,17 @@ module.exports = {
   "pixelart26": {
     "gif": require("./pixelart26.gif")
   },
-  "pixelart25": {
-    "gif": require("./pixelart25.gif")
-  },
   "pixelart3": {
     "gif": require("./pixelart3.gif")
-  },
-  "pixelart5": {
-    "gif": require("./pixelart5.gif")
   },
   "pixelart4": {
     "gif": require("./pixelart4.gif")
   },
+  "pixelart5": {
+    "gif": require("./pixelart5.gif")
+  },
   "pixelart6": {
     "gif": require("./pixelart6.gif")
-  },
-  "pixelart7": {
-    "gif": require("./pixelart7.gif")
-  },
-  "pixelart9": {
-    "gif": require("./pixelart9.gif")
   },
   "pixelart8": {
     "gif": require("./pixelart8.gif")
@@ -2044,11 +2038,17 @@ module.exports = {
   "win_cover": {
     "png": require("./win_cover.png")
   },
+  "pixelart7": {
+    "gif": require("./pixelart7.gif")
+  },
+  "pixelart9": {
+    "gif": require("./pixelart9.gif")
+  },
   "win_icon": {
     "png": require("./win_icon.png")
   }
 };
-},{"./cover_1.png":"img/cover_1.png","./coin.gif":"img/coin.gif","./lose_icon.png":"img/lose_icon.png","./lose_cover.png":"img/lose_cover.png","./pixelart1.gif":"img/pixelart1.gif","./pixelart10.gif":"img/pixelart10.gif","./pixelart11.gif":"img/pixelart11.gif","./pixelart12.gif":"img/pixelart12.gif","./pixelart13.gif":"img/pixelart13.gif","./pixelart14.gif":"img/pixelart14.gif","./pixelart15.gif":"img/pixelart15.gif","./pixelart16.gif":"img/pixelart16.gif","./pixelart17.gif":"img/pixelart17.gif","./pixelart19.gif":"img/pixelart19.gif","./pixelart18.gif":"img/pixelart18.gif","./pixelart2.gif":"img/pixelart2.gif","./pixelart20.gif":"img/pixelart20.gif","./pixelart21.gif":"img/pixelart21.gif","./pixelart22.gif":"img/pixelart22.gif","./pixelart23.gif":"img/pixelart23.gif","./pixelart24.gif":"img/pixelart24.gif","./pixelart26.gif":"img/pixelart26.gif","./pixelart25.gif":"img/pixelart25.gif","./pixelart3.gif":"img/pixelart3.gif","./pixelart5.gif":"img/pixelart5.gif","./pixelart4.gif":"img/pixelart4.gif","./pixelart6.gif":"img/pixelart6.gif","./pixelart7.gif":"img/pixelart7.gif","./pixelart9.gif":"img/pixelart9.gif","./pixelart8.gif":"img/pixelart8.gif","./win_cover.png":"img/win_cover.png","./win_icon.png":"img/win_icon.png"}],"node_modules/gsap/gsap-core.js":[function(require,module,exports) {
+},{"./coin.gif":"img/coin.gif","./cover_1.png":"img/cover_1.png","./lose_icon.png":"img/lose_icon.png","./lose_cover.png":"img/lose_cover.png","./pixelart1.gif":"img/pixelart1.gif","./pixelart10.gif":"img/pixelart10.gif","./pixelart11.gif":"img/pixelart11.gif","./pixelart12.gif":"img/pixelart12.gif","./pixelart13.gif":"img/pixelart13.gif","./pixelart14.gif":"img/pixelart14.gif","./pixelart15.gif":"img/pixelart15.gif","./pixelart16.gif":"img/pixelart16.gif","./pixelart17.gif":"img/pixelart17.gif","./pixelart18.gif":"img/pixelart18.gif","./pixelart19.gif":"img/pixelart19.gif","./pixelart2.gif":"img/pixelart2.gif","./pixelart20.gif":"img/pixelart20.gif","./pixelart22.gif":"img/pixelart22.gif","./pixelart21.gif":"img/pixelart21.gif","./pixelart23.gif":"img/pixelart23.gif","./pixelart25.gif":"img/pixelart25.gif","./pixelart24.gif":"img/pixelart24.gif","./pixelart26.gif":"img/pixelart26.gif","./pixelart3.gif":"img/pixelart3.gif","./pixelart4.gif":"img/pixelart4.gif","./pixelart5.gif":"img/pixelart5.gif","./pixelart6.gif":"img/pixelart6.gif","./pixelart8.gif":"img/pixelart8.gif","./win_cover.png":"img/win_cover.png","./pixelart7.gif":"img/pixelart7.gif","./pixelart9.gif":"img/pixelart9.gif","./win_icon.png":"img/win_icon.png"}],"node_modules/gsap/gsap-core.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7825,7 +7825,7 @@ var GameController = /*#__PURE__*/function () {
         icon_filename = _.default[icon_filename[0]][icon_filename[1]];
       }
 
-      var screen_template = "<section class=\"screen ".concat(data.outcome, "\">\n                                    <img class=\"cover\" src=\"").concat(cover_filename, "\" alt=\"\">\n                                    <h1> <img src=\"").concat(icon_filename, "\" /><span>").concat(data.title, "</span></h1>\n                                    <div class=\"text\">").concat(data.text, "</div>\n                                    <div class=\"gradient\"></div>\n                                    <div class=\"buttons\"></div>\n                                </section>");
+      var screen_template = "<section class=\"screen ".concat(data.outcome, "\">\n                                    <img class=\"cover\" src=\"").concat(cover_filename, "\" alt=\"\">\n                                    <div class='text_wrapper'>\n                                        <h1> <img src=\"").concat(icon_filename, "\" /><span>").concat(data.title, "</span></h1>\n                                        <div class=\"text\">").concat(data.text, "</div>\n                                        <div class=\"gradient\"></div>\n                                        <div class='button_wrapper'>\n                                            <div class=\"buttons\"></div>\n                                        </div>\n                                    </div>\n                                </section>");
       var scr_dom = (0, _cashDom.default)(screen_template).appendTo(this._app);
 
       if (!visible) {
@@ -11054,7 +11054,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63092" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61390" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

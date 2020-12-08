@@ -83,6 +83,13 @@ section.screen {
   width: 100%;
   z-index: 1;
   position: fixed;
+  align-items: flex-start;
+}
+section.screen div.text_wrapper {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 section.screen img.cover {
   width: 100%;
