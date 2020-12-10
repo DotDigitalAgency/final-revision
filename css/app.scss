@@ -223,6 +223,10 @@ section.screen {
         align-items: center;
     }
 
+    .text_wrapper.nes-container.is-rounded.is-dark{
+        background-color: transparent;
+    }
+
     //flexbox - children layout
     section.screen img.cover,
     .text_wrapper {
@@ -237,35 +241,7 @@ section.screen {
         margin-right:2.5%;
     }
 
-    .text_wrapper{
-        border-left: 4px solid rgba(255, 255, 255, 0.7);
-        border-right: 4px solid rgba(255, 255, 255, 0.7);
-        margin-left: 2.5%;
-        position:relative;
-    }
     
-    //left column fake border top and bottom
-    div.text_wrapper h1 ::before,
-    .button_wrapper ::after{
-        content: ' ';
-        position: absolute;
-        display: block;
-        height: 4px;
-        background-color: rgba(255, 255, 255, 0.7);
-        left: 0px;
-        right: 0px; 
-    }
-
-    //right column fake top border position
-   div.text_wrapper h1 ::before {
-       top: -2px;
-   }
-
-    //right column fake bottom border position
-   .button_wrapper ::after {
-       bottom: -4px;
-   }
-
     //response img size fix (positive, negative)
     section.screen.positive h1 img,
     section.screen.negative h1 img{

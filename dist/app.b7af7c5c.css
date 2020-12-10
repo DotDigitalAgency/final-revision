@@ -190,6 +190,10 @@ section.screen button {
     align-items: center;
   }
 
+  .text_wrapper.nes-container.is-rounded.is-dark {
+    background-color: transparent;
+  }
+
   section.screen img.cover,
 .text_wrapper {
     width: 30%;
@@ -200,32 +204,6 @@ section.screen button {
     margin: 0;
     object-fit: contain;
     margin-right: 2.5%;
-  }
-
-  .text_wrapper {
-    border-left: 4px solid rgba(255, 255, 255, 0.7);
-    border-right: 4px solid rgba(255, 255, 255, 0.7);
-    margin-left: 2.5%;
-    position: relative;
-  }
-
-  div.text_wrapper h1 ::before,
-.button_wrapper ::after {
-    content: " ";
-    position: absolute;
-    display: block;
-    height: 4px;
-    background-color: rgba(255, 255, 255, 0.7);
-    left: 0px;
-    right: 0px;
-  }
-
-  div.text_wrapper h1 ::before {
-    top: -2px;
-  }
-
-  .button_wrapper ::after {
-    bottom: -4px;
   }
 
   section.screen.positive h1 img,
