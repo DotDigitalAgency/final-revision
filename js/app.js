@@ -6,7 +6,8 @@ import * as dat from 'dat.gui';
 
 
 $(function () {
-  let frController = new gameController(gameData,$('#app'),0);
+  
+  let frController = new gameController(gameData,$('#app'),0); //Start the gem in the proper div.
   //const gui = new dat.GUI();
 });
 

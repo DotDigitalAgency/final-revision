@@ -1495,7 +1495,7 @@ if (typeof exports !== 'undefined') {
 },{}],"data/gamedata.json":[function(require,module,exports) {
 module.exports = {
   "name": "Final Revision VII",
-  "base_value": 2000,
+  "base_value": 10000,
   "screens": [{
     "title": "",
     "image": "cover_1.png",
@@ -1503,14 +1503,14 @@ module.exports = {
     "actions": [{
       "title": "Megpróbálsz úgy tenni, mintha értenéd, amit mond",
       "outcome": "positive",
-      "text": "<p>Valami Mikl\xF3s \xE9jszakai gyereksarkot akar?? Egyre fur\xE1bb \xFCgyfeleid vannak.</p>",
-      "cta": "Lerakod a telefont, és elmorzsolsz egy imát 🙏",
+      "text": "<p>Valami Mikl\xF3s \xE9jszakai gyereksarkot akar?? Egyre fur\xE1bb \xFCgyfeleid vannak. Miut\xE1n letetted, elmorzsolsz egy im\xE1t, hogy eml\xE9kezz valamire az elhangzottakb\xF3l..</p>",
+      "cta": "És este lett, és reggel...",
       "image": "win_cover.png",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
     }, {
-      "title": "Bevallod, hogy be vagy baszva és nem alkalmas",
+      "title": "Bevallod, hogy be vagy csípve és nem alkalmas.",
       "outcome": "negative",
       "text": "<p>El\xE9g fura, hogy d\xE9lben iszol. De mivel mindenki be van baszva, h\xE1t... \xEDgy j\xE1rtunk.</p>",
       "cta": "Keverek még egy Gin&Tonicot",
@@ -1521,7 +1521,7 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "pixelart2.gif",
+    "image": "cover_2.png",
     "text": "Szerencs\xE9re a telefont k\xF6vetkez\u0151 email v\xE1lt\xE1sb\xF3l midnen kitisztul.Te is \xE9rzed, hogy itt nem babra megy a j\xE1t\xE9k. A vil\xE1g legnagyobb love brandje pottyant az \xF6ledbe, k\xF6sd fel a gaty\xE1t, \xE9s mutasd meg, mi a kreat\xEDv szakma cs\xFAcsa!\n                    <br/><br/>Lehet, hogy az id\u0151 kev\xE9s, de j\xF3 munk\xE1t csak megalapozott strat\xE9gi\xE1val lehet v\xE9gezni.",
     "actions": [{
       "title": "Kutatásra fel!",
@@ -1529,22 +1529,22 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "pixelart5.gif",
-    "text": "A strat\xE9giai oszt\xE1ly nagy l\xE9ptekkel pr\xF3b\xE1l insightokat gy\u0171jteni kiscsoportos interj\xFAkkal, de Rudika \xFCv\xF6ltve k\xF6veteli mag\xE1nak a nintend\xF3t kar\xE1csonyra.",
+    "image": "cover_3.png",
+    "text": "A strat\xE9giai oszt\xE1ly nagy l\xE9ptekkel pr\xF3b\xE1l insightokat gy\u0171jteni kiscsoportos interj\xFAkkal, melynek egyik tagja, Rudika, \xFCv\xF6ltve k\xF6veteli mag\xE1nak a nintend\xF3t kar\xE1csonyra.",
     "actions": [{
-      "title": "Kirakod az interjúról, nem törődve, hogy a az apja id. Rudolf elkaszálhatja emiatt a kampányod.",
+      "title": "Kirakod az interjúról, nem törődve azzal, hogy az apja, id. Rudolf, emiatt simán elkaszálhatja a kampányod.",
       "outcome": "negative",
-      "text": "A Mikulás nem annyira értékeli, hogy nem tudsz bánni a gyerekekkel. Megigéred neki, hogy újra elvégzed a Code of Conduct traininget, két napig nem térsz magadhoz!",
-      "cta": "Legalább békén hagynak egy időre...",
+      "text": "A Mikulás nem annyira értékeli, hogy nem tudsz bánni a gyerekekkel. Megígéred neki, hogy újra elvégzed a Code of Conduct traininget, két napig nem térsz magadhoz!",
+      "cta": "Lássuk, mi jöhet még...",
       "image": "lose_cover.png",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
     }, {
-      "title": "A szülei a felső vezetésben ülnek, inkább bent hagyod. De miert?",
+      "title": "A szülei a felsővezetésben ülnek, inkább bent hagyod.",
       "outcome": "positive",
-      "text": "Kollégáid összesöprik a romjaidat a tárgyalóból. A sarkköri taskforce remekül szórakozott a műsoron. Úgy néz ki, megérte! ",
-      "cta": "Haladjunk",
+      "text": "Kollégáid összesöprik a romjaidat a tárgyalóból, ez kemény menet volt, de úgy néz ki, megérte! ",
+      "cta": "A Mikulásért bármit!",
       "image": "win_cover.png",
       "icon": "win_icon.png",
       "action": "render_outcome",
@@ -1552,22 +1552,22 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "pixelart6.gif",
-    "text": "Az ügyfél ragaszkodik a versenytárs elemzéshez. Bár nem egészen világos, hogy karácsonykor ki lehet a versenytárs.",
+    "image": "cover_4.png",
+    "text": "Az ügyfél ragaszkodik hozzá, hogy versenytárselemzést is csináljatok. Hát, globálisan azért elég megosztott ez az ajándékozás-témakör, jobb ebbe bele sem kezdeni...",
     "actions": [{
-      "title": "Maradsz Mikulás sztorinál és a krampuszról készítesz desktop research-öt.",
+      "title": "Maradsz a Mikulás-sztorinál, és jobb híján a krampuszról készítesz desktop research-öt.",
       "outcome": "negative",
-      "text": "Hamarabb végeztél, de mint kiderült a krampusz is a Mikulás alkalmazottja. Kuka az egész munka.",
-      "cta": "Ok",
+      "text": "Hamarabb végeztél, de mint kiderült, a krampusz is a Mikulás alkalmazottja. Kuka az egész munka.",
+      "cta": "Azért egy briefet össze tudunk már rakni?",
       "image": "lose_cover.png",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
     }, {
-      "title": "Összegyűjtöd a világ összes vallásos és nem vallásos ünnepének kölönböző aktivációs szokásait, abból baj nem lehet.",
+      "title": "Összegyűjtöd december összes ajándékosztóját: Joloupukki, Karácsonyi angyalok, húsvéti nyuszi - jöhet mindenki, abból baj nem lehet.",
       "outcome": "positive",
       "text": "3 napod elment, a client service director őrjöng, de a Mikulás hálás az alapos munkáért.",
-      "cta": "Ok",
+      "cta": "Így már összeáll a brief?",
       "image": "win_cover.png",
       "icon": "win_icon.png",
       "action": "render_outcome",
@@ -1575,7 +1575,7 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "pixelart7.gif",
+    "image": "cover_5.png",
     "text": "Az insight kutatás és a versenytárs elemzés már elegendő, hogy egy minimális briefet összerakjon a stratégiai osztály. Még talán egy picit hosszabb is lett mint kellene.",
     "actions": [{
       "title": "Megkéred, a plannereket, hogy húzzanak a 73 oldalból, és megkíméled a kreatívokat?",
@@ -1598,21 +1598,21 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "pixelart8.gif",
-    "text": "Biztos, ami biztos, az ügyfélnél megfuttatod a briefet. Bízol benne, hogy az egyetlen reakciója, az lesz, hogy “Ho Ho Ho”... Még csak fél 11 van,  de már harmadszor hív. A hajnali órákban nem vagy ügyfélkompatibilis.",
+    "image": "cover_6.png",
+    "text": "Biztos ami biztos, éjszaka átdobod  abriefet a Mikulásnak, hogy ő is átnézze. Bízol benne, hogy az egyetlen reakciója, az lesz, hogy “Ho Ho Ho”... Másnap már délelőtt fél 11-kor csörög a telefonod. Az ilyen hajnali órákban még nem vagy ügyfélkompatibilis.",
     "actions": [{
-      "title": "Unatkozom, hátha mond valami érdekeset.",
+      "title": "Adjunk neki egy esélyt, hátha mond valami érdekeset.",
       "outcome": "positive",
-      "text": "Megérte felvenni, budget-et akarnak növelni. Ez már nem sülhet el rosszul... - Gondolod, tévesen :D ",
+      "text": "Megérte felvenni, büdzsét akarnak növelni! Ez már nem sülhet el rosszul... - gondolod, tévesen. :D ",
       "cta": "Ok",
       "image": "win_cover.png",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
     }, {
-      "title": "Nem ma fogok hajnali telefonokra válaszolgatni",
+      "title": "Nem ma fogok hajnali telefonokra válaszolgatni.",
       "outcome": "negative",
-      "text": "Harmadszorra is hagyod csörögni, majd hív mást ha fontos, de azt már a Mikulás is felfelejti. Így sosem tudod meg miről maradsz le... ha ha ha... khm... ho ho ho.",
+      "text": "Hagyod csörögni, majd hív mást, ha fontos. Erre nem kerül sor, a  Mikulás elfelejti, hogy mit akart mondani. Így sosem tudod meg, miről maradsz le... ha ha ha... khm... ho ho ho.",
       "cta": "Ok",
       "image": "lose_cover.png",
       "icon": "lose_icon.png",
@@ -1621,29 +1621,29 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "pixelart9.gif",
-    "text": "Gratul\xE1lok! A Mikul\xE1s el\xE9gedett a brieffel! Tov\xE1bb haladsz, \xE9s megn\xE9zed hogyan lesz a b\xEDztat\xF3 kezd\xE9sb\u0151l katasztr\xF3f\xE1lis folytat\xE1s?",
+    "image": "cover_7.png",
+    "text": "\xDAgy n\xE9z ki, a Mikul\xE1s el\xE9gedett a brieffel! Tov\xE1bbhaladsz, \xE9s megn\xE9zed, hogyan lesz a biztat\xF3 kezd\xE9sb\u0151l katasztr\xF3f\xE1lis folytat\xE1s?",
     "actions": [{
-      "title": "Nem",
+      "title": "Biztos, hogy nem",
       "action": "next"
     }]
   }, {
     "title": "",
-    "image": "pixelart10.gif",
+    "image": "cover_8.png",
     "text": "Nincs menekv\xE9s, az \u0151r\xFClet folytat\xF3dik.",
     "actions": [{
-      "title": "Ok",
+      "title": "Ide azzal az őrülettel!",
       "action": "next"
     }]
   }, {
     "title": "",
-    "image": "pixelart11.gif",
+    "image": "cover_9.png",
     "text": "Kezedben érzed a Cannes Liont, annyira jó ötlet találtatok ki tegnap éjjel a Központ pultosával.Vegyesen szerepelnek benne kemény drogok, kurvák és gyerekkórus, de tudod hogy konform ötletek a kukának készülnek.",
     "actions": [{
       "title": "Így hogy aludtál rá, lehet tényleg kicsit meredek lett ez a koncepció. Finomitasz rajta egy kicsit.",
       "outcome": "positive",
       "text": "Jót tett az ötletnek hogy kicsit visszavettél, igy mar anyádnak is tetszik.",
-      "cta": "Ok",
+      "cta": "Halleluja!",
       "image": "win_cover.png",
       "icon": "win_icon.png",
       "action": "render_outcome",
@@ -1652,7 +1652,7 @@ module.exports = {
       "title": "Házon belül is néznek nagyokat, de ezt most nem a elengedni.",
       "outcome": "negative",
       "text": " Számitottál a botrányra, de a fizetéscsökkentés es a kirugásod kilátásba helyezése még is meglepett.",
-      "cta": "Ok",
+      "cta": "Tisztelet a bátraknak. :(",
       "image": "lose_cover.png",
       "icon": "lose_icon.png",
       "action": "render_outcome",
@@ -1660,13 +1660,13 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "pixelart12.gif",
-    "text": "Az első önálló ötlet körön túl agytok. A reviewról természetesen fél órát késik a kreatív igazgató.",
+    "image": "cover_10.png",
+    "text": "Dolgos munkanapok vannak mögötted, úgy érzed, összeállt néhány elég erős koncepció, alig várod, hogy megmutathasd a többieknek, de fél óra eltelt a kezdés óta, és a kreatív igazgató még mindig nem jelent meg a meetingen. Jellemző...",
     "actions": [{
       "title": "Várjunk rá, hiszen mégiscsak ő dönt.",
       "outcome": "negative",
       "text": "Mindegy volt, hogy v\xE1rtatok-e r\xE1 vagy sem. Mikor f\xE9l \xF3r\xE1s k\xE9s\xE9ssel meg\xE9rkezett a \"kasz\xE1s\", mindent kikuk\xE1zott",
-      "cta": "Ok",
+      "cta": "Van még ott, ahonnan ez jött!",
       "image": "lose_cover.png",
       "icon": "lose_icon.png",
       "action": "render_outcome",
@@ -1675,7 +1675,7 @@ module.exports = {
       "title": "Kezdjünk bele, legalább haladunk.",
       "outcome": "negative",
       "text": "Mindegy volt, hogy v\xE1rtatok-e r\xE1 vagy sem. Mikor f\xE9l \xF3r\xE1s k\xE9s\xE9ssel meg\xE9rkezett a \"kasz\xE1s\", mindent kikuk\xE1zott",
-      "cta": "Ok",
+      "cta": "Van még ott, ahonnan ez jött!",
       "image": "lose_cover.png",
       "icon": "lose_icon.png",
       "action": "render_outcome",
@@ -1683,22 +1683,22 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "pixelart13.gif",
-    "text": "A kreat\xEDvok term\xE9szetesen most is a \"j\xE1t\xE9k szob\xE1ban\" szeretn\xE9k folytatni az \xF6tletel\xE9st.",
+    "image": "cover_11.png",
+    "text": "A kreat\xEDvok term\xE9szetesen most is a Szent Istv\xE1n t\xE9ri kar\xE1csonyi v\xE1s\xE1r k\xF6zep\xE9n akarnak \xF6tletelni, lehet\u0151leg a forraltboros pult k\xF6zel\xE9ben, csak hogy t\xE9nyleg \xE1tj\xF6jj\xF6n a feeling.",
     "actions": [{
-      "title": "Az ötletek csak akkor jönnek, ha  ingergazdag környezetben vagy.",
+      "title": "Az ötletek csak akkor jönnek, ha ingergazdag környezetben vagy.",
       "outcome": "negative",
-      "text": "H\xE1t, iz\xE9... egy picit elment az id\u0151 a Nerf-\xF6z\xE9ssel.",
-      "cta": "Ok",
+      "text": "H\xE1t, iz\xE9... egy picit elment az id\u0151 az \xE9p\xFCletvet\xEDt\xE9s b\xE1mul\xE1s\xE1val \xE9s a forralt bor vedel\xE9ssel...",
+      "cta": "A lényeg, hogy készen vagyunk, ezt nézd, Mikulás!",
       "image": "lose_cover.png",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
     }, {
-      "title": "Kezdjünk bele, legalább haladunk.",
+      "title": "Koncentráljunk csak a feladatra, hamarabb végzünk.",
       "outcome": "positive",
       "text": "F\xE9l \xF3ra alatt 4 kerek koncepci\xF3.  Mit kell ezt t\xFAlizgulni.",
-      "cta": "Ok",
+      "cta": "Mutassuk meg a Mikulásnak!",
       "image": "win_cover.png",
       "icon": "win_icon.png",
       "action": "render_outcome",
@@ -1706,44 +1706,44 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "pixelart14.gif",
-    "text": "Kitchen meetingen egyeztetn\xE9l a Mikul\xE1ssal a f\xE9lk\xE9sz koncepci\xF3kr\xF3l, de a Mikul\xE1s man\xF3inak darkweben t\xF6lt\xF6tt kaland\xF3z\xE1sainak nyom\xE1n a Sarkk\xF6ri intranet meglehet\u0151sen v\xEDrusos. Mindenki meglepet\xE9s\xE9re egy hekker csapat, k\xE9t Live Jasmin l\xE1ny, \xE9s Donald Trump is csatlakozik a confcall-hoz.",
+    "image": "cover_12.png",
+    "text": "Zoom meetingen egyeztetn\xE9l a Mikul\xE1ssal a f\xE9lk\xE9sz koncepci\xF3kr\xF3l, de a Mikul\xE1s krampuszainak darkweben t\xF6lt\xF6tt kalandoz\xE1sai nyom\xE1n a sarkk\xF6ri intranet meglehet\u0151sen v\xEDrusos. Mindenki meglepet\xE9s\xE9re k\xE9t Live Jasmin l\xE1ny, \xE9s Donald Trump is csatlakozik a confcall-hoz.",
     "actions": [{
-      "title": "Ok",
+      "title": "Te jó ég, mi lesz itt?",
       "action": "next"
     }]
   }, {
     "title": "",
-    "image": "pixelart15.gif",
-    "text": "A vetk\u0151z\u0151s l\xE1nyok szerint nem el\xE9g a kamp\xE1ny engagement ereje, \xE9s egy t\xF6k \xFAj \xF6tlettel \xE1llnak el\u0151. A hekker csapat szerint Bill Gates maga az \xF6rd\xF6g. Donald szerint t\xF6kmindegy mik a koncepci\xF3k, \u0151 nyert.",
+    "image": "cover_13.png",
+    "text": "B\xE1r senki nem k\xEDv\xE1ncsi a v\xE9lem\xE9ny\xFCkre, vetk\u0151z\u0151s l\xE1nyok k\xF6teless\xE9g\xFCknek \xE9rzik, hogy j\xF3l megszak\xE9rts\xE9k a szuper koncepci\xF3dat, \xE9s azzal a lend\xFClettel t\xF6nkre is teszik az eg\xE9szet. Szerint\xFCk az \u0151 kieg\xE9sz\xEDt\xE9seikkel m\xE1r sokkal jobban fog m\u0171k\xF6dni a kamp\xE1ny. Donald szerint t\xF6kmindegy, mik a koncepci\xF3k, \u0151 nyert.",
     "actions": [{
-      "title": "Megszakítod a hívást, és újra próbálsz csatlakozni.",
+      "title": "Pánikolva megszakítod a hívást, és próbálsz újracsatlakozni.",
       "outcome": "negative",
-      "text": "Pech, \xFAjrah\xEDv\xE1sn\xE1l is ugyanaz a csapat fogad. A Mikul\xE1s el\xE9gedettnek t\u0171nik a l\xE1nyok \xF6tlet\xE9vel k\xE9nytelen vagy azzal tov\xE1bb menni. ",
-      "cta": "Ok",
+      "text": "Pech, \xFAjrah\xEDv\xE1sn\xE1l is ugyanaz a csapat fogad. A Mikul\xE1s el\xE9gedettnek t\u0171nik a l\xE1nyok \xF6tlet\xE9vel, \xEDgy k\xE9nytelen vagy azzal tov\xE1bbmenni.",
+      "cta": "Lássuk, mit lehet kihozni ebből!",
       "image": "lose_cover.png",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
     }, {
-      "title": "A lányok ötletével mész tovább.",
+      "title": "Nincs mit tenni, húzod a nyakad, és várod, mit mond a Mikulás.",
       "outcome": "positive",
       "text": "Nem \xFAgy t\u0171nik, mintha a Mikul\xE1st zavarn\xE1k a kaotikus k\xF6r\xFClm\xE9nyek. Szerinte remek\xFCl halad a munka.",
-      "cta": "Ok",
-      "image": "lose_cover.png",
-      "icon": "lose_icon.png",
+      "cta": "Éljen a kreatív káosz!",
+      "image": "win_cover.png",
+      "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
     }]
   }, {
     "title": "",
-    "image": "pixelart16.gif",
-    "text": "A feedback k\xF6r ut\xE1n, kreat\xEDvk\xE9nt \xFAj koncepci\xF3t pr\xF3b\xE1lsz kicsiholni magadb\xF3l, de semmi \xE9rtelmes dolog nem jut az eszedbe, ami megfelelhet a kreat\xEDv igazgat\xF3nak.",
+    "image": "cover_14.png",
+    "text": "A feedback k\xF6r ut\xE1n, kreat\xEDvk\xE9nt \xFAj koncepci\xF3t pr\xF3b\xE1lsz kicsiholni magadb\xF3l, de semmi \xE9rtelmes dolog nem jut az eszedbe, ami megfelelhet a kreat\xEDv igazgat\xF3nak \xE9s a l\xE1nyok \xF6tlet\xE9vel is \xF6sszhangban lehet.",
     "actions": [{
       "title": "Felcsapod a Cannes-i gy\u0171jtem\xE9nyed, \xE9s folytatod a \"good fight\"-ot.",
       "outcome": "negative",
       "text": "Mindig a kreat\xEDv igazgat\xF3 \xF6tlete a legjobb. Ut\xE1na j\xF6n az \xFCgyf\xE9l, a m\xE9ly tekintet\u0171 sz\xF6veg\xEDr\xF3, aki tetszik, \xE9s csak ut\xE1na a Cannes Lions!",
-      "cta": "Ok",
+      "cta": "Igen, ezt a sorrendet mindig elfelejted.",
       "image": "lose_cover.png",
       "icon": "lose_icon.png",
       "action": "render_outcome",
@@ -1752,7 +1752,7 @@ module.exports = {
       "title": "Inkább kidolgozod a kreatív igazgató korábban bedobott ötletét, hiszen mégiscsak ő áll a tápláléklánc csúcsán.",
       "outcome": "positive",
       "text": "Nal\xE1tod, nem vagy te h\xFClye gyerek! A kreat\xEDv igazgat\xF3 \xF6tlete a legjobb \xF6tlet. Mindig!",
-      "cta": "Ok",
+      "cta": "Jár a keksz!",
       "image": "win_cover.png",
       "icon": "win_icon.png",
       "action": "render_outcome",
@@ -1760,36 +1760,13 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "pixelart17.gif",
-    "text": "A kreatív igazgató és a Live Jazmin lányok ötlete kezd egyenesbe érni, de az ügynökség ügyvezetője egy harmadik koncepcióval áll elő. Sajnos csak kettő koncepciót lehet tesztelni. Egyet ki kell ejteni.",
-    "actions": [{
-      "title": "Az ügyvezető “üti” a kreatív igazgatót..",
-      "outcome": "negative",
-      "text": "Csak nem gondoltad, hogy ebb\u0151l ak\xE1rhogy j\xF3l lehet kij\xF6nni?! \uD83D\uDE08",
-      "cta": "Ok",
-      "image": "lose_cover.png",
-      "icon": "lose_icon.png",
-      "action": "render_outcome",
-      "value": -0.1
-    }, {
-      "title": "Az ügyvezető úgysem szokott belefolyni a dolgokba és a kreatív fejlesztéshez sem ért. Az Ő ötlete marad ki.",
-      "outcome": "negative",
-      "text": "Csak nem gondoltad, hogy ebb\u0151l ak\xE1rhogy j\xF3l lehet kij\xF6nni?! \uD83D\uDE08",
-      "cta": "Ok",
-      "image": "lose_cover.png",
-      "icon": "lose_icon.png",
-      "action": "render_outcome",
-      "value": -0.1
-    }]
-  }, {
-    "title": "",
-    "image": "pixelart18.gif",
-    "text": "Az \xFCgyf\xE9l prezire Suzzy Melon, \xE9s Alyshya VIP, a k\xE9t Live Jazmin l\xE1ny is felutaznak Ukrajn\xE1b\xF3l, hogy maguk prezent\xE1lhass\xE1k a koncepci\xF3jukat.",
+    "image": "cover_16.png",
+    "text": "Az \xFCgyf\xE9l prezire Suzzy Melon, \xE9s Alyshya VIP, a k\xE9t Live Jazmin l\xE1ny is felutaznak Ukrajn\xE1b\xF3l, hogy maguk prezent\xE1lhass\xE1k a koncepci\xF3jukat, mert senki nem sz\xF3lt nekik, hogy r\xE1juk m\xE1r nem lesz sz\xFCks\xE9g.",
     "actions": [{
       "title": "\u0150ket egy m\xE1sik t\xE1rgyal\xF3ba k\xFCld\xF6d, hogy ott v\xE1rj\xE1k a Mikul\xE1st.",
       "outcome": "negative",
       "text": "Mikor meg\xE9rkezett a Mikul\xE1s a l\xE1nyokhoz ment els\u0151re, pedig a recin mondt\xE1k, hogy ne oda! Kezded elvesz\xEDteni a poz\xEDci\xF3d az \xFCgyf\xE9ln\xE9l.",
-      "cta": "Ok",
+      "cta": "Mégiscsak ez a lényeg, nem?",
       "image": "lose_cover.png",
       "icon": "lose_icon.png",
       "action": "render_outcome",
@@ -1797,8 +1774,8 @@ module.exports = {
     }, {
       "title": "Mi baj lehet?! Minél nagyobb a prezi csapat annál jobb!",
       "outcome": "positive",
-      "text": "A Mikul\xE1s nem \xF6r\xFCl, hogy Suzzy \xE9s Alyshya ilyen visszal\xE9p\xE9st tettek a karrierj\xFCkben. De ha boldogok a rekl\xE1mszakm\xE1ban, akkor mi\xE9rt ne...",
-      "cta": "Ok",
+      "text": "A Mikul\xE1s nem \xF6r\xFCl, hogy Suzzy \xE9s Alyshya szakm\xE1t v\xE1ltanak. De ha boldogok a rekl\xE1mosok k\xF6z\xF6tt, akkor mi\xE9rt ne... Tetszik neki a kamp\xE1ny\xF6tlet!",
+      "cta": "Ho ho ho ho!",
       "image": "win_cover.png",
       "icon": "win_icon.png",
       "action": "render_outcome",
@@ -1806,21 +1783,21 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "pixelart19.gif",
+    "image": "cover_17.png",
     "text": "Ez nem volt egyszer\u0171 menet, de a neheze m\xE9g h\xE1tra van! Egy \xE9jszak\xE1d van lenyomni a gy\xE1rt\xE1st. Ezt lehetetlen!",
     "actions": [{
-      "title": "Ok",
+      "title": "Yep! :(",
       "action": "next"
     }]
   }, {
     "title": "",
-    "image": "pixelart20.gif",
+    "image": "cover_18.png",
     "text": "Azonnal besz\xE1ll\xEDt\xF3ra van sz\xFCks\xE9ged, de m\xE1r mindenki elment t\xE9li sz\xFCnetre!",
     "actions": [{
       "title": "Halad\xE9kot k\xE9rsz a Mikul\xE1st\xF3l! Eltolhatn\xE1 p\xE1r nappal a kar\xE1csonyt!",
       "outcome": "negative",
       "text": "A Mikul\xE1s alig v\xE1rja m\xE1r a Kar\xE1csonyt, nincs halaszt\xE1s! Marad a dugi pia? :'(",
-      "cta": "Ok",
+      "cta": "Egészségünkre!",
       "image": "lose_cover.png",
       "icon": "lose_icon.png",
       "action": "render_outcome",
@@ -1829,7 +1806,7 @@ module.exports = {
       "title": "Előveszed a dugi piát, és nézed ahogy békésen esik a hó.",
       "outcome": "positive",
       "text": "T\xFAl sok rajtad a stressz mostan\xE1ban. Egy kis laz\xEDt\xE1s j\xF3t fog tenni.",
-      "cta": "Ok",
+      "cta": "Egészségünkre!",
       "image": "win_cover.png",
       "icon": "win_icon.png",
       "action": "render_outcome",
@@ -1837,13 +1814,13 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "pixelart21.gif",
+    "image": "cover_19.png",
     "text": "Kit\xF6ltesz egy poh\xE1r italt magadnak, k\xF6zben meg\xE9rkezik az isteni szikra! Be\xEDrod a googlebe: \"kar\xE1csonyi rekl\xE1manyag gy\xE1rt\xE1s azonnali hat\xE1rid\u0151re.\" \xC9s az els\u0151 tal\xE1lat... :O Csak nem?? Ez mindig itt volt, vagy csak most ker\xFClt ide??? Kar\xE1csonyi csoda?! A g\xE9ped ekkor szikr\xE1zni kezd \xE9s kigyullad.",
     "actions": [{
       "title": "Kiviszed a mosd\xF3ba, lelocsolod v\xEDzzel, \xE9s sztoikus nyugalommal led\u0151lsz a kanap\xE9ra.",
       "outcome": "negative",
       "text": "Minden hi\xE1ba. A kimer\xFClts\xE9g \xE9s a kit\xF6lt\xF6tt pia megteszi a hat\xE1s\xE1t. 1 percen bel\xFCl elalszol. Mi lesz \xEDgy a kar\xE1csonnyal?",
-      "cta": "Ok",
+      "cta": "Mi lesz így Mikulással??",
       "image": "lose_cover.png",
       "icon": "lose_icon.png",
       "action": "render_outcome",
@@ -1852,7 +1829,7 @@ module.exports = {
       "title": "Eloltod a g\xE9ped, \xE9s k\xE9ts\xE9gbeesetten pr\xF3b\xE1lsz \xE9letet lehelni bele!",
       "outcome": "negative",
       "text": "Minden hi\xE1ba. A kimer\xFClts\xE9g \xE9s a kit\xF6lt\xF6tt pia megteszi a hat\xE1s\xE1t. 1 percen bel\xFCl elalszol. Mi lesz \xEDgy a kar\xE1csonnyal?",
-      "cta": "Ok",
+      "cta": "Mi lesz így Mikulással??",
       "image": "lose_cover.png",
       "icon": "lose_icon.png",
       "action": "render_outcome",
@@ -1860,7 +1837,7 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "pixelart22.gif",
+    "image": "cover_20.png",
     "text": "A lead\xE1s k\xE1osza teljesen ki\xFCt\xF6tt t\xE9ged. M\xE1snap reggel az irod\xE1ban \xE9bredsz halk kar\xE1csonyi zen\xE9re \xE9s a r\xE9nszarvasok nesz\xE9re. A Mikul\xE1s \xE9rkezett meg hatalmas aj\xE1nd\xE9kokkal, akit k\xF6vetnek a boldog koll\xE9g\xE1k. \xC9rthetelen ami t\xF6rt\xE9nik! H\xE1t nem tudj\xE1k, hogy nem tudtad leadni a megrendel\xE9st??",
     "actions": [{
       "title": "Mi lesz most?!",
@@ -1868,7 +1845,7 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "pixelart23.gif",
+    "image": "cover_21.png",
     "text": "A Mikul\xE1s hatalmas mosollyal fordul hozz\xE1d. \"Csak nem gondolod, hogy a kar\xE1csonnyal b\xE1rmi rossz t\xF6rt\xE9nhet?!\" :D Pr\xF3b\xE1lod feldolgozni a t\xF6rt\xE9nteket, de \xFAgy t\u0171nik a legjobb, ha \xE1tadod magad az \xFCnnepl\xE9snek!",
     "actions": [{
       "title": "Boldog Karácsonyt!",
@@ -1876,7 +1853,7 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "pixelart24.gif",
+    "image": "cover_gamewon.png",
     "text": "Gratul\xE1lok, megnyerted a j\xE1t\xE9kot!",
     "type": "game_won",
     "actions": [{
@@ -1887,66 +1864,64 @@ module.exports = {
 };
 },{}],"img/coin.gif":[function(require,module,exports) {
 module.exports = "/coin.fa42f039.gif";
+},{}],"img/cover_10.png":[function(require,module,exports) {
+module.exports = "/cover_10.854b4ee7.png";
 },{}],"img/cover_1.png":[function(require,module,exports) {
 module.exports = "/cover_1.916796b9.png";
-},{}],"img/lose_icon.png":[function(require,module,exports) {
-module.exports = "/lose_icon.d988ab9a.png";
+},{}],"img/cover_11.png":[function(require,module,exports) {
+module.exports = "/cover_11.239bdb11.png";
+},{}],"img/cover_12.png":[function(require,module,exports) {
+module.exports = "/cover_12.81d65a03.png";
+},{}],"img/cover_13.png":[function(require,module,exports) {
+module.exports = "/cover_13.ebb5a050.png";
+},{}],"img/cover_14.png":[function(require,module,exports) {
+module.exports = "/cover_14.e2483095.png";
+},{}],"img/cover_16.png":[function(require,module,exports) {
+module.exports = "/cover_16.a773e12b.png";
+},{}],"img/cover_15.png":[function(require,module,exports) {
+module.exports = "/cover_15.14f2863a.png";
+},{}],"img/cover_17.png":[function(require,module,exports) {
+module.exports = "/cover_17.e7ecab84.png";
+},{}],"img/cover_18.png":[function(require,module,exports) {
+module.exports = "/cover_18.f2999c70.png";
+},{}],"img/cover_19.png":[function(require,module,exports) {
+module.exports = "/cover_19.fb70ec20.png";
+},{}],"img/cover_2.png":[function(require,module,exports) {
+module.exports = "/cover_2.5f61d66c.png";
+},{}],"img/cover_20.png":[function(require,module,exports) {
+module.exports = "/cover_20.b25b7df5.png";
+},{}],"img/cover_21.png":[function(require,module,exports) {
+module.exports = "/cover_21.beef5618.png";
+},{}],"img/cover_3.png":[function(require,module,exports) {
+module.exports = "/cover_3.2d1488ca.png";
+},{}],"img/cover_4.png":[function(require,module,exports) {
+module.exports = "/cover_4.a9eee83c.png";
+},{}],"img/cover_5.png":[function(require,module,exports) {
+module.exports = "/cover_5.0cf0eaea.png";
+},{}],"img/cover_6.png":[function(require,module,exports) {
+module.exports = "/cover_6.6d60b95f.png";
+},{}],"img/cover_7.png":[function(require,module,exports) {
+module.exports = "/cover_7.11d58592.png";
+},{}],"img/cover_8.png":[function(require,module,exports) {
+module.exports = "/cover_8.f2c1363b.png";
+},{}],"img/cover_gamewon.png":[function(require,module,exports) {
+module.exports = "/cover_gamewon.4a95d48b.png";
+},{}],"img/cover_9.png":[function(require,module,exports) {
+module.exports = "/cover_9.4e605972.png";
+},{}],"img/cover_highscore.png":[function(require,module,exports) {
+module.exports = "/cover_highscore.e6f1580d.png";
+},{}],"img/intro_graphics.png":[function(require,module,exports) {
+module.exports = "/intro_graphics.79b1960b.png";
+},{}],"img/intro_logo.png":[function(require,module,exports) {
+module.exports = "/intro_logo.e9c34bdf.png";
 },{}],"img/lose_cover.png":[function(require,module,exports) {
 module.exports = "/lose_cover.cc07fd4f.png";
-},{}],"img/pixelart1.gif":[function(require,module,exports) {
-module.exports = "/pixelart1.3a5df554.gif";
-},{}],"img/pixelart10.gif":[function(require,module,exports) {
-module.exports = "/pixelart10.d3979a72.gif";
-},{}],"img/pixelart11.gif":[function(require,module,exports) {
-module.exports = "/pixelart11.9b961add.gif";
-},{}],"img/pixelart12.gif":[function(require,module,exports) {
-module.exports = "/pixelart12.bd354962.gif";
-},{}],"img/pixelart13.gif":[function(require,module,exports) {
-module.exports = "/pixelart13.dd37c657.gif";
-},{}],"img/pixelart14.gif":[function(require,module,exports) {
-module.exports = "/pixelart14.8eaa46aa.gif";
-},{}],"img/pixelart15.gif":[function(require,module,exports) {
-module.exports = "/pixelart15.a7679b9f.gif";
-},{}],"img/pixelart16.gif":[function(require,module,exports) {
-module.exports = "/pixelart16.19ba4018.gif";
-},{}],"img/pixelart17.gif":[function(require,module,exports) {
-module.exports = "/pixelart17.4f251858.gif";
-},{}],"img/pixelart18.gif":[function(require,module,exports) {
-module.exports = "/pixelart18.7002eb20.gif";
-},{}],"img/pixelart19.gif":[function(require,module,exports) {
-module.exports = "/pixelart19.2c93cdb7.gif";
-},{}],"img/pixelart2.gif":[function(require,module,exports) {
-module.exports = "/pixelart2.bbe23e6b.gif";
-},{}],"img/pixelart20.gif":[function(require,module,exports) {
-module.exports = "/pixelart20.2aefe58d.gif";
-},{}],"img/pixelart22.gif":[function(require,module,exports) {
-module.exports = "/pixelart22.217eeb67.gif";
-},{}],"img/pixelart21.gif":[function(require,module,exports) {
-module.exports = "/pixelart21.920ee41f.gif";
-},{}],"img/pixelart23.gif":[function(require,module,exports) {
-module.exports = "/pixelart23.6cf80f8e.gif";
-},{}],"img/pixelart25.gif":[function(require,module,exports) {
-module.exports = "/pixelart25.f7da3088.gif";
-},{}],"img/pixelart24.gif":[function(require,module,exports) {
-module.exports = "/pixelart24.ade7a2db.gif";
-},{}],"img/pixelart26.gif":[function(require,module,exports) {
-module.exports = "/pixelart26.9def933f.gif";
-},{}],"img/pixelart3.gif":[function(require,module,exports) {
-module.exports = "/pixelart3.d4c16ed8.gif";
-},{}],"img/pixelart4.gif":[function(require,module,exports) {
-module.exports = "/pixelart4.2c025679.gif";
-},{}],"img/pixelart5.gif":[function(require,module,exports) {
-module.exports = "/pixelart5.1b85ec8c.gif";
-},{}],"img/pixelart6.gif":[function(require,module,exports) {
-module.exports = "/pixelart6.3075d96d.gif";
-},{}],"img/pixelart8.gif":[function(require,module,exports) {
-module.exports = "/pixelart8.bbaa74ce.gif";
+},{}],"img/lose_icon.png":[function(require,module,exports) {
+module.exports = "/lose_icon.d988ab9a.png";
+},{}],"img/mistletoe.png":[function(require,module,exports) {
+module.exports = "/mistletoe.86c86e37.png";
 },{}],"img/win_cover.png":[function(require,module,exports) {
 module.exports = "/win_cover.7e212c11.png";
-},{}],"img/pixelart7.gif":[function(require,module,exports) {
-module.exports = "/pixelart7.a4200065.gif";
-},{}],"img/pixelart9.gif":[function(require,module,exports) {
-module.exports = "/pixelart9.0a3057ee.gif";
 },{}],"img/win_icon.png":[function(require,module,exports) {
 module.exports = "/win_icon.3b946e2a.png";
 },{}],"img/*.*":[function(require,module,exports) {
@@ -1954,101 +1929,98 @@ module.exports = {
   "coin": {
     "gif": require("./coin.gif")
   },
+  "cover_10": {
+    "png": require("./cover_10.png")
+  },
   "cover_1": {
     "png": require("./cover_1.png")
   },
-  "lose_icon": {
-    "png": require("./lose_icon.png")
+  "cover_11": {
+    "png": require("./cover_11.png")
+  },
+  "cover_12": {
+    "png": require("./cover_12.png")
+  },
+  "cover_13": {
+    "png": require("./cover_13.png")
+  },
+  "cover_14": {
+    "png": require("./cover_14.png")
+  },
+  "cover_16": {
+    "png": require("./cover_16.png")
+  },
+  "cover_15": {
+    "png": require("./cover_15.png")
+  },
+  "cover_17": {
+    "png": require("./cover_17.png")
+  },
+  "cover_18": {
+    "png": require("./cover_18.png")
+  },
+  "cover_19": {
+    "png": require("./cover_19.png")
+  },
+  "cover_2": {
+    "png": require("./cover_2.png")
+  },
+  "cover_20": {
+    "png": require("./cover_20.png")
+  },
+  "cover_21": {
+    "png": require("./cover_21.png")
+  },
+  "cover_3": {
+    "png": require("./cover_3.png")
+  },
+  "cover_4": {
+    "png": require("./cover_4.png")
+  },
+  "cover_5": {
+    "png": require("./cover_5.png")
+  },
+  "cover_6": {
+    "png": require("./cover_6.png")
+  },
+  "cover_7": {
+    "png": require("./cover_7.png")
+  },
+  "cover_8": {
+    "png": require("./cover_8.png")
+  },
+  "cover_gamewon": {
+    "png": require("./cover_gamewon.png")
+  },
+  "cover_9": {
+    "png": require("./cover_9.png")
+  },
+  "cover_highscore": {
+    "png": require("./cover_highscore.png")
+  },
+  "intro_graphics": {
+    "png": require("./intro_graphics.png")
+  },
+  "intro_logo": {
+    "png": require("./intro_logo.png")
   },
   "lose_cover": {
     "png": require("./lose_cover.png")
   },
-  "pixelart1": {
-    "gif": require("./pixelart1.gif")
+  "lose_icon": {
+    "png": require("./lose_icon.png")
   },
-  "pixelart10": {
-    "gif": require("./pixelart10.gif")
-  },
-  "pixelart11": {
-    "gif": require("./pixelart11.gif")
-  },
-  "pixelart12": {
-    "gif": require("./pixelart12.gif")
-  },
-  "pixelart13": {
-    "gif": require("./pixelart13.gif")
-  },
-  "pixelart14": {
-    "gif": require("./pixelart14.gif")
-  },
-  "pixelart15": {
-    "gif": require("./pixelart15.gif")
-  },
-  "pixelart16": {
-    "gif": require("./pixelart16.gif")
-  },
-  "pixelart17": {
-    "gif": require("./pixelart17.gif")
-  },
-  "pixelart18": {
-    "gif": require("./pixelart18.gif")
-  },
-  "pixelart19": {
-    "gif": require("./pixelart19.gif")
-  },
-  "pixelart2": {
-    "gif": require("./pixelart2.gif")
-  },
-  "pixelart20": {
-    "gif": require("./pixelart20.gif")
-  },
-  "pixelart22": {
-    "gif": require("./pixelart22.gif")
-  },
-  "pixelart21": {
-    "gif": require("./pixelart21.gif")
-  },
-  "pixelart23": {
-    "gif": require("./pixelart23.gif")
-  },
-  "pixelart25": {
-    "gif": require("./pixelart25.gif")
-  },
-  "pixelart24": {
-    "gif": require("./pixelart24.gif")
-  },
-  "pixelart26": {
-    "gif": require("./pixelart26.gif")
-  },
-  "pixelart3": {
-    "gif": require("./pixelart3.gif")
-  },
-  "pixelart4": {
-    "gif": require("./pixelart4.gif")
-  },
-  "pixelart5": {
-    "gif": require("./pixelart5.gif")
-  },
-  "pixelart6": {
-    "gif": require("./pixelart6.gif")
-  },
-  "pixelart8": {
-    "gif": require("./pixelart8.gif")
+  "mistletoe": {
+    "png": require("./mistletoe.png")
   },
   "win_cover": {
     "png": require("./win_cover.png")
-  },
-  "pixelart7": {
-    "gif": require("./pixelart7.gif")
-  },
-  "pixelart9": {
-    "gif": require("./pixelart9.gif")
   },
   "win_icon": {
     "png": require("./win_icon.png")
   }
 };
-},{"./coin.gif":"img/coin.gif","./cover_1.png":"img/cover_1.png","./lose_icon.png":"img/lose_icon.png","./lose_cover.png":"img/lose_cover.png","./pixelart1.gif":"img/pixelart1.gif","./pixelart10.gif":"img/pixelart10.gif","./pixelart11.gif":"img/pixelart11.gif","./pixelart12.gif":"img/pixelart12.gif","./pixelart13.gif":"img/pixelart13.gif","./pixelart14.gif":"img/pixelart14.gif","./pixelart15.gif":"img/pixelart15.gif","./pixelart16.gif":"img/pixelart16.gif","./pixelart17.gif":"img/pixelart17.gif","./pixelart18.gif":"img/pixelart18.gif","./pixelart19.gif":"img/pixelart19.gif","./pixelart2.gif":"img/pixelart2.gif","./pixelart20.gif":"img/pixelart20.gif","./pixelart22.gif":"img/pixelart22.gif","./pixelart21.gif":"img/pixelart21.gif","./pixelart23.gif":"img/pixelart23.gif","./pixelart25.gif":"img/pixelart25.gif","./pixelart24.gif":"img/pixelart24.gif","./pixelart26.gif":"img/pixelart26.gif","./pixelart3.gif":"img/pixelart3.gif","./pixelart4.gif":"img/pixelart4.gif","./pixelart5.gif":"img/pixelart5.gif","./pixelart6.gif":"img/pixelart6.gif","./pixelart8.gif":"img/pixelart8.gif","./win_cover.png":"img/win_cover.png","./pixelart7.gif":"img/pixelart7.gif","./pixelart9.gif":"img/pixelart9.gif","./win_icon.png":"img/win_icon.png"}],"node_modules/gsap/gsap-core.js":[function(require,module,exports) {
+},{"./coin.gif":"img/coin.gif","./cover_10.png":"img/cover_10.png","./cover_1.png":"img/cover_1.png","./cover_11.png":"img/cover_11.png","./cover_12.png":"img/cover_12.png","./cover_13.png":"img/cover_13.png","./cover_14.png":"img/cover_14.png","./cover_16.png":"img/cover_16.png","./cover_15.png":"img/cover_15.png","./cover_17.png":"img/cover_17.png","./cover_18.png":"img/cover_18.png","./cover_19.png":"img/cover_19.png","./cover_2.png":"img/cover_2.png","./cover_20.png":"img/cover_20.png","./cover_21.png":"img/cover_21.png","./cover_3.png":"img/cover_3.png","./cover_4.png":"img/cover_4.png","./cover_5.png":"img/cover_5.png","./cover_6.png":"img/cover_6.png","./cover_7.png":"img/cover_7.png","./cover_8.png":"img/cover_8.png","./cover_gamewon.png":"img/cover_gamewon.png","./cover_9.png":"img/cover_9.png","./cover_highscore.png":"img/cover_highscore.png","./intro_graphics.png":"img/intro_graphics.png","./intro_logo.png":"img/intro_logo.png","./lose_cover.png":"img/lose_cover.png","./lose_icon.png":"img/lose_icon.png","./mistletoe.png":"img/mistletoe.png","./win_cover.png":"img/win_cover.png","./win_icon.png":"img/win_icon.png"}],"node_modules/gsap/gsap-core.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -11003,7 +10975,8 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _cashDom.default)(function () {
-  var frController = new _gameController.default(_gamedata.default, (0, _cashDom.default)('#app'), 0); //const gui = new dat.GUI();
+  var frController = new _gameController.default(_gamedata.default, (0, _cashDom.default)('#app'), 0); //Start the gem in the proper div.
+  //const gui = new dat.GUI();
 }); // import Vue from "vue/dist/vue.js";
 // import gameData from "../data/gamedata.json";
 // import gameScreen from "./components/screen.vue";
@@ -11054,7 +11027,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61390" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52355" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
