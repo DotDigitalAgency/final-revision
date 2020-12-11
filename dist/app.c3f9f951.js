@@ -1920,10 +1920,10 @@ module.exports = "/lose_cover.cc07fd4f.png";
 module.exports = "/lose_icon.d988ab9a.png";
 },{}],"img/mistletoe.png":[function(require,module,exports) {
 module.exports = "/mistletoe.86c86e37.png";
-},{}],"img/win_icon.png":[function(require,module,exports) {
-module.exports = "/win_icon.3b946e2a.png";
 },{}],"img/win_cover.png":[function(require,module,exports) {
 module.exports = "/win_cover.7e212c11.png";
+},{}],"img/win_icon.png":[function(require,module,exports) {
+module.exports = "/win_icon.3b946e2a.png";
 },{}],"img/*.*":[function(require,module,exports) {
 module.exports = {
   "coin": {
@@ -2013,14 +2013,14 @@ module.exports = {
   "mistletoe": {
     "png": require("./mistletoe.png")
   },
-  "win_icon": {
-    "png": require("./win_icon.png")
-  },
   "win_cover": {
     "png": require("./win_cover.png")
+  },
+  "win_icon": {
+    "png": require("./win_icon.png")
   }
 };
-},{"./coin.gif":"img/coin.gif","./cover_1.png":"img/cover_1.png","./cover_10.png":"img/cover_10.png","./cover_11.png":"img/cover_11.png","./cover_12.png":"img/cover_12.png","./cover_13.png":"img/cover_13.png","./cover_14.png":"img/cover_14.png","./cover_15.png":"img/cover_15.png","./cover_16.png":"img/cover_16.png","./cover_17.png":"img/cover_17.png","./cover_18.png":"img/cover_18.png","./cover_19.png":"img/cover_19.png","./cover_2.png":"img/cover_2.png","./cover_20.png":"img/cover_20.png","./cover_21.png":"img/cover_21.png","./cover_3.png":"img/cover_3.png","./cover_4.png":"img/cover_4.png","./cover_5.png":"img/cover_5.png","./cover_6.png":"img/cover_6.png","./cover_7.png":"img/cover_7.png","./cover_8.png":"img/cover_8.png","./cover_9.png":"img/cover_9.png","./cover_gamewon.png":"img/cover_gamewon.png","./cover_highscore.png":"img/cover_highscore.png","./intro_graphics.png":"img/intro_graphics.png","./intro_logo.png":"img/intro_logo.png","./lose_cover.png":"img/lose_cover.png","./lose_icon.png":"img/lose_icon.png","./mistletoe.png":"img/mistletoe.png","./win_icon.png":"img/win_icon.png","./win_cover.png":"img/win_cover.png"}],"node_modules/gsap/gsap-core.js":[function(require,module,exports) {
+},{"./coin.gif":"img/coin.gif","./cover_1.png":"img/cover_1.png","./cover_10.png":"img/cover_10.png","./cover_11.png":"img/cover_11.png","./cover_12.png":"img/cover_12.png","./cover_13.png":"img/cover_13.png","./cover_14.png":"img/cover_14.png","./cover_15.png":"img/cover_15.png","./cover_16.png":"img/cover_16.png","./cover_17.png":"img/cover_17.png","./cover_18.png":"img/cover_18.png","./cover_19.png":"img/cover_19.png","./cover_2.png":"img/cover_2.png","./cover_20.png":"img/cover_20.png","./cover_21.png":"img/cover_21.png","./cover_3.png":"img/cover_3.png","./cover_4.png":"img/cover_4.png","./cover_5.png":"img/cover_5.png","./cover_6.png":"img/cover_6.png","./cover_7.png":"img/cover_7.png","./cover_8.png":"img/cover_8.png","./cover_9.png":"img/cover_9.png","./cover_gamewon.png":"img/cover_gamewon.png","./cover_highscore.png":"img/cover_highscore.png","./intro_graphics.png":"img/intro_graphics.png","./intro_logo.png":"img/intro_logo.png","./lose_cover.png":"img/lose_cover.png","./lose_icon.png":"img/lose_icon.png","./mistletoe.png":"img/mistletoe.png","./win_cover.png":"img/win_cover.png","./win_icon.png":"img/win_icon.png"}],"node_modules/gsap/gsap-core.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -10983,23 +10983,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   //const gui = new dat.GUI();
 }); //changing window size - add remove border - event listener
 
-window.addEventListener('resize', function (e) {
-  var textWrapper = document.querySelectorAll('.text_wrapper');
+window.addEventListener('resize', function () {
+  var _textWrapper$classLis, _textWrapper$classLis2;
+
+  var textWrapper = document.querySelector('.text_wrapper');
   var classes = ['nes-container', 'is-rounded', 'is-dark'];
-
-  if (window.innerWidth > 1024) {
-    textWrapper.forEach(function (element) {
-      var _element$classList;
-
-      return (_element$classList = element.classList).add.apply(_element$classList, classes);
-    });
-  } else {
-    textWrapper.forEach(function (element) {
-      var _element$classList2;
-
-      return (_element$classList2 = element.classList).remove.apply(_element$classList2, classes);
-    });
-  }
+  window.innerWidth > 1024 ? (_textWrapper$classLis = textWrapper.classList).add.apply(_textWrapper$classLis, classes) : (_textWrapper$classLis2 = textWrapper.classList).remove.apply(_textWrapper$classLis2, classes);
 }); // import Vue from "vue/dist/vue.js";
 // import gameData from "../data/gamedata.json";
 // import gameScreen from "./components/screen.vue";
@@ -11050,7 +11039,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61751" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50921" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

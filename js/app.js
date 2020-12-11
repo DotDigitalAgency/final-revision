@@ -16,14 +16,10 @@ $(function () {
 
 
 //changing window size - add remove border - event listener
-window.addEventListener('resize', (e)=>{
-  let textWrapper = document.querySelectorAll('.text_wrapper');
+window.addEventListener('resize', ()=>{
+  let textWrapper = document.querySelector('.text_wrapper');
   const classes = ['nes-container', 'is-rounded', 'is-dark'];
-  if(window.innerWidth>1024){
-    textWrapper.forEach((element)=> element.classList.add(...classes));
-  } else {
-    textWrapper.forEach((element)=> element.classList.remove(...classes));
-  }
+  window.innerWidth>1024 ? textWrapper.classList.add(...classes): textWrapper.classList.remove(...classes);
 })
 
 // import Vue from "vue/dist/vue.js";
