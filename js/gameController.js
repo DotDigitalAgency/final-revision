@@ -115,6 +115,7 @@ export default class GameController {
         var idstr = e.srcElement.dataset.id.split('/')
         var action = e.srcElement.dataset.type
         switch(action) {
+            
             case "next" : this._nextScreen(e.srcElement); break;
             case "render_outcome" : this._renderOutcome(e.srcElement,this._ds.screens[idstr[0]].actions[idstr[1]]); break;
         }
@@ -123,7 +124,7 @@ export default class GameController {
     //advance to next screen
     _nextScreen(current) {
         this.progress += 1;
-        var active_screen = $(current).parent().parent();
+        var active_screen = $(current).closest('section');;
         var next_data = this._ds.screens[this.progress];
         var next_screen = this.addScreen(next_data,true);
 
@@ -189,7 +190,8 @@ export default class GameController {
         this.money += move_value;    //Update money value
 
         //restructure data to make it addscreen compatible
-        var active_screen = $(current).parent().parent();
+        var active_screen = $(current).closest('section');
+        console.log($(current).closest('section'))
         screenData.title = (move_value < 0) ? `-$${Math.abs(move_value)}` : `+$${move_value}`;
         
         screenData.actions = [{
