@@ -14,7 +14,7 @@ $(function () {
 
 
 
-//changing window size - add remove border
+//changing window size - add remove border - event listener
 window.addEventListener('resize', (e)=>{
   let textWrapper = document.querySelectorAll('.text_wrapper');
   const classes = ['nes-container', 'is-rounded', 'is-dark'];
@@ -24,9 +24,6 @@ window.addEventListener('resize', (e)=>{
     textWrapper.forEach((element)=> element.classList.remove(...classes));
   }
 })
-
-
-//window.innerWidth > 1024 ? textWrapper.classList.add(...classes) : textWrapper.classList.remove(...classes);
 
 // import Vue from "vue/dist/vue.js";
 
