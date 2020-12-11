@@ -1864,22 +1864,22 @@ module.exports = {
 };
 },{}],"img/coin.gif":[function(require,module,exports) {
 module.exports = "/coin.fa42f039.gif";
-},{}],"img/cover_10.png":[function(require,module,exports) {
-module.exports = "/cover_10.854b4ee7.png";
 },{}],"img/cover_1.png":[function(require,module,exports) {
 module.exports = "/cover_1.916796b9.png";
-},{}],"img/cover_11.png":[function(require,module,exports) {
-module.exports = "/cover_11.239bdb11.png";
+},{}],"img/cover_10.png":[function(require,module,exports) {
+module.exports = "/cover_10.854b4ee7.png";
 },{}],"img/cover_12.png":[function(require,module,exports) {
 module.exports = "/cover_12.81d65a03.png";
+},{}],"img/cover_11.png":[function(require,module,exports) {
+module.exports = "/cover_11.239bdb11.png";
 },{}],"img/cover_13.png":[function(require,module,exports) {
 module.exports = "/cover_13.ebb5a050.png";
 },{}],"img/cover_14.png":[function(require,module,exports) {
 module.exports = "/cover_14.e2483095.png";
-},{}],"img/cover_16.png":[function(require,module,exports) {
-module.exports = "/cover_16.a773e12b.png";
 },{}],"img/cover_15.png":[function(require,module,exports) {
 module.exports = "/cover_15.14f2863a.png";
+},{}],"img/cover_16.png":[function(require,module,exports) {
+module.exports = "/cover_16.a773e12b.png";
 },{}],"img/cover_17.png":[function(require,module,exports) {
 module.exports = "/cover_17.e7ecab84.png";
 },{}],"img/cover_18.png":[function(require,module,exports) {
@@ -1904,12 +1904,12 @@ module.exports = "/cover_6.6d60b95f.png";
 module.exports = "/cover_7.11d58592.png";
 },{}],"img/cover_8.png":[function(require,module,exports) {
 module.exports = "/cover_8.f2c1363b.png";
+},{}],"img/cover_highscore.png":[function(require,module,exports) {
+module.exports = "/cover_highscore.e6f1580d.png";
 },{}],"img/cover_gamewon.png":[function(require,module,exports) {
 module.exports = "/cover_gamewon.4a95d48b.png";
 },{}],"img/cover_9.png":[function(require,module,exports) {
 module.exports = "/cover_9.4e605972.png";
-},{}],"img/cover_highscore.png":[function(require,module,exports) {
-module.exports = "/cover_highscore.e6f1580d.png";
 },{}],"img/intro_graphics.png":[function(require,module,exports) {
 module.exports = "/intro_graphics.79b1960b.png";
 },{}],"img/intro_logo.png":[function(require,module,exports) {
@@ -1929,17 +1929,17 @@ module.exports = {
   "coin": {
     "gif": require("./coin.gif")
   },
-  "cover_10": {
-    "png": require("./cover_10.png")
-  },
   "cover_1": {
     "png": require("./cover_1.png")
   },
-  "cover_11": {
-    "png": require("./cover_11.png")
+  "cover_10": {
+    "png": require("./cover_10.png")
   },
   "cover_12": {
     "png": require("./cover_12.png")
+  },
+  "cover_11": {
+    "png": require("./cover_11.png")
   },
   "cover_13": {
     "png": require("./cover_13.png")
@@ -1947,11 +1947,11 @@ module.exports = {
   "cover_14": {
     "png": require("./cover_14.png")
   },
-  "cover_16": {
-    "png": require("./cover_16.png")
-  },
   "cover_15": {
     "png": require("./cover_15.png")
+  },
+  "cover_16": {
+    "png": require("./cover_16.png")
   },
   "cover_17": {
     "png": require("./cover_17.png")
@@ -1989,14 +1989,14 @@ module.exports = {
   "cover_8": {
     "png": require("./cover_8.png")
   },
+  "cover_highscore": {
+    "png": require("./cover_highscore.png")
+  },
   "cover_gamewon": {
     "png": require("./cover_gamewon.png")
   },
   "cover_9": {
     "png": require("./cover_9.png")
-  },
-  "cover_highscore": {
-    "png": require("./cover_highscore.png")
   },
   "intro_graphics": {
     "png": require("./intro_graphics.png")
@@ -2020,7 +2020,7 @@ module.exports = {
     "png": require("./win_icon.png")
   }
 };
-},{"./coin.gif":"img/coin.gif","./cover_10.png":"img/cover_10.png","./cover_1.png":"img/cover_1.png","./cover_11.png":"img/cover_11.png","./cover_12.png":"img/cover_12.png","./cover_13.png":"img/cover_13.png","./cover_14.png":"img/cover_14.png","./cover_16.png":"img/cover_16.png","./cover_15.png":"img/cover_15.png","./cover_17.png":"img/cover_17.png","./cover_18.png":"img/cover_18.png","./cover_19.png":"img/cover_19.png","./cover_2.png":"img/cover_2.png","./cover_20.png":"img/cover_20.png","./cover_21.png":"img/cover_21.png","./cover_3.png":"img/cover_3.png","./cover_4.png":"img/cover_4.png","./cover_5.png":"img/cover_5.png","./cover_6.png":"img/cover_6.png","./cover_7.png":"img/cover_7.png","./cover_8.png":"img/cover_8.png","./cover_gamewon.png":"img/cover_gamewon.png","./cover_9.png":"img/cover_9.png","./cover_highscore.png":"img/cover_highscore.png","./intro_graphics.png":"img/intro_graphics.png","./intro_logo.png":"img/intro_logo.png","./lose_cover.png":"img/lose_cover.png","./lose_icon.png":"img/lose_icon.png","./mistletoe.png":"img/mistletoe.png","./win_cover.png":"img/win_cover.png","./win_icon.png":"img/win_icon.png"}],"node_modules/gsap/gsap-core.js":[function(require,module,exports) {
+},{"./coin.gif":"img/coin.gif","./cover_1.png":"img/cover_1.png","./cover_10.png":"img/cover_10.png","./cover_12.png":"img/cover_12.png","./cover_11.png":"img/cover_11.png","./cover_13.png":"img/cover_13.png","./cover_14.png":"img/cover_14.png","./cover_15.png":"img/cover_15.png","./cover_16.png":"img/cover_16.png","./cover_17.png":"img/cover_17.png","./cover_18.png":"img/cover_18.png","./cover_19.png":"img/cover_19.png","./cover_2.png":"img/cover_2.png","./cover_20.png":"img/cover_20.png","./cover_21.png":"img/cover_21.png","./cover_3.png":"img/cover_3.png","./cover_4.png":"img/cover_4.png","./cover_5.png":"img/cover_5.png","./cover_6.png":"img/cover_6.png","./cover_7.png":"img/cover_7.png","./cover_8.png":"img/cover_8.png","./cover_highscore.png":"img/cover_highscore.png","./cover_gamewon.png":"img/cover_gamewon.png","./cover_9.png":"img/cover_9.png","./intro_graphics.png":"img/intro_graphics.png","./intro_logo.png":"img/intro_logo.png","./lose_cover.png":"img/lose_cover.png","./lose_icon.png":"img/lose_icon.png","./mistletoe.png":"img/mistletoe.png","./win_cover.png":"img/win_cover.png","./win_icon.png":"img/win_icon.png"}],"node_modules/gsap/gsap-core.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7837,7 +7837,8 @@ var GameController = /*#__PURE__*/function () {
     key: "_nextScreen",
     value: function _nextScreen(current) {
       this.progress += 1;
-      var active_screen = (0, _cashDom.default)(current).parent().parent();
+      var active_screen = (0, _cashDom.default)(current).closest('section');
+      ;
       var next_data = this._ds.screens[this.progress];
       var next_screen = this.addScreen(next_data, true);
 
@@ -7924,7 +7925,8 @@ var GameController = /*#__PURE__*/function () {
       this.money += move_value; //Update money value
       //restructure data to make it addscreen compatible
 
-      var active_screen = (0, _cashDom.default)(current).parent().parent();
+      var active_screen = (0, _cashDom.default)(current).closest('section');
+      console.log((0, _cashDom.default)(current).closest('section'));
       screenData.title = move_value < 0 ? "-$".concat(Math.abs(move_value)) : "+$".concat(move_value);
       screenData.actions = [{
         "title": screenData.cta,
@@ -11027,7 +11029,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52355" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51665" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
