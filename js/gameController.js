@@ -10,7 +10,7 @@ export default class GameController {
     constructor(datasource,root,startProgress = 0) {
         
         gsap.registerPlugin(TextPlugin);
-        gsap.ticker.fps(12); //Set fps to five for retro feelings
+        // gsap.ticker.fps(12); //Set fps to five for retro feelings
         //append status bar template to dom
         var tmp_statusbar = root.append(`<section class="statusbar">
                                             <ul></ul>
@@ -30,6 +30,7 @@ export default class GameController {
         this._total = datasource.screens.length; //get total number of screens
         this._app = root; //store the root element
         this._ds = datasource; //make config class wide
+        this._gameTime;
 
         this.money = datasource.base_value; //set money
         this.progress = startProgress; //set progress;
@@ -69,6 +70,12 @@ export default class GameController {
     get money() {
         return this._money;
     }
+
+    get playtime() {
+        if (!this._gameTime) { return 0}
+        var time = new Date();
+        return time - this._gameTime;
+    }
     
     //Generate new screen
     addScreen(data,visible = true) {
@@ -76,13 +83,21 @@ export default class GameController {
         var cover_filename = data.image.split('.');
         cover_filename = images[cover_filename[0]][cover_filename[1]];
 
+       
+
         var icon_filename;
         if (data.outcome === undefined) {
-            icon_filename = ''    
+            icon_filename = ''   
         } else {
             icon_filename = data.icon.split('.');
             icon_filename = images[icon_filename[0]][icon_filename[1]];
+
+            if (data.outcome == "endgame") {
+                data.title = `$${Number(this.money).toLocaleString()}`
+            }
         }
+
+
         
         var screen_template = `<section class="screen ${data.outcome}">
                                     <img class="cover" src="${cover_filename}" alt="">
@@ -114,10 +129,14 @@ export default class GameController {
     _handleClick(e) {
         var idstr = e.srcElement.dataset.id.split('/')
         var action = e.srcElement.dataset.type
+
+        //start the timer if it's not yet started
+        if(!this._gametime) { this._gameTime = new Date(); }
+
         switch(action) {
-            
             case "next" : this._nextScreen(e.srcElement); break;
             case "render_outcome" : this._renderOutcome(e.srcElement,this._ds.screens[idstr[0]].actions[idstr[1]]); break;
+            case "highscore" : this.onFinish(); break;
         }
     }
 
@@ -136,12 +155,6 @@ export default class GameController {
     _animateTransition(current,next) {
         this._animateOutro(current);
         this._animateIntro(next);
-        // var content = next.find('div.text').text();
-        // console.log(content)
-        // gsap.to(next.find('div.text').empty(), {duration: 1, text: content, ease: "none"});
-        // console.log(text);
-        // current.hide();
-        // next.show();
 
     }
 
@@ -161,7 +174,7 @@ export default class GameController {
             // y_offset = 0;
   
             var Cont={val:0};
-            gsap.to(Cont,2,{val:num_value,roundProps:"val",onUpdate:function(){
+            gsap.to(Cont,1,{val:num_value,roundProps:"val",onUpdate:function(){
                     var render_str = (num_value < 0) ? `-$${Math.abs(Cont.val)}` : `+$${Cont.val}`;
                     screen.find('h1 span').text(render_str);
             //     // document.getElementById("counter").innerHTML=Cont.val
@@ -170,13 +183,16 @@ export default class GameController {
             // gsap.from(screen.find('h1'),{ autoAlpha:0, y:y_offset, duration: 1})
         } 
 
-        gsap.fromTo(screen, {autoAlpha: 0}, {autoAlpha:1, duration: 1}); //fade in
+       gsap.fromTo(screen, {autoAlpha: 0}, {autoAlpha:1, duration: 1}); //fade in
         
         var content = screen.find('.typewriter').text(); //animte with the typewriter effect
-        gsap.to(screen.find('.typewriter').empty(), {duration: 1, text: {value:content,padSpace:false},  ease: "none"});
+        if (content) {
+            gsap.to(screen.find('.typewriter').empty(), {duration: 1, text: {value:content,padSpace:false},  ease: "none"});
+        }
     }
 
     _animateOutro(screen) {
+        
         gsap.to(screen, {autoAlpha: 0, duration: 1, onComplete:() => {
             screen.detach();
         }});
@@ -202,6 +218,10 @@ export default class GameController {
         
         var next_screen = this.addScreen(screenData,false); //generate outcome screen
         this._animateTransition(active_screen,next_screen); //transition to new screen
+
+    }
+
+    onFinish() {
 
     }
     
