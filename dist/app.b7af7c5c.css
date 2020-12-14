@@ -218,7 +218,6 @@ section.screen.negative h1 img {
   section.statusbar {
     left: 10%;
     max-width: 80%;
-    margin: 0px auto;
   }
 
   .button_wrapper {
