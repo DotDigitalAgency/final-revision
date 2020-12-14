@@ -384,6 +384,10 @@ section.screen button {
     background-color: transparent;
   }
 
+  section.screen div.text_wrapper {
+    height: fit-content;
+  }
+
   div.text {
     padding-bottom: 10%;
   }
@@ -450,6 +454,55 @@ section.screen.negative h1 img {
 
   .nes-container.is-dark {
     position: static !important;
+  }
+
+  .intro {
+    width: 100%;
+    height: fit-content;
+    display: block;
+    background-color: #ff5638;
+    position: absolute;
+    z-index: 100;
+    overflow: hidden;
+    text-align: center;
+  }
+  .intro img.intro_title {
+    width: 50%;
+    margin-top: 40vh;
+  }
+  .intro img.intro_graphics {
+    width: 170vw;
+    margin-left: -10vw;
+    margin-top: 60%;
+  }
+  .intro div.menu {
+    background-color: #38984D;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    text-align: left;
+  }
+  .intro div.menu h1 {
+    font-weight: normal;
+    font-size: 200%;
+    text-align: center;
+    line-height: 70%;
+    margin-bottom: 30px;
+    color: white;
+  }
+  .intro div.menu label span {
+    font-size: 200%;
+  }
+  .intro div.menu label input {
+    margin-top: 20px !important;
+  }
+  .intro div.menu button {
+    font-size: 200%;
+    margin-bottom: 5%;
+    line-height: 90%;
+    width: 100%;
+    display: block;
   }
 }
 

@@ -475,6 +475,10 @@ section.screen {
         background-color: transparent;
     }
 
+    section.screen div.text_wrapper {
+        height: fit-content;
+    }
+
     div.text{
         padding-bottom: 10%;
     }
@@ -549,7 +553,67 @@ section.screen {
         position: static !important;
     }
 
-
+    .intro {
+        width: 100%;
+        height: fit-content;
+        display: block;
+        background-color: theme.$bg-bad;
+        position: absolute;
+        z-index: 100;
+        overflow: hidden;
+    
+        text-align: center;
+        
+    
+        img.intro_title {
+            width: 50%;
+            margin-top: 40vh;
+        }
+    
+        img.intro_graphics {
+            width:170vw;
+            margin-left: -10vw;
+            margin-top: 60%;
+        }
+    
+        div.menu {
+            background-color: theme.$bg-default;
+            padding-top: theme.$base-padding*5;
+            padding-left: theme.$base-padding*3;
+            padding-right: theme.$base-padding*3;
+            padding-bottom: theme.$base-padding*5;
+            text-align: left;
+            h1 {
+                font-weight: normal;
+                font-size: 200%;
+                text-align: center;
+                line-height: 70%;
+                margin-bottom: theme.$base-padding*3;
+                color: white;
+            }
+    
+            label {
+            
+                span {
+                    font-size: 200%;
+                }
+    
+                input {
+                    margin-top:20px !important;
+                }
+            }
+    
+            button {
+                font-size:200%;
+                margin-bottom: 5%;
+                line-height: 90%;
+                width:100%;
+                display: block;
+            }
+        }
+    
+        
+    }
 
 
     
