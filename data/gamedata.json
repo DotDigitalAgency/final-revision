@@ -51,7 +51,7 @@
                     "outcome": "negative",                    
                     "text": "A Mikulás nem annyira értékeli, hogy nem tudsz bánni a gyerekekkel. Megígéred neki, hogy újra elvégzed a Code of Conduct traininget, két napig nem térsz magadhoz!",
                     "cta": "Lássuk, mi jöhet még...",
-                    "image":"lose_cover.png",
+                    "image":"Santa_hand_-min.gif",
                     "icon":"lose_icon.png",
                     "action": "render_outcome",
                     "value": -0.1
@@ -60,7 +60,7 @@
                     "outcome": "positive",
                     "text": "Kollégáid összesöprik a romjaidat a tárgyalóból, ez kemény menet volt, de úgy néz ki, megérte! ",
                     "cta": "A Mikulásért bármit!",
-                    "image":"win_cover.png",
+                    "image":"Money_glitter_v1-min.gif",
                     "icon":"win_icon.png",
                     "action": "render_outcome",
                     "value": 0.1
@@ -75,7 +75,7 @@
                     "outcome": "negative",                    
                     "text": "Hamarabb végeztél, de mint kiderült, a krampusz is a Mikulás alkalmazottja. Kuka az egész munka.",
                     "cta": "Azért egy briefet össze tudunk már rakni?",
-                    "image":"lose_cover.png",
+                    "image":"Santa_hand_-min.gif",
                     "icon":"lose_icon.png",
                     "action": "render_outcome",
                     "value": -0.1
@@ -84,7 +84,7 @@
                     "outcome": "positive",
                     "text": "3 napod elment, a client service director őrjöng, de a Mikulás hálás az alapos munkáért.",
                     "cta": "Így már összeáll a brief?",
-                    "image":"win_cover.png",
+                    "image":"Money_glitter_v1-min.gif",
                     "icon":"win_icon.png",
                     "action": "render_outcome",
                     "value": 0.1
@@ -99,7 +99,7 @@
                     "outcome": "positive",                    
                     "text": "A kreatívok lelkesek. Már csak napok kérdése és feldolgozzák az információt!",
                     "cta": "Ok",
-                    "image":"win_cover.png",
+                    "image":"Money_glitter_v1-min.gif",
                     "icon":"win_icon.png",
                     "action": "render_outcome",
                     "value": 0.1
@@ -108,7 +108,7 @@
                     "outcome": "negative",
                     "text": "Hát nem maradt ki semmit. Három Art Director, egy copywriter és egy ppc-s  felmond. Az utóbbinak nem világos a relevanciája.",
                     "cta": "Ok",
-                    "image":"lose_cover.png",
+                    "image":"Santa_hand_-min.gif",
                     "icon":"lose_icon.png",
                     "action": "render_outcome",
                     "value": -0.1
@@ -123,7 +123,7 @@
                     "outcome": "positive",                    
                     "text": "Megérte felvenni, büdzsét akarnak növelni! Ez már nem sülhet el rosszul... - gondolod, tévesen. :D ",
                     "cta": "Ok",
-                    "image":"win_cover.png",
+                    "image":"Money_glitter_v1-min.gif",
                     "icon":"win_icon.png",
                     "action": "render_outcome",
                     "value": 0.1
@@ -132,7 +132,7 @@
                     "outcome": "negative",
                     "text": "Hagyod csörögni, majd hív mást, ha fontos. Erre nem kerül sor, a  Mikulás elfelejti, hogy mit akart mondani. Így sosem tudod meg, miről maradsz le... ha ha ha... khm... ho ho ho.",
                     "cta": "Ok",
-                    "image":"lose_cover.png",
+                    "image":"Santa_hand_-min.gif",
                     "icon":"lose_icon.png",
                     "action": "render_outcome",
                     "value": -0.1
@@ -165,7 +165,7 @@
                     "outcome": "positive",                    
                     "text": "Jót tett az ötletnek hogy kicsit visszavettél, igy mar anyádnak is tetszik.",
                     "cta": "Halleluja!",
-                    "image":"win_cover.png",
+                    "image":"Money_glitter_v1-min.gif",
                     "icon":"win_icon.png",
                     "action": "render_outcome",
                     "value": 0.1
@@ -174,7 +174,7 @@
                     "outcome": "negative",
                     "text": " Számitottál a botrányra, de a fizetéscsökkentés es a kirugásod kilátásba helyezése még is meglepett.",
                     "cta": "Tisztelet a bátraknak. :(",
-                    "image":"lose_cover.png",
+                    "image":"Santa_hand_-min.gif",
                     "icon":"lose_icon.png",
                     "action": "render_outcome",
                     "value": -0.1
@@ -189,7 +189,7 @@
                     "outcome": "negative",                    
                     "text": `Mindegy volt, hogy vártatok-e rá vagy sem. Mikor fél órás késéssel megérkezett a "kaszás", mindent kikukázott`,
                     "cta": "Van még ott, ahonnan ez jött!",
-                    "image":"lose_cover.png",
+                    "image":"Santa_hand_-min.gif",
                     "icon":"lose_icon.png",
                     "action": "render_outcome",
                     "value": -0.1
@@ -198,7 +198,7 @@
                     "outcome": "negative",
                     "text": `Mindegy volt, hogy vártatok-e rá vagy sem. Mikor fél órás késéssel megérkezett a "kaszás", mindent kikukázott`,
                     "cta": "Van még ott, ahonnan ez jött!",
-                    "image":"lose_cover.png",
+                    "image":"Santa_hand_-min.gif",
                     "icon":"lose_icon.png",
                     "action": "render_outcome",
                     "value": -0.1
@@ -213,7 +213,7 @@
                     "outcome": "negative",                    
                     "text": `Hát, izé... egy picit elment az idő az épületvetítés bámulásával és a forralt bor vedeléssel...`,
                     "cta": "A lényeg, hogy készen vagyunk, ezt nézd, Mikulás!",
-                    "image":"lose_cover.png",
+                    "image":"Santa_hand_-min.gif",
                     "icon":"lose_icon.png",
                     "action": "render_outcome",
                     "value": -0.1
@@ -222,7 +222,7 @@
                     "outcome": "positive",
                     "text": `Fél óra alatt 4 kerek koncepció.  Mit kell ezt túlizgulni.`,
                     "cta": "Mutassuk meg a Mikulásnak!",
-                    "image":"win_cover.png",
+                    "image":"Money_glitter_v1-min.gif",
                     "icon":"win_icon.png",
                     "action": "render_outcome",
                     "value": 0.1
@@ -246,7 +246,7 @@
                     "outcome": "negative",                    
                     "text": `Pech, újrahívásnál is ugyanaz a csapat fogad. A Mikulás elégedettnek tűnik a lányok ötletével, így kénytelen vagy azzal továbbmenni.`,
                     "cta": "Lássuk, mit lehet kihozni ebből!",
-                    "image":"lose_cover.png",
+                    "image":"Santa_hand_-min.gif",
                     "icon":"lose_icon.png",
                     "action": "render_outcome",
                     "value": -0.1
@@ -255,7 +255,7 @@
                     "outcome": "positive",
                     "text": `Nem úgy tűnik, mintha a Mikulást zavarnák a kaotikus körülmények. Szerinte remekül halad a munka.`,
                     "cta": "Éljen a kreatív káosz!",
-                    "image":"win_cover.png",
+                    "image":"Money_glitter_v1-min.gif",
                     "icon":"win_icon.png",
                     "action": "render_outcome",
                     "value": 0.1
@@ -270,7 +270,7 @@
                     "outcome": "negative",                    
                     "text": `Mindig a kreatív igazgató ötlete a legjobb. Utána jön az ügyfél, a mély tekintetű szövegíró, aki tetszik, és csak utána a Cannes Lions!`,
                     "cta": "Igen, ezt a sorrendet mindig elfelejted.",
-                    "image":"lose_cover.png",
+                    "image":"Santa_hand_-min.gif",
                     "icon":"lose_icon.png",
                     "action": "render_outcome",
                     "value": -0.1
@@ -279,7 +279,7 @@
                     "outcome": "positive",
                     "text": `Nalátod, nem vagy te hülye gyerek! A kreatív igazgató ötlete a legjobb ötlet. Mindig!`,
                     "cta": "Jár a keksz!",
-                    "image":"win_cover.png",
+                    "image":"Money_glitter_v1-min.gif",
                     "icon":"win_icon.png",
                     "action": "render_outcome",
                     "value": 0.1
@@ -294,7 +294,7 @@
                     "outcome": "negative",                    
                     "text": `Mikor megérkezett a Mikulás a lányokhoz ment elsőre, pedig a recin mondták, hogy ne oda! Kezded elveszíteni a pozíciód az ügyfélnél.`,
                     "cta": "Mégiscsak ez a lényeg, nem?",
-                    "image":"lose_cover.png",
+                    "image":"Santa_hand_-min.gif",
                     "icon":"lose_icon.png",
                     "action": "render_outcome",
                     "value": -0.1
@@ -303,7 +303,7 @@
                     "outcome": "positive",
                     "text": `A Mikulás nem örül, hogy Suzzy és Alyshya szakmát váltanak. De ha boldogok a reklámosok között, akkor miért ne... Tetszik neki a kampányötlet!`,
                     "cta": "Ho ho ho ho!",
-                    "image":"win_cover.png",
+                    "image":"Money_glitter_v1-min.gif",
                     "icon":"win_icon.png",
                     "action": "render_outcome",
                     "value": 0.1
@@ -327,7 +327,7 @@
                     "outcome": "negative",                    
                     "text": `A Mikulás alig várja már a Karácsonyt, nincs halasztás! Marad a dugi pia? :'(`,
                     "cta": "Egészségünkre!",
-                    "image":"lose_cover.png",
+                    "image":"Santa_hand_-min.gif",
                     "icon":"lose_icon.png",
                     "action": "render_outcome",
                     "value": -0.1
@@ -336,7 +336,7 @@
                     "outcome": "positive",
                     "text": `Túl sok rajtad a stressz mostanában. Egy kis lazítás jót fog tenni.`,
                     "cta": "Egészségünkre!",
-                    "image":"win_cover.png",
+                    "image":"Money_glitter_v1-min.gif",
                     "icon":"win_icon.png",
                     "action": "render_outcome",
                     "value": 0.1
@@ -351,7 +351,7 @@
                     "outcome": "negative",                    
                     "text": `Minden hiába. A kimerültség és a kitöltött pia megteszi a hatását. 1 percen belül elalszol. Mi lesz így a karácsonnyal?`,
                     "cta": "Mi lesz így Mikulással??",
-                    "image":"lose_cover.png",
+                    "image":"Santa_hand_-min.gif",
                     "icon":"lose_icon.png",
                     "action": "render_outcome",
                     "value": -0.1
@@ -360,7 +360,7 @@
                     "outcome": "negative",
                     "text": `Minden hiába. A kimerültség és a kitöltött pia megteszi a hatását. 1 percen belül elalszol. Mi lesz így a karácsonnyal?`,
                     "cta": "Mi lesz így Mikulással??",
-                    "image":"lose_cover.png",
+                    "image":"Santa_hand_-min.gif",
                     "icon":"lose_icon.png",
                     "action": "render_outcome",
                     "value": 0.1

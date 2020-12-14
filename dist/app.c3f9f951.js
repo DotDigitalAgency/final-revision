@@ -7476,7 +7476,7 @@ module.exports = {
       "outcome": "negative",
       "text": "A Mikulás nem annyira értékeli, hogy nem tudsz bánni a gyerekekkel. Megígéred neki, hogy újra elvégzed a Code of Conduct traininget, két napig nem térsz magadhoz!",
       "cta": "Lássuk, mi jöhet még...",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7485,7 +7485,7 @@ module.exports = {
       "outcome": "positive",
       "text": "Kollégáid összesöprik a romjaidat a tárgyalóból, ez kemény menet volt, de úgy néz ki, megérte! ",
       "cta": "A Mikulásért bármit!",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7499,7 +7499,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Hamarabb végeztél, de mint kiderült, a krampusz is a Mikulás alkalmazottja. Kuka az egész munka.",
       "cta": "Azért egy briefet össze tudunk már rakni?",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7508,7 +7508,7 @@ module.exports = {
       "outcome": "positive",
       "text": "3 napod elment, a client service director őrjöng, de a Mikulás hálás az alapos munkáért.",
       "cta": "Így már összeáll a brief?",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7522,7 +7522,7 @@ module.exports = {
       "outcome": "positive",
       "text": "A kreatívok lelkesek. Már csak napok kérdése és feldolgozzák az információt!",
       "cta": "Ok",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7531,7 +7531,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Hát nem maradt ki semmit. Három Art Director, egy copywriter és egy ppc-s  felmond. Az utóbbinak nem világos a relevanciája.",
       "cta": "Ok",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7545,7 +7545,7 @@ module.exports = {
       "outcome": "positive",
       "text": "Megérte felvenni, büdzsét akarnak növelni! Ez már nem sülhet el rosszul... - gondolod, tévesen. :D ",
       "cta": "Ok",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7554,7 +7554,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Hagyod csörögni, majd hív mást, ha fontos. Erre nem kerül sor, a  Mikulás elfelejti, hogy mit akart mondani. Így sosem tudod meg, miről maradsz le... ha ha ha... khm... ho ho ho.",
       "cta": "Ok",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7584,7 +7584,7 @@ module.exports = {
       "outcome": "positive",
       "text": "Jót tett az ötletnek hogy kicsit visszavettél, igy mar anyádnak is tetszik.",
       "cta": "Halleluja!",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7593,7 +7593,7 @@ module.exports = {
       "outcome": "negative",
       "text": " Számitottál a botrányra, de a fizetéscsökkentés es a kirugásod kilátásba helyezése még is meglepett.",
       "cta": "Tisztelet a bátraknak. :(",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7607,7 +7607,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Mindegy volt, hogy v\xE1rtatok-e r\xE1 vagy sem. Mikor f\xE9l \xF3r\xE1s k\xE9s\xE9ssel meg\xE9rkezett a \"kasz\xE1s\", mindent kikuk\xE1zott",
       "cta": "Van még ott, ahonnan ez jött!",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7616,7 +7616,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Mindegy volt, hogy v\xE1rtatok-e r\xE1 vagy sem. Mikor f\xE9l \xF3r\xE1s k\xE9s\xE9ssel meg\xE9rkezett a \"kasz\xE1s\", mindent kikuk\xE1zott",
       "cta": "Van még ott, ahonnan ez jött!",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7630,7 +7630,7 @@ module.exports = {
       "outcome": "negative",
       "text": "H\xE1t, iz\xE9... egy picit elment az id\u0151 az \xE9p\xFCletvet\xEDt\xE9s b\xE1mul\xE1s\xE1val \xE9s a forralt bor vedel\xE9ssel...",
       "cta": "A lényeg, hogy készen vagyunk, ezt nézd, Mikulás!",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7639,7 +7639,7 @@ module.exports = {
       "outcome": "positive",
       "text": "F\xE9l \xF3ra alatt 4 kerek koncepci\xF3.  Mit kell ezt t\xFAlizgulni.",
       "cta": "Mutassuk meg a Mikulásnak!",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7661,7 +7661,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Pech, \xFAjrah\xEDv\xE1sn\xE1l is ugyanaz a csapat fogad. A Mikul\xE1s el\xE9gedettnek t\u0171nik a l\xE1nyok \xF6tlet\xE9vel, \xEDgy k\xE9nytelen vagy azzal tov\xE1bbmenni.",
       "cta": "Lássuk, mit lehet kihozni ebből!",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7670,7 +7670,7 @@ module.exports = {
       "outcome": "positive",
       "text": "Nem \xFAgy t\u0171nik, mintha a Mikul\xE1st zavarn\xE1k a kaotikus k\xF6r\xFClm\xE9nyek. Szerinte remek\xFCl halad a munka.",
       "cta": "Éljen a kreatív káosz!",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7684,7 +7684,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Mindig a kreat\xEDv igazgat\xF3 \xF6tlete a legjobb. Ut\xE1na j\xF6n az \xFCgyf\xE9l, a m\xE9ly tekintet\u0171 sz\xF6veg\xEDr\xF3, aki tetszik, \xE9s csak ut\xE1na a Cannes Lions!",
       "cta": "Igen, ezt a sorrendet mindig elfelejted.",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7693,7 +7693,7 @@ module.exports = {
       "outcome": "positive",
       "text": "Nal\xE1tod, nem vagy te h\xFClye gyerek! A kreat\xEDv igazgat\xF3 \xF6tlete a legjobb \xF6tlet. Mindig!",
       "cta": "Jár a keksz!",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7707,7 +7707,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Mikor meg\xE9rkezett a Mikul\xE1s a l\xE1nyokhoz ment els\u0151re, pedig a recin mondt\xE1k, hogy ne oda! Kezded elvesz\xEDteni a poz\xEDci\xF3d az \xFCgyf\xE9ln\xE9l.",
       "cta": "Mégiscsak ez a lényeg, nem?",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7716,7 +7716,7 @@ module.exports = {
       "outcome": "positive",
       "text": "A Mikul\xE1s nem \xF6r\xFCl, hogy Suzzy \xE9s Alyshya szakm\xE1t v\xE1ltanak. De ha boldogok a rekl\xE1mosok k\xF6z\xF6tt, akkor mi\xE9rt ne... Tetszik neki a kamp\xE1ny\xF6tlet!",
       "cta": "Ho ho ho ho!",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7738,7 +7738,7 @@ module.exports = {
       "outcome": "negative",
       "text": "A Mikul\xE1s alig v\xE1rja m\xE1r a Kar\xE1csonyt, nincs halaszt\xE1s! Marad a dugi pia? :'(",
       "cta": "Egészségünkre!",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7747,7 +7747,7 @@ module.exports = {
       "outcome": "positive",
       "text": "T\xFAl sok rajtad a stressz mostan\xE1ban. Egy kis laz\xEDt\xE1s j\xF3t fog tenni.",
       "cta": "Egészségünkre!",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7761,7 +7761,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Minden hi\xE1ba. A kimer\xFClts\xE9g \xE9s a kit\xF6lt\xF6tt pia megteszi a hat\xE1s\xE1t. 1 percen bel\xFCl elalszol. Mi lesz \xEDgy a kar\xE1csonnyal?",
       "cta": "Mi lesz így Mikulással??",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7770,7 +7770,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Minden hi\xE1ba. A kimer\xFClts\xE9g \xE9s a kit\xF6lt\xF6tt pia megteszi a hat\xE1s\xE1t. 1 percen bel\xFCl elalszol. Mi lesz \xEDgy a kar\xE1csonnyal?",
       "cta": "Mi lesz így Mikulással??",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -8400,10 +8400,25 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
     _gsap.gsap.registerPlugin(_TextPlugin.default);
 
-    _gsap.gsap.ticker.fps(8); // gsap.globalTimeline.ticker.fps(12);
+    _gsap.gsap.ticker.fps(8);
 
+    _gsap.gsap.to(".intro_graphics", {
+      opacity: 0,
+      duration: 0
+    });
 
-    var offset = 0 - ((0, _cashDom.default)('.intro_graphics').height() + 100);
+    _gsap.gsap.to(".intro_title", {
+      opacity: 0,
+      duration: 0
+    });
+
+    var img_height = Number((0, _cashDom.default)('.intro_graphics').height());
+
+    if (img_height == 0) {
+      img_height = 660;
+    }
+
+    var offset = 0 - (img_height + 100); //check if image is lopaded
 
     var intro = _gsap.gsap.timeline({
       paused: true
