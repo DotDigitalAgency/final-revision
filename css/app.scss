@@ -512,6 +512,10 @@ section.screen {
         max-width: 100px;
     }
 
+    section.screen.endgame h1 img {
+        max-width: 100px;
+    }
+
     section.statusbar {
         left: 10%;
         max-width: 80%;
@@ -549,7 +553,8 @@ section.screen {
 
     .nes-btn {
         width: 38%;
-        max-height: 90px;
+        max-height: 150px;
+        min-height: 70px;
     }
 
     .nes-btn + .nes-btn{
@@ -560,17 +565,17 @@ section.screen {
         position: static !important;
     }
 
+    .intro div.menu img#logo {
+        width:50%;
+        margin-top: -25%;
+        margin-bottom: 3%;
+    }
+
     .intro {
         width: 100%;
-        height: fit-content;
-        display: block;
-        background-color: theme.$bg-bad;
+        height: min-content;
         position: absolute;
-        z-index: 100;
-        overflow: hidden;
-    
-        text-align: center;
-        
+        overflow: hidden;       
     
         img.intro_title {
             width: 50%;
@@ -578,25 +583,25 @@ section.screen {
         }
     
         img.intro_graphics {
-            width:170vw;
-            margin-left: -10vw;
-            margin-top: 60%;
+            width:70vw;
+            margin-top: 10%;
         }
     
         div.menu {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             background-color: theme.$bg-default;
-            padding-top: theme.$base-padding*5;
+            //padding-top: theme.$base-padding;
             padding-left: theme.$base-padding*3;
             padding-right: theme.$base-padding*3;
-            padding-bottom: theme.$base-padding*5;
-            text-align: left;
+            //padding-bottom: theme.$base-padding;
             h1 {
                 font-weight: normal;
                 font-size: 200%;
                 text-align: center;
                 line-height: 70%;
-                margin-bottom: theme.$base-padding*3;
-                color: white;
+                //margin-bottom: theme.$base-padding*3;
             }
     
             label {
@@ -611,10 +616,10 @@ section.screen {
             }
     
             button {
-                font-size:200%;
-                margin-bottom: 5%;
+                font-size:150%;
+                margin-bottom: 3%;
                 line-height: 90%;
-                width:100%;
+                width:80%;
                 display: block;
             }
         }
@@ -625,10 +630,16 @@ section.screen {
 
     
 
-    
+//button fix    
 
+#start,
+#highscore {
+    margin: 0 auto;
+}
 
-
+#start {
+    margin-bottom: 2%;
+}
   
     
 }

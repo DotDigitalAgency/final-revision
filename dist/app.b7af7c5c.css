@@ -423,6 +423,10 @@ section.screen.negative h1 img {
     max-width: 100px;
   }
 
+  section.screen.endgame h1 img {
+    max-width: 100px;
+  }
+
   section.statusbar {
     left: 10%;
     max-width: 80%;
@@ -458,7 +462,8 @@ section.screen.negative h1 img {
 
   .nes-btn {
     width: 38%;
-    max-height: 90px;
+    max-height: 150px;
+    min-height: 70px;
   }
 
   .nes-btn + .nes-btn {
@@ -469,40 +474,39 @@ section.screen.negative h1 img {
     position: static !important;
   }
 
+  .intro div.menu img#logo {
+    width: 50%;
+    margin-top: -25%;
+    margin-bottom: 3%;
+  }
+
   .intro {
     width: 100%;
-    height: fit-content;
-    display: block;
-    background-color: #ff5638;
+    height: min-content;
     position: absolute;
-    z-index: 100;
     overflow: hidden;
-    text-align: center;
   }
   .intro img.intro_title {
     width: 50%;
     margin-top: 40vh;
   }
   .intro img.intro_graphics {
-    width: 170vw;
-    margin-left: -10vw;
-    margin-top: 60%;
+    width: 70vw;
+    margin-top: 10%;
   }
   .intro div.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #38984D;
-    padding-top: 50px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 50px;
-    text-align: left;
   }
   .intro div.menu h1 {
     font-weight: normal;
     font-size: 200%;
     text-align: center;
     line-height: 70%;
-    margin-bottom: 30px;
-    color: white;
   }
   .intro div.menu label span {
     font-size: 200%;
@@ -511,11 +515,20 @@ section.screen.negative h1 img {
     margin-top: 20px !important;
   }
   .intro div.menu button {
-    font-size: 200%;
-    margin-bottom: 5%;
+    font-size: 150%;
+    margin-bottom: 3%;
     line-height: 90%;
-    width: 100%;
+    width: 80%;
     display: block;
+  }
+
+  #start,
+#highscore {
+    margin: 0 auto;
+  }
+
+  #start {
+    margin-bottom: 2%;
   }
 }
 
