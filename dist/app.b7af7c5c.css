@@ -481,10 +481,7 @@ section.screen.negative h1 img {
   }
 
   .intro {
-    width: 100%;
     height: min-content;
-    position: absolute;
-    overflow: hidden;
   }
   .intro img.intro_title {
     width: 50%;
@@ -498,28 +495,12 @@ section.screen.negative h1 img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #38984D;
-    padding-left: 30px;
-    padding-right: 30px;
   }
   .intro div.menu h1 {
-    font-weight: normal;
     font-size: 200%;
-    text-align: center;
-    line-height: 70%;
-  }
-  .intro div.menu label span {
-    font-size: 200%;
-  }
-  .intro div.menu label input {
-    margin-top: 20px !important;
   }
   .intro div.menu button {
-    font-size: 150%;
-    margin-bottom: 3%;
-    line-height: 90%;
     width: 80%;
-    display: block;
   }
 
   #start,
@@ -529,6 +510,21 @@ section.screen.negative h1 img {
 
   #start {
     margin-bottom: 2%;
+  }
+
+  .register img.cover {
+    width: 40%;
+    padding-top: 1%;
+  }
+
+  .nes-field.is-inline {
+    flex-direction: column;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  div.gradient.register {
+    position: static;
   }
 }
 

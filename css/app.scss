@@ -572,10 +572,7 @@ section.screen {
     }
 
     .intro {
-        width: 100%;
-        height: min-content;
-        position: absolute;
-        overflow: hidden;       
+        height: min-content;      
     
         img.intro_title {
             width: 50%;
@@ -591,47 +588,19 @@ section.screen {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            background-color: theme.$bg-default;
-            //padding-top: theme.$base-padding;
-            padding-left: theme.$base-padding*3;
-            padding-right: theme.$base-padding*3;
-            //padding-bottom: theme.$base-padding;
-            h1 {
-                font-weight: normal;
-                font-size: 200%;
-                text-align: center;
-                line-height: 70%;
-                //margin-bottom: theme.$base-padding*3;
-            }
-    
-            label {
             
-                span {
-                    font-size: 200%;
-                }
-    
-                input {
-                    margin-top:20px !important;
-                }
+            h1 {
+                font-size: 200%;
             }
     
             button {
-                font-size:150%;
-                margin-bottom: 3%;
-                line-height: 90%;
                 width:80%;
-                display: block;
             }
         }
     
         
-    }
-
-
-    
-
-//button fix    
-
+    }  
+//intro button fix   
 #start,
 #highscore {
     margin: 0 auto;
@@ -640,6 +609,21 @@ section.screen {
 #start {
     margin-bottom: 2%;
 }
-  
+
+//register screen
+.register img.cover{
+    width: 40%;
+    padding-top:1%;
+}
+.nes-field.is-inline {
+    flex-direction: column;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+div.gradient.register {
+    position:static;
+}
+
     
 }
