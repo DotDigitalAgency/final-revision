@@ -1,8 +1,8 @@
 {
     "name": "Final Revision VII",
     "base_value": 20000,
-    "highscore_url": `//46.101.119.204/games?_sort=score:DESC`,
-    "register_url": `//46.101.119.204/games`,
+    "highscore_url": `//xmas.dotcreative.hu/games?_sort=score:DESC`,
+    "register_url": `//xmas.dotcreative.hu/games`,
     "screens": [
         {   "title":"",
             "image": "santa_couple_2-min.gif",

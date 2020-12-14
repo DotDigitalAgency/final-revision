@@ -7434,8 +7434,8 @@ _getGSAP() && gsap.registerPlugin(TextPlugin);
 module.exports = {
   "name": "Final Revision VII",
   "base_value": 20000,
-  "highscore_url": "//46.101.119.204/games?_sort=score:DESC",
-  "register_url": "//46.101.119.204/games",
+  "highscore_url": "//xmas.dotcreative.hu/games?_sort=score:DESC",
+  "register_url": "//xmas.dotcreative.hu/games",
   "screens": [{
     "title": "",
     "image": "santa_couple_2-min.gif",
@@ -8220,7 +8220,6 @@ var GameController = /*#__PURE__*/function () {
       //restructure data to make it addscreen compatible
 
       var active_screen = (0, _cashDom.default)(current).closest('section');
-      console.log((0, _cashDom.default)(current).closest('section'));
       screenData.title = move_value < 0 ? "-$".concat(Math.abs(move_value)) : "+$".concat(move_value);
       screenData.actions = [{
         "title": screenData.cta,
