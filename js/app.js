@@ -71,7 +71,7 @@ $(function () {
     $("#register").on('click',(e) => {
 
       showLoading();
-
+      
       fetch(gameData.register_url, {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         mode: 'cors', // no-cors, *cors, same-origin
@@ -93,6 +93,7 @@ $(function () {
         if (data.status == 200) {
           setLoadingScreen('success','highscore',true);
         } else {
+          console.log('error occured while submitting');
           setLoadingScreen('error','',true);
         }
       });
@@ -128,7 +129,7 @@ $(function () {
 
     }).catch(err => { 
       //TODO: Add error handling
-      console.log('error occured while loading highscore DataCue')
+      console.log('error occured while loading highscore DataCue');
     });
   
   }
