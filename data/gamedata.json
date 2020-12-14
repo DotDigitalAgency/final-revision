@@ -1,11 +1,11 @@
 {
     "name": "Final Revision VII",
-    "base_value": 10000,
+    "base_value": 20000,
     "highscore_url": `//46.101.119.204/games?_sort=score:DESC`,
     "register_url": `//46.101.119.204/games`,
     "screens": [
         {   "title":"",
-            "image": "cover_1.png",
+            "image": "santa_couple_2-min.gif",
             "text" : `Utolsó előtti héten, a céges karácsonyi bulin megcsörren a telefonod.<br/><br/>
             <div class="nes-container with-title is-rounded is-dark popout"><h3 class="title">+72 40 512 879</h3>
                 <p class="typewriter">Szia! Én vagyok a Mikulás, ho ho ho!<br/>
@@ -17,7 +17,7 @@
                     "outcome": "positive",                    
                     "text": `<p>Valami Miklós éjszakai gyereksarkot akar?? Egyre furább ügyfeleid vannak. Miután letetted, elmorzsolsz egy imát, hogy emlékezz valamire az elhangzottakból..</p>`,
                     "cta": "És este lett, és reggel...",
-                    "image":"win_cover.png",
+                    "image":"Money_glitter_v1-min.gif",
                     "icon":"win_icon.png",
                     "action": "render_outcome",
                     "value": 0.1
@@ -26,7 +26,7 @@
                     "outcome": "negative",
                     "text": `<p>Elég fura, hogy délben iszol. De mivel mindenki be van baszva, hát... így jártunk.</p>`,
                     "cta": "Keverek még egy Gin&Tonicot",
-                    "image":"lose_cover.png",
+                    "image":"Santa_hand_-min.gif",
                     "icon":"lose_icon.png",
                     "action": "render_outcome",
                     "value": -0.1
@@ -34,7 +34,7 @@
             ]
         },
         {   "title":"",
-            "image": "cover_2.png",
+            "image": "Santa_cloud-min.gif",
             "text" : `Szerencsére a telefont következő email váltásból midnen kitisztul.Te is érzed, hogy itt nem babra megy a játék. A világ legnagyobb love brandje pottyant az öledbe, kösd fel a gatyát, és mutasd meg, mi a kreatív szakma csúcsa!
                     Lehet, hogy az idő kevés, de jó munkát csak megalapozott stratégiával lehet végezni.`,
             "actions" : [
@@ -388,7 +388,7 @@
         {   "title":"$1000",
             "icon": "coin.gif",
             "image": "cover_gamewon.png",
-            "text" : `<p>Valljuk be, te se hitted hogy ez sikerülni fog! Viszont valahogy összeraktad, ezért lehet hogy ezzel a szuper öszeggel fogjuk támogatni a alapitvany_neve-t.</p>
+            "text" : `<p>Valljuk be, te se hitted hogy ez sikerülni fog! Viszont valahogy összeraktad, ezért sanszos hogy ezzel a szuper öszeggel is fogjuk támogatni a rászoruló gyerekeket.</p>
             <p>ps.: Az itt megadott adatokat nagyon-nagyon bizalmasan fogjuk kezelni, és max. csak a Mikulásnak adjuk tovább.</p>`,
             "type" : "game_won",
             "outcome": "endgame",

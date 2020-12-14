@@ -19,7 +19,7 @@ body {
   color: white;
   font-size: 16pt;
   color: white;
-  height: 100vh;
+  height: 100%;
   background-color: #38984D;
 }
 body img {
@@ -28,8 +28,7 @@ body img {
 body img.cover {
   width: 100%;
   margin: auto;
-  max-height: 40vh;
-  object-fit: cover;
+  object-fit: contain;
 }
 body img.spinner {
   display: none;
@@ -84,12 +83,13 @@ body .loading .nes-container img {
 
 .intro {
   width: 100%;
-  height: 200%;
+  height: 100%;
   display: block;
   background-color: #ff5638;
   position: absolute;
   z-index: 100;
   overflow: hidden;
+  top: 0px;
   text-align: center;
 }
 .intro img.intro_title {
@@ -99,7 +99,7 @@ body .loading .nes-container img {
 .intro img.intro_graphics {
   width: 170vw;
   margin-left: -10vw;
-  margin-top: 60%;
+  position: relative;
 }
 .intro div.menu {
   background-color: #38984D;
@@ -108,6 +108,14 @@ body .loading .nes-container img {
   padding-right: 30px;
   padding-bottom: 50px;
   text-align: left;
+  height: 100%;
+}
+.intro div.menu img#logo {
+  display: block;
+  margin: auto;
+  width: 100%;
+  margin-top: -25%;
+  margin-bottom: 10%;
 }
 .intro div.menu h1 {
   font-weight: normal;
@@ -139,7 +147,7 @@ body .loading .nes-container img {
   margin-top: -30px;
 }
 .register div.gradient {
-  height: 20vh;
+  height: 15vh;
 }
 .register .nes-field {
   background-color: #75c25b;
@@ -207,7 +215,7 @@ body .loading .nes-container img {
   background-color: #38984D;
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   display: none;
 }
 
@@ -234,8 +242,6 @@ section.statusbar ul {
 }
 section.statusbar ul li {
   flex-grow: 1;
-  height: 5px;
-  background-color: white;
   margin-right: 2px;
   opacity: 0.2;
 }
@@ -271,7 +277,7 @@ section.screen {
   padding-top: 5vh;
   width: 100%;
   z-index: 1;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   align-items: flex-start;
 }
@@ -296,8 +302,8 @@ section.screen h1 {
   text-align: right;
 }
 section.screen h1 img {
+  display: none;
   width: 13vw;
-  display: inline-block;
 }
 section.screen div.text {
   padding-left: 10px;
@@ -356,6 +362,13 @@ section.screen.negative h1 img {
 section.screen.negative div.buttons {
   background: #ff9e42;
 }
+section.screen.endgame h1 {
+  font-size: 350%;
+  text-align: center;
+}
+section.screen.endgame h1 img {
+  display: inline-block;
+}
 section.screen div.gradient {
   display: block;
   background: linear-gradient(0deg, #75c25b 0%, #75c25b 19.9%, rgba(117, 194, 91, 0.8) 20%, rgba(117, 194, 91, 0.8) 39.9%, rgba(117, 194, 91, 0.6) 40%, rgba(117, 194, 91, 0.6) 59.9%, rgba(117, 194, 91, 0.4) 60%, rgba(117, 194, 91, 0.4) 79.9%, rgba(117, 194, 91, 0.2) 80%);
@@ -369,7 +382,7 @@ section.screen div.buttons {
 }
 section.screen button {
   font-size: 100%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   line-height: 90%;
 }
 

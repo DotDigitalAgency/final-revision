@@ -12,9 +12,6 @@ import "nes.css/css/nes.min.css";
 
 
 $(function () {
-
-
-  
   $(document).ready(function () {
 
     gsap.registerPlugin(ScrollToPlugin);
@@ -22,12 +19,14 @@ $(function () {
     gsap.ticker.fps(8)
     // gsap.globalTimeline.ticker.fps(12);
    
-    window.scroll(0,0);
+    var offset = 0-($('.intro_graphics').height()+100);
 
     var intro = gsap.timeline({paused:true});
-    intro.fromTo(".intro_title", {opacity:0,y:-100},{y:0, opacity:1, duration:3})
-    intro.fromTo(".intro_graphics", {opacity:0},{opacity:1, duration:3, delay:-2})
-    intro.to(window, {duration: 4, scrollTo: ".menu", delay: -.5});
+    intro.fromTo(".intro_title", {opacity:0,y:100},{y:0, opacity:1, duration:3})
+    intro.fromTo(".intro_graphics", {opacity:0},{opacity:1, duration:3, delay:-1})
+    intro.to(".intro_graphics", {duration: 2, y: offset, delay:-.5});
+    intro.to(".intro_title",{y:-400, opacity:0, duration:1},"<")
+    intro.to("div.intro div.menu", {duration: 2, y: offset},"<");
     intro.play();
 
     $("#app").hide();
@@ -39,13 +38,10 @@ $(function () {
     let frController = new gameController(gameData,$('#app'),0); //Start the gem in the proper div.
     //Handling game finished event
     frController.onFinish = () => { 
-      console.log('fsdfdsf');
       $("div.register").show();
       gsap.fromTo("div.register",{autoAlpha:0},{autoAlpha:1, duration:1, onComplete:function () {
         $('#app').hide();
       }});
-      
-      // showHighScore();
     }
 
 
@@ -57,7 +53,6 @@ $(function () {
 
     //Show the high score
     $("#highscore").on('click',(e) => {
-      console.log('show high score');
       gsap.to(".intro",{autoAlpha:0, duration:1, display:"none" });
       showHighScore();
       gsap.to(window, {duration: 1, scrollTo: 0});
@@ -65,18 +60,17 @@ $(function () {
 
     //close the high score
     $("#back").on('click',(e) => {
+      window.scroll(0,0);
       gsap.to("div.highscore",{autoAlpha:0, duration:.7, display:"none" });
       $('div.intro').show();
       gsap.to("div.intro",{autoAlpha:1, duration:.7 });
-      gsap.to(window, {duration: 0, scrollTo: ".menu"});
+      // gsap.to(window, {duration: 0, scrollTo: ".menu"});
     })
 
 
     $("#register").on('click',(e) => {
 
       showLoading();
-
-      // gsap.to(".loading .spinner",1,{autoAlpha:0});
 
       fetch(gameData.register_url, {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
@@ -97,10 +91,9 @@ $(function () {
         }) // body data type must match "Content-Type" header
       }).then(data => {
         if (data.status == 200) {
-          console.log(data)
-          setLoadingScreen('success','highscore');
+          setLoadingScreen('success','highscore',true);
         } else {
-          setLoadingScreen('error');
+          setLoadingScreen('error','',true);
         }
       });
 
@@ -151,7 +144,6 @@ $(function () {
     $("div.success, div.error").hide();
     gsap.to("div.loading",.5,{autoAlpha:.9});
     
-    // gsap.to("div.register",.5,{autoAlpha:.5});
     gsap.fromTo('#loading-bar',1.5,{value:0},{value:100});
   }
 
@@ -161,7 +153,7 @@ $(function () {
   }
 
   //chnage loading screen outcomek
-  function setLoadingScreen(type,func) {
+  function setLoadingScreen(type,func,autoclose = false) {
     $("div.loading").removeClass('blocker');
     if (type == 'success') {
       $('div.error').hide();
@@ -169,6 +161,7 @@ $(function () {
       gsap.to('#loading-bar',.5,{autoAlpha:0,display:"none",onComplete:function () {
         $('div.success').show();
         gsap.fromTo('div.success',.5,{autoAlpha:0},{autoAlpha:1});
+
       }});
       
     } else if (type == 'error') {
@@ -179,21 +172,28 @@ $(function () {
         gsap.fromTo('div.error',.5,{autoAlpha:0},{autoAlpha:1});
       }});
     }
+
+    if (autoclose) { //close automatically
+      setTimeout(() => {
+        hideLoading(); 
+        nextLoadingAction();
+      }, 3000);
+    }
+  }
+
+  function nextLoadingAction() {
+    if ($('div.loading').data('next') == 'highscore') { //if we have a next action to do after click process it.
+      gsap.to("div.register",{autoAlpha:0, duration:1, display:"none" });
+      showHighScore();
+    }
   }
 
   //handle loading screen click -> hide on click
   $('div.loading').on('click',(e) => {
     if (!$("div.loading").hasClass('blocker')) {
       hideLoading(); //if we can close it, closw it with a click
-
-      if ($('div.loading').data('next') == 'highscore') { //if we have a next action to do after click process it.
-        gsap.to("div.register",{autoAlpha:0, duration:1, display:"none" });
-        showHighScore();
-      }
+      nextLoadingAction();
     }
   });
-
-
-
 
 });
