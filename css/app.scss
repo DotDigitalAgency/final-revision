@@ -523,20 +523,16 @@ section.screen {
 
  
     //button to the bottom
-    .button_wrapper {
+    section.screen div.buttons {
         position: absolute;
         bottom:0px;
         left: 0px;
         width: 100%;
         height:15%;
-        display: inline-block;
-    }
-
-    section.screen div.buttons {
+        display: flex;
         flex-direction: row;
         justify-content: center;
         padding-bottom: 0.5%;
-        position: relative;
     }
 
     div.buttons{

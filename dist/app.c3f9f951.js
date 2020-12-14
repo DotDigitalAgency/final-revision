@@ -7806,8 +7806,6 @@ module.exports = {
 };
 },{}],"img/coin.gif":[function(require,module,exports) {
 module.exports = "/coin.fa42f039.gif";
-},{}],"img/cover_1.png":[function(require,module,exports) {
-module.exports = "/cover_1.916796b9.png";
 },{}],"img/cover_10.png":[function(require,module,exports) {
 module.exports = "/cover_10.854b4ee7.png";
 },{}],"img/cover_11.png":[function(require,module,exports) {
@@ -7824,10 +7822,10 @@ module.exports = "/cover_15.14f2863a.png";
 module.exports = "/cover_16.a773e12b.png";
 },{}],"img/cover_17.png":[function(require,module,exports) {
 module.exports = "/cover_17.e7ecab84.png";
-},{}],"img/cover_18.png":[function(require,module,exports) {
-module.exports = "/cover_18.f2999c70.png";
 },{}],"img/cover_19.png":[function(require,module,exports) {
 module.exports = "/cover_19.fb70ec20.png";
+},{}],"img/cover_18.png":[function(require,module,exports) {
+module.exports = "/cover_18.f2999c70.png";
 },{}],"img/cover_2.png":[function(require,module,exports) {
 module.exports = "/cover_2.5f61d66c.png";
 },{}],"img/cover_20.png":[function(require,module,exports) {
@@ -7842,16 +7840,16 @@ module.exports = "/cover_4.a9eee83c.png";
 module.exports = "/cover_5.0cf0eaea.png";
 },{}],"img/cover_6.png":[function(require,module,exports) {
 module.exports = "/cover_6.6d60b95f.png";
-},{}],"img/cover_7.png":[function(require,module,exports) {
-module.exports = "/cover_7.11d58592.png";
 },{}],"img/cover_8.png":[function(require,module,exports) {
 module.exports = "/cover_8.f2c1363b.png";
+},{}],"img/cover_7.png":[function(require,module,exports) {
+module.exports = "/cover_7.11d58592.png";
 },{}],"img/cover_9.png":[function(require,module,exports) {
 module.exports = "/cover_9.4e605972.png";
-},{}],"img/cover_gamewon.png":[function(require,module,exports) {
-module.exports = "/cover_gamewon.4a95d48b.png";
 },{}],"img/cover_highscore.png":[function(require,module,exports) {
 module.exports = "/cover_highscore.e6f1580d.png";
+},{}],"img/cover_gamewon.png":[function(require,module,exports) {
+module.exports = "/cover_gamewon.4a95d48b.png";
 },{}],"img/icon_error.png":[function(require,module,exports) {
 module.exports = "/icon_error.9cd9df31.png";
 },{}],"img/icon_success.png":[function(require,module,exports) {
@@ -7862,16 +7860,14 @@ module.exports = "/intro_graphics.79b1960b.png";
 module.exports = "/intro_logo.e9c34bdf.png";
 },{}],"img/logo.png":[function(require,module,exports) {
 module.exports = "/logo.cecc779a.png";
-},{}],"img/lose_cover.png":[function(require,module,exports) {
-module.exports = "/lose_cover.cc07fd4f.png";
+},{}],"img/cover_1.png":[function(require,module,exports) {
+module.exports = "/cover_1.916796b9.png";
 },{}],"img/lose_icon.png":[function(require,module,exports) {
 module.exports = "/lose_icon.d988ab9a.png";
 },{}],"img/mistletoe.png":[function(require,module,exports) {
 module.exports = "/mistletoe.86c86e37.png";
 },{}],"img/Money_glitter_v1-min.gif":[function(require,module,exports) {
 module.exports = "/Money_glitter_v1-min.af0de227.gif";
-},{}],"img/Money_glitter_v2-min.gif":[function(require,module,exports) {
-module.exports = "/Money_glitter_v2-min.7d248cd4.gif";
 },{}],"img/Santa_cloud-min.gif":[function(require,module,exports) {
 module.exports = "/Santa_cloud-min.6e8b9c55.gif";
 },{}],"img/santa_couple_2-min.gif":[function(require,module,exports) {
@@ -7880,17 +7876,18 @@ module.exports = "/santa_couple_2-min.dd21f6fe.gif";
 module.exports = "/Santa_hand_-min.b5796e9b.gif";
 },{}],"img/section.svg":[function(require,module,exports) {
 module.exports = "/section.0e9c70c5.svg";
+},{}],"img/lose_cover.png":[function(require,module,exports) {
+module.exports = "/lose_cover.cc07fd4f.png";
 },{}],"img/win_cover.png":[function(require,module,exports) {
 module.exports = "/win_cover.7e212c11.png";
 },{}],"img/win_icon.png":[function(require,module,exports) {
 module.exports = "/win_icon.3b946e2a.png";
+},{}],"img/Money_glitter_v2-min.gif":[function(require,module,exports) {
+module.exports = "/Money_glitter_v2-min.7d248cd4.gif";
 },{}],"img/*.*":[function(require,module,exports) {
 module.exports = {
   "coin": {
     "gif": require("./coin.gif")
-  },
-  "cover_1": {
-    "png": require("./cover_1.png")
   },
   "cover_10": {
     "png": require("./cover_10.png")
@@ -7916,11 +7913,11 @@ module.exports = {
   "cover_17": {
     "png": require("./cover_17.png")
   },
-  "cover_18": {
-    "png": require("./cover_18.png")
-  },
   "cover_19": {
     "png": require("./cover_19.png")
+  },
+  "cover_18": {
+    "png": require("./cover_18.png")
   },
   "cover_2": {
     "png": require("./cover_2.png")
@@ -7943,20 +7940,20 @@ module.exports = {
   "cover_6": {
     "png": require("./cover_6.png")
   },
-  "cover_7": {
-    "png": require("./cover_7.png")
-  },
   "cover_8": {
     "png": require("./cover_8.png")
+  },
+  "cover_7": {
+    "png": require("./cover_7.png")
   },
   "cover_9": {
     "png": require("./cover_9.png")
   },
-  "cover_gamewon": {
-    "png": require("./cover_gamewon.png")
-  },
   "cover_highscore": {
     "png": require("./cover_highscore.png")
+  },
+  "cover_gamewon": {
+    "png": require("./cover_gamewon.png")
   },
   "icon_error": {
     "png": require("./icon_error.png")
@@ -7973,8 +7970,8 @@ module.exports = {
   "logo": {
     "png": require("./logo.png")
   },
-  "lose_cover": {
-    "png": require("./lose_cover.png")
+  "cover_1": {
+    "png": require("./cover_1.png")
   },
   "lose_icon": {
     "png": require("./lose_icon.png")
@@ -7984,9 +7981,6 @@ module.exports = {
   },
   "Money_glitter_v1-min": {
     "gif": require("./Money_glitter_v1-min.gif")
-  },
-  "Money_glitter_v2-min": {
-    "gif": require("./Money_glitter_v2-min.gif")
   },
   "Santa_cloud-min": {
     "gif": require("./Santa_cloud-min.gif")
@@ -8000,14 +7994,20 @@ module.exports = {
   "section": {
     "svg": require("./section.svg")
   },
+  "lose_cover": {
+    "png": require("./lose_cover.png")
+  },
   "win_cover": {
     "png": require("./win_cover.png")
   },
   "win_icon": {
     "png": require("./win_icon.png")
+  },
+  "Money_glitter_v2-min": {
+    "gif": require("./Money_glitter_v2-min.gif")
   }
 };
-},{"./coin.gif":"img/coin.gif","./cover_1.png":"img/cover_1.png","./cover_10.png":"img/cover_10.png","./cover_11.png":"img/cover_11.png","./cover_12.png":"img/cover_12.png","./cover_13.png":"img/cover_13.png","./cover_14.png":"img/cover_14.png","./cover_15.png":"img/cover_15.png","./cover_16.png":"img/cover_16.png","./cover_17.png":"img/cover_17.png","./cover_18.png":"img/cover_18.png","./cover_19.png":"img/cover_19.png","./cover_2.png":"img/cover_2.png","./cover_20.png":"img/cover_20.png","./cover_21.png":"img/cover_21.png","./cover_3.png":"img/cover_3.png","./cover_4.png":"img/cover_4.png","./cover_5.png":"img/cover_5.png","./cover_6.png":"img/cover_6.png","./cover_7.png":"img/cover_7.png","./cover_8.png":"img/cover_8.png","./cover_9.png":"img/cover_9.png","./cover_gamewon.png":"img/cover_gamewon.png","./cover_highscore.png":"img/cover_highscore.png","./icon_error.png":"img/icon_error.png","./icon_success.png":"img/icon_success.png","./intro_graphics.png":"img/intro_graphics.png","./intro_logo.png":"img/intro_logo.png","./logo.png":"img/logo.png","./lose_cover.png":"img/lose_cover.png","./lose_icon.png":"img/lose_icon.png","./mistletoe.png":"img/mistletoe.png","./Money_glitter_v1-min.gif":"img/Money_glitter_v1-min.gif","./Money_glitter_v2-min.gif":"img/Money_glitter_v2-min.gif","./Santa_cloud-min.gif":"img/Santa_cloud-min.gif","./santa_couple_2-min.gif":"img/santa_couple_2-min.gif","./Santa_hand_-min.gif":"img/Santa_hand_-min.gif","./section.svg":"img/section.svg","./win_cover.png":"img/win_cover.png","./win_icon.png":"img/win_icon.png"}],"js/gameController.js":[function(require,module,exports) {
+},{"./coin.gif":"img/coin.gif","./cover_10.png":"img/cover_10.png","./cover_11.png":"img/cover_11.png","./cover_12.png":"img/cover_12.png","./cover_13.png":"img/cover_13.png","./cover_14.png":"img/cover_14.png","./cover_15.png":"img/cover_15.png","./cover_16.png":"img/cover_16.png","./cover_17.png":"img/cover_17.png","./cover_19.png":"img/cover_19.png","./cover_18.png":"img/cover_18.png","./cover_2.png":"img/cover_2.png","./cover_20.png":"img/cover_20.png","./cover_21.png":"img/cover_21.png","./cover_3.png":"img/cover_3.png","./cover_4.png":"img/cover_4.png","./cover_5.png":"img/cover_5.png","./cover_6.png":"img/cover_6.png","./cover_8.png":"img/cover_8.png","./cover_7.png":"img/cover_7.png","./cover_9.png":"img/cover_9.png","./cover_highscore.png":"img/cover_highscore.png","./cover_gamewon.png":"img/cover_gamewon.png","./icon_error.png":"img/icon_error.png","./icon_success.png":"img/icon_success.png","./intro_graphics.png":"img/intro_graphics.png","./intro_logo.png":"img/intro_logo.png","./logo.png":"img/logo.png","./cover_1.png":"img/cover_1.png","./lose_icon.png":"img/lose_icon.png","./mistletoe.png":"img/mistletoe.png","./Money_glitter_v1-min.gif":"img/Money_glitter_v1-min.gif","./Santa_cloud-min.gif":"img/Santa_cloud-min.gif","./santa_couple_2-min.gif":"img/santa_couple_2-min.gif","./Santa_hand_-min.gif":"img/Santa_hand_-min.gif","./section.svg":"img/section.svg","./lose_cover.png":"img/lose_cover.png","./win_cover.png":"img/win_cover.png","./win_icon.png":"img/win_icon.png","./Money_glitter_v2-min.gif":"img/Money_glitter_v2-min.gif"}],"js/gameController.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8089,7 +8089,7 @@ var GameController = /*#__PURE__*/function () {
         }
       }
 
-      var screen_template = "<section class=\"screen ".concat(data.outcome, "\">\n                                    <img class=\"cover\" src=\"").concat(cover_filename, "\" alt=\"\">\n                                    <div class='").concat(text_wrapper, "'>\n                                        <h1> <img src=\"").concat(icon_filename, "\" /><span>").concat(data.title, "</span></h1>\n                                        <div class=\"text\">").concat(data.text, "</div>\n                                        <div class=\"gradient\"></div>\n                                        <div class='button_wrapper'>\n                                            <div class=\"buttons\"></div>\n                                        </div>\n                                    </div>\n                                </section>");
+      var screen_template = "<section class=\"screen ".concat(data.outcome, "\">\n                                    <img class=\"cover\" src=\"").concat(cover_filename, "\" alt=\"\">\n                                    <div class='").concat(text_wrapper, "'>\n                                        <h1> <img src=\"").concat(icon_filename, "\" /><span>").concat(data.title, "</span></h1>\n                                        <div class=\"text\">").concat(data.text, "</div>\n                                        <div class=\"gradient\"></div>\n                                        <div class=\"buttons\"></div>\n                                    </div>\n                                </section>");
       var scr_dom = (0, _cashDom.default)(screen_template).appendTo(this._app);
 
       if (!visible) {
@@ -8681,7 +8681,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63378" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50752" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
