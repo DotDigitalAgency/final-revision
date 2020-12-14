@@ -1,11 +1,4 @@
-
 @use 'theme';
-
-@mixin chrome-sim {
-    // height:634px; //set to 100%
-    // max-height: 634px;
-    // overflow: hidden;
-}
 
 body {
     margin:0px;
@@ -15,7 +8,7 @@ body {
     color: theme.$text_color;
     // display: flex;
     // align-items: center;
-    height:100vh;
+    height:100%;
     background-color: theme.$bg-default;
 
     img {
@@ -27,8 +20,8 @@ body {
 
         width:100%;
         margin:auto;
-        max-height: 40vh;
-        object-fit: cover;
+        // max-height: 45vh;
+        object-fit: contain;
         
     }
 
@@ -94,16 +87,15 @@ body {
 
 .intro {
     width: 100%;
-    height: 200%;
+    height: 100%;
     display: block;
     background-color: theme.$bg-bad;
     position: absolute;
     z-index: 100;
     overflow: hidden;
-
+    top:0px;
     text-align: center;
     
-
     img.intro_title {
         width: 70%;
         margin-top: 40vh;
@@ -112,7 +104,7 @@ body {
     img.intro_graphics {
         width:170vw;
         margin-left: -10vw;
-        margin-top: 60%;
+        position: relative;
     }
 
     div.menu {
@@ -122,6 +114,16 @@ body {
         padding-right: theme.$base-padding*3;
         padding-bottom: theme.$base-padding*5;
         text-align: left;
+        height:100%;
+
+        img#logo {
+            display: block;
+            margin: auto;
+            width:100%;
+            margin-top: -25%;
+            margin-bottom: 10%;
+        }
+
         h1 {
             font-weight: normal;
             font-size: 400%;
@@ -164,7 +166,7 @@ body {
     }
     
     div.gradient {
-        height: 20vh;
+        height: 15vh;
     }
 
 
@@ -256,8 +258,7 @@ body {
     background-color: theme.$bg-default;
     position: absolute;
     width:100vw;
-    height:100vh;
-    @include chrome-sim;
+    height:100%;
     display: none;
 }
 
@@ -285,8 +286,6 @@ section.statusbar {
 
         li {
             flex-grow: 1;
-            height:5px;
-            background-color: white;
             margin-right: 2px;
             opacity: .2;
 
@@ -333,10 +332,9 @@ section.screen {
     padding-top: theme.$status-height;
     width:100%;
     z-index: 1;
-    height:100vh;
+    height:100%;
     position: fixed;
     align-items: flex-start;
-    @include chrome-sim;
 
     div.text_wrapper {
         display: flex;
@@ -362,9 +360,8 @@ section.screen {
         text-align: right;
 
         img {
-            // display:none;
+            display:none;
             width:13vw;
-            display: inline-block;
         }
        
     }
@@ -440,6 +437,16 @@ section.screen {
         div.buttons { background: theme.$bg-bad-light;}
     }
 
+    &.endgame {
+        h1 {
+            img {
+                display: inline-block;
+            }
+            font-size: 350%;
+            text-align: center;
+        }
+    }
+
 
     div.gradient {
         display: block;
@@ -456,7 +463,7 @@ section.screen {
 
     button {
         font-size:100%;
-        margin-bottom: 2%;
+        margin-bottom: 4%;
         line-height: 90%;
     }
 

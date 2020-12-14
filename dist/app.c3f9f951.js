@@ -7433,19 +7433,19 @@ _getGSAP() && gsap.registerPlugin(TextPlugin);
 },{"./utils/strings.js":"node_modules/gsap/utils/strings.js"}],"data/gamedata.json":[function(require,module,exports) {
 module.exports = {
   "name": "Final Revision VII",
-  "base_value": 10000,
+  "base_value": 20000,
   "highscore_url": "//46.101.119.204/games?_sort=score:DESC",
   "register_url": "//46.101.119.204/games",
   "screens": [{
     "title": "",
-    "image": "cover_1.png",
+    "image": "santa_couple_2-min.gif",
     "text": "Utols\xF3 el\u0151tti h\xE9ten, a c\xE9ges kar\xE1csonyi bulin megcs\xF6rren a telefonod.<br/><br/>\n            <div class=\"nes-container with-title is-rounded is-dark popout\"><h3 class=\"title\">+72 40 512 879</h3>\n                <p class=\"typewriter\">Szia! \xC9n vagyok a Mikul\xE1s, ho ho ho!<br/>\n                Egy kar\xE1csonyi prom\xF3 kamp\xE1nyra lenne sz\xFCks\xE9g\xFCnk itt, az \xE9szaki sarkon! <br/><br/>\n                Mert egy gyerek sem maradhat aj\xE1nd\xE9k n\xE9lk\xFCl. </p>\n            </div>",
     "actions": [{
       "title": "Megpróbálsz úgy tenni, mintha értenéd, amit mond",
       "outcome": "positive",
       "text": "<p>Valami Mikl\xF3s \xE9jszakai gyereksarkot akar?? Egyre fur\xE1bb \xFCgyfeleid vannak. Miut\xE1n letetted, elmorzsolsz egy im\xE1t, hogy eml\xE9kezz valamire az elhangzottakb\xF3l..</p>",
       "cta": "És este lett, és reggel...",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7454,14 +7454,14 @@ module.exports = {
       "outcome": "negative",
       "text": "<p>El\xE9g fura, hogy d\xE9lben iszol. De mivel mindenki be van baszva, h\xE1t... \xEDgy j\xE1rtunk.</p>",
       "cta": "Keverek még egy Gin&Tonicot",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
     }]
   }, {
     "title": "",
-    "image": "cover_2.png",
+    "image": "Santa_cloud-min.gif",
     "text": "Szerencs\xE9re a telefont k\xF6vetkez\u0151 email v\xE1lt\xE1sb\xF3l midnen kitisztul.Te is \xE9rzed, hogy itt nem babra megy a j\xE1t\xE9k. A vil\xE1g legnagyobb love brandje pottyant az \xF6ledbe, k\xF6sd fel a gaty\xE1t, \xE9s mutasd meg, mi a kreat\xEDv szakma cs\xFAcsa!\n                    Lehet, hogy az id\u0151 kev\xE9s, de j\xF3 munk\xE1t csak megalapozott strat\xE9gi\xE1val lehet v\xE9gezni.",
     "actions": [{
       "title": "Kutatásra fel!",
@@ -7795,7 +7795,7 @@ module.exports = {
     "title": "$1000",
     "icon": "coin.gif",
     "image": "cover_gamewon.png",
-    "text": "<p>Valljuk be, te se hitted hogy ez siker\xFClni fog! Viszont valahogy \xF6sszeraktad, ez\xE9rt lehet hogy ezzel a szuper \xF6szeggel fogjuk t\xE1mogatni a alapitvany_neve-t.</p>\n            <p>ps.: Az itt megadott adatokat nagyon-nagyon bizalmasan fogjuk kezelni, \xE9s max. csak a Mikul\xE1snak adjuk tov\xE1bb.</p>",
+    "text": "<p>Valljuk be, te se hitted hogy ez siker\xFClni fog! Viszont valahogy \xF6sszeraktad, ez\xE9rt sanszos hogy ezzel a szuper \xF6szeggel is fogjuk t\xE1mogatni a r\xE1szorul\xF3 gyerekeket.</p>\n            <p>ps.: Az itt megadott adatokat nagyon-nagyon bizalmasan fogjuk kezelni, \xE9s max. csak a Mikul\xE1snak adjuk tov\xE1bb.</p>",
     "type": "game_won",
     "outcome": "endgame",
     "actions": [{
@@ -7804,6 +7804,14 @@ module.exports = {
     }]
   }]
 };
+},{}],"img/Money_glitter_v1-min.gif":[function(require,module,exports) {
+module.exports = "/Money_glitter_v1-min.af0de227.gif";
+},{}],"img/Money_glitter_v2-min.gif":[function(require,module,exports) {
+module.exports = "/Money_glitter_v2-min.7d248cd4.gif";
+},{}],"img/Santa_cloud-min.gif":[function(require,module,exports) {
+module.exports = "/Santa_cloud-min.6e8b9c55.gif";
+},{}],"img/Santa_hand_-min.gif":[function(require,module,exports) {
+module.exports = "/Santa_hand_-min.b5796e9b.gif";
 },{}],"img/coin.gif":[function(require,module,exports) {
 module.exports = "/coin.fa42f039.gif";
 },{}],"img/cover_1.png":[function(require,module,exports) {
@@ -7852,8 +7860,6 @@ module.exports = "/cover_9.4e605972.png";
 module.exports = "/cover_gamewon.4a95d48b.png";
 },{}],"img/cover_highscore.png":[function(require,module,exports) {
 module.exports = "/cover_highscore.e6f1580d.png";
-},{}],"img/grid.svg":[function(require,module,exports) {
-module.exports = "/grid.f2ffe32e.svg";
 },{}],"img/icon_error.png":[function(require,module,exports) {
 module.exports = "/icon_error.9cd9df31.png";
 },{}],"img/icon_success.png":[function(require,module,exports) {
@@ -7862,18 +7868,36 @@ module.exports = "/icon_success.7965b1e3.png";
 module.exports = "/intro_graphics.79b1960b.png";
 },{}],"img/intro_logo.png":[function(require,module,exports) {
 module.exports = "/intro_logo.e9c34bdf.png";
+},{}],"img/logo.png":[function(require,module,exports) {
+module.exports = "/logo.cecc779a.png";
 },{}],"img/lose_cover.png":[function(require,module,exports) {
 module.exports = "/lose_cover.cc07fd4f.png";
-},{}],"img/lose_icon.png":[function(require,module,exports) {
-module.exports = "/lose_icon.d988ab9a.png";
 },{}],"img/mistletoe.png":[function(require,module,exports) {
 module.exports = "/mistletoe.86c86e37.png";
+},{}],"img/lose_icon.png":[function(require,module,exports) {
+module.exports = "/lose_icon.d988ab9a.png";
+},{}],"img/section.svg":[function(require,module,exports) {
+module.exports = "/section.0e9c70c5.svg";
+},{}],"img/santa_couple_2-min.gif":[function(require,module,exports) {
+module.exports = "/santa_couple_2-min.dd21f6fe.gif";
 },{}],"img/win_cover.png":[function(require,module,exports) {
 module.exports = "/win_cover.7e212c11.png";
 },{}],"img/win_icon.png":[function(require,module,exports) {
 module.exports = "/win_icon.3b946e2a.png";
 },{}],"img/*.*":[function(require,module,exports) {
 module.exports = {
+  "Money_glitter_v1-min": {
+    "gif": require("./Money_glitter_v1-min.gif")
+  },
+  "Money_glitter_v2-min": {
+    "gif": require("./Money_glitter_v2-min.gif")
+  },
+  "Santa_cloud-min": {
+    "gif": require("./Santa_cloud-min.gif")
+  },
+  "Santa_hand_-min": {
+    "gif": require("./Santa_hand_-min.gif")
+  },
   "coin": {
     "gif": require("./coin.gif")
   },
@@ -7946,9 +7970,6 @@ module.exports = {
   "cover_highscore": {
     "png": require("./cover_highscore.png")
   },
-  "grid": {
-    "svg": require("./grid.svg")
-  },
   "icon_error": {
     "png": require("./icon_error.png")
   },
@@ -7961,14 +7982,23 @@ module.exports = {
   "intro_logo": {
     "png": require("./intro_logo.png")
   },
+  "logo": {
+    "png": require("./logo.png")
+  },
   "lose_cover": {
     "png": require("./lose_cover.png")
+  },
+  "mistletoe": {
+    "png": require("./mistletoe.png")
   },
   "lose_icon": {
     "png": require("./lose_icon.png")
   },
-  "mistletoe": {
-    "png": require("./mistletoe.png")
+  "section": {
+    "svg": require("./section.svg")
+  },
+  "santa_couple_2-min": {
+    "gif": require("./santa_couple_2-min.gif")
   },
   "win_cover": {
     "png": require("./win_cover.png")
@@ -7977,7 +8007,7 @@ module.exports = {
     "png": require("./win_icon.png")
   }
 };
-},{"./coin.gif":"img/coin.gif","./cover_1.png":"img/cover_1.png","./cover_10.png":"img/cover_10.png","./cover_11.png":"img/cover_11.png","./cover_12.png":"img/cover_12.png","./cover_13.png":"img/cover_13.png","./cover_14.png":"img/cover_14.png","./cover_15.png":"img/cover_15.png","./cover_16.png":"img/cover_16.png","./cover_17.png":"img/cover_17.png","./cover_18.png":"img/cover_18.png","./cover_19.png":"img/cover_19.png","./cover_2.png":"img/cover_2.png","./cover_20.png":"img/cover_20.png","./cover_21.png":"img/cover_21.png","./cover_3.png":"img/cover_3.png","./cover_4.png":"img/cover_4.png","./cover_5.png":"img/cover_5.png","./cover_6.png":"img/cover_6.png","./cover_7.png":"img/cover_7.png","./cover_8.png":"img/cover_8.png","./cover_9.png":"img/cover_9.png","./cover_gamewon.png":"img/cover_gamewon.png","./cover_highscore.png":"img/cover_highscore.png","./grid.svg":"img/grid.svg","./icon_error.png":"img/icon_error.png","./icon_success.png":"img/icon_success.png","./intro_graphics.png":"img/intro_graphics.png","./intro_logo.png":"img/intro_logo.png","./lose_cover.png":"img/lose_cover.png","./lose_icon.png":"img/lose_icon.png","./mistletoe.png":"img/mistletoe.png","./win_cover.png":"img/win_cover.png","./win_icon.png":"img/win_icon.png"}],"js/gameController.js":[function(require,module,exports) {
+},{"./Money_glitter_v1-min.gif":"img/Money_glitter_v1-min.gif","./Money_glitter_v2-min.gif":"img/Money_glitter_v2-min.gif","./Santa_cloud-min.gif":"img/Santa_cloud-min.gif","./Santa_hand_-min.gif":"img/Santa_hand_-min.gif","./coin.gif":"img/coin.gif","./cover_1.png":"img/cover_1.png","./cover_10.png":"img/cover_10.png","./cover_11.png":"img/cover_11.png","./cover_12.png":"img/cover_12.png","./cover_13.png":"img/cover_13.png","./cover_14.png":"img/cover_14.png","./cover_15.png":"img/cover_15.png","./cover_16.png":"img/cover_16.png","./cover_17.png":"img/cover_17.png","./cover_18.png":"img/cover_18.png","./cover_19.png":"img/cover_19.png","./cover_2.png":"img/cover_2.png","./cover_20.png":"img/cover_20.png","./cover_21.png":"img/cover_21.png","./cover_3.png":"img/cover_3.png","./cover_4.png":"img/cover_4.png","./cover_5.png":"img/cover_5.png","./cover_6.png":"img/cover_6.png","./cover_7.png":"img/cover_7.png","./cover_8.png":"img/cover_8.png","./cover_9.png":"img/cover_9.png","./cover_gamewon.png":"img/cover_gamewon.png","./cover_highscore.png":"img/cover_highscore.png","./icon_error.png":"img/icon_error.png","./icon_success.png":"img/icon_success.png","./intro_graphics.png":"img/intro_graphics.png","./intro_logo.png":"img/intro_logo.png","./logo.png":"img/logo.png","./lose_cover.png":"img/lose_cover.png","./mistletoe.png":"img/mistletoe.png","./lose_icon.png":"img/lose_icon.png","./section.svg":"img/section.svg","./santa_couple_2-min.gif":"img/santa_couple_2-min.gif","./win_cover.png":"img/win_cover.png","./win_icon.png":"img/win_icon.png"}],"js/gameController.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8014,7 +8044,7 @@ var GameController = /*#__PURE__*/function () {
     var tmp_statusbar = root.append("<section class=\"statusbar\">\n                                            <ul></ul>\n                                            <div>\n                                                <img src=\"".concat(_.default.coin.gif, "\" alt=\"Money icon\" class=\"coin\">\n                                                <span class=\"money\"></span>\n                                            </div>\n                                        </section>")); //generate progress icons
 
     datasource.screens.forEach(function (item) {
-      tmp_statusbar.find('ul').append("<li></li>");
+      tmp_statusbar.find('ul').append("<li><img src=\"".concat(_.default.section.svg, "\" /></li>"));
     });
     this._statusbar = tmp_statusbar; //create class variable for statusbar
 
@@ -8042,8 +8072,6 @@ var GameController = /*#__PURE__*/function () {
       var _this = this;
 
       var visible = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
-      var text_wrapper = window.innerWidth > 1024 ? 'text_wrapper nes-container is-rounded is-dark' : 'text_wrapper'; //show correct border or borderless style responsive
-
       var cover_filename = data.image.split('.');
       cover_filename = _.default[cover_filename[0]][cover_filename[1]];
       var icon_filename;
@@ -8059,7 +8087,7 @@ var GameController = /*#__PURE__*/function () {
         }
       }
 
-      var screen_template = "<section class=\"screen ".concat(data.outcome, "\">\n                                    <img class=\"cover\" src=\"").concat(cover_filename, "\" alt=\"\">\n                                    <div class='").concat(text_wrapper, "'>\n                                        <h1> <img src=\"").concat(icon_filename, "\" /><span>").concat(data.title, "</span></h1>\n                                        <div class=\"text\">").concat(data.text, "</div>\n                                        <div class=\"gradient\"></div>\n                                        <div class='button_wrapper'>\n                                            <div class=\"buttons\"></div>\n                                        </div>\n                                    </div>\n                                </section>");
+      var screen_template = "<section class=\"screen ".concat(data.outcome, "\">\n                                    <img class=\"cover\" src=\"").concat(cover_filename, "\" alt=\"\">\n                                    <div class='text_wrapper'>\n                                        <h1> <img src=\"").concat(icon_filename, "\" /><span>").concat(data.title, "</span></h1>\n                                        <div class=\"text\">").concat(data.text, "</div>\n                                        <div class=\"gradient\"></div>\n                                        <div class='button_wrapper'>\n                                            <div class=\"buttons\"></div>\n                                        </div>\n                                    </div>\n                                </section>");
       var scr_dom = (0, _cashDom.default)(screen_template).appendTo(this._app);
 
       if (!visible) {
@@ -8256,7 +8284,7 @@ var GameController = /*#__PURE__*/function () {
 }();
 
 exports.default = GameController;
-},{"cash-dom":"node_modules/cash-dom/dist/cash.js","../img/*.*":"img/*.*","gsap":"node_modules/gsap/index.js","gsap/TextPlugin":"node_modules/gsap/TextPlugin.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"cash-dom":"node_modules/cash-dom/dist/cash.js","../img/*.*":"img/*.*","gsap":"node_modules/gsap/index.js","gsap/TextPlugin":"node_modules/gsap/TextPlugin.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -8288,7 +8316,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -8323,12 +8351,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/bundle-url.js"}],"node_modules/nes.css/css/nes.min.css":[function(require,module,exports) {
+},{"./bundle-url":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"node_modules/nes.css/css/nes.min.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js"}],"js/app.js":[function(require,module,exports) {
+},{"_css_loader":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/app.js":[function(require,module,exports) {
 "use strict";
 
 var _cashDom = _interopRequireDefault(require("cash-dom"));
@@ -8356,7 +8384,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     _gsap.gsap.ticker.fps(8); // gsap.globalTimeline.ticker.fps(12);
 
 
-    window.scroll(0, 0);
+    var offset = 0 - ((0, _cashDom.default)('.intro_graphics').height() + 100);
 
     var intro = _gsap.gsap.timeline({
       paused: true
@@ -8364,7 +8392,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
     intro.fromTo(".intro_title", {
       opacity: 0,
-      y: -100
+      y: 100
     }, {
       y: 0,
       opacity: 1,
@@ -8375,13 +8403,22 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     }, {
       opacity: 1,
       duration: 3,
-      delay: -2
+      delay: -1
     });
-    intro.to(window, {
-      duration: 4,
-      scrollTo: ".menu",
+    intro.to(".intro_graphics", {
+      duration: 2,
+      y: offset,
       delay: -.5
     });
+    intro.to(".intro_title", {
+      y: -400,
+      opacity: 0,
+      duration: 1
+    }, "<");
+    intro.to("div.intro div.menu", {
+      duration: 2,
+      y: offset
+    }, "<");
     intro.play();
     (0, _cashDom.default)("#app").hide();
     (0, _cashDom.default)(".intro").show();
@@ -8391,7 +8428,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     //Handling game finished event
 
     frController.onFinish = function () {
-      console.log('fsdfdsf');
       (0, _cashDom.default)("div.register").show();
 
       _gsap.gsap.fromTo("div.register", {
@@ -8402,8 +8438,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
         onComplete: function onComplete() {
           (0, _cashDom.default)('#app').hide();
         }
-      }); // showHighScore();
-
+      });
     }; //Start the game
 
 
@@ -8418,8 +8453,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     }); //Show the high score
 
     (0, _cashDom.default)("#highscore").on('click', function (e) {
-      console.log('show high score');
-
       _gsap.gsap.to(".intro", {
         autoAlpha: 0,
         duration: 1,
@@ -8435,6 +8468,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     }); //close the high score
 
     (0, _cashDom.default)("#back").on('click', function (e) {
+      window.scroll(0, 0);
+
       _gsap.gsap.to("div.highscore", {
         autoAlpha: 0,
         duration: .7,
@@ -8446,16 +8481,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
       _gsap.gsap.to("div.intro", {
         autoAlpha: 1,
         duration: .7
-      });
+      }); // gsap.to(window, {duration: 0, scrollTo: ".menu"});
 
-      _gsap.gsap.to(window, {
-        duration: 0,
-        scrollTo: ".menu"
-      });
     });
     (0, _cashDom.default)("#register").on('click', function (e) {
-      showLoading(); // gsap.to(".loading .spinner",1,{autoAlpha:0});
-
+      showLoading();
       fetch(_gamedata.default.register_url, {
         method: 'POST',
         // *GET, POST, PUT, DELETE, etc.
@@ -8482,10 +8512,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
       }).then(function (data) {
         if (data.status == 200) {
-          console.log(data);
-          setLoadingScreen('success', 'highscore');
+          setLoadingScreen('success', 'highscore', true);
         } else {
-          setLoadingScreen('error');
+          setLoadingScreen('error', '', true);
         }
       });
     });
@@ -8526,8 +8555,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
     _gsap.gsap.to("div.loading", .5, {
       autoAlpha: .9
-    }); // gsap.to("div.register",.5,{autoAlpha:.5});
-
+    });
 
     _gsap.gsap.fromTo('#loading-bar', 1.5, {
       value: 0
@@ -8546,6 +8574,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
   function setLoadingScreen(type, func) {
+    var autoclose = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
     (0, _cashDom.default)("div.loading").removeClass('blocker');
 
     if (type == 'success') {
@@ -8583,6 +8612,27 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
         }
       });
     }
+
+    if (autoclose) {
+      //close automatically
+      setTimeout(function () {
+        hideLoading();
+        nextLoadingAction();
+      }, 3000);
+    }
+  }
+
+  function nextLoadingAction() {
+    if ((0, _cashDom.default)('div.loading').data('next') == 'highscore') {
+      //if we have a next action to do after click process it.
+      _gsap.gsap.to("div.register", {
+        autoAlpha: 0,
+        duration: 1,
+        display: "none"
+      });
+
+      showHighScore();
+    }
   } //handle loading screen click -> hide on click
 
 
@@ -8590,27 +8640,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     if (!(0, _cashDom.default)("div.loading").hasClass('blocker')) {
       hideLoading(); //if we can close it, closw it with a click
 
-      if ((0, _cashDom.default)('div.loading').data('next') == 'highscore') {
-        //if we have a next action to do after click process it.
-        _gsap.gsap.to("div.register", {
-          autoAlpha: 0,
-          duration: 1,
-          display: "none"
-        });
-
-        showHighScore();
-      }
+      nextLoadingAction();
     }
   });
 });
-window.addEventListener('resize', function (e) {
-  var _textWrapper$classLis, _textWrapper$classLis2;
-
-  var textWrapper = document.querySelector('.text_wrapper');
-  var classes = ['nes-container', 'is-rounded', 'is-dark'];
-  window.innerWidth > 1024 ? (_textWrapper$classLis = textWrapper.classList).add.apply(_textWrapper$classLis, classes) : (_textWrapper$classLis2 = textWrapper.classList).remove.apply(_textWrapper$classLis2, classes);
-});
-},{"cash-dom":"node_modules/cash-dom/dist/cash.js","gsap":"node_modules/gsap/index.js","gsap/ScrollToPlugin":"node_modules/gsap/ScrollToPlugin.js","gsap/TextPlugin":"node_modules/gsap/TextPlugin.js","../data/gamedata.json":"data/gamedata.json","./gameController.js":"js/gameController.js","nes.css/css/nes.min.css":"node_modules/nes.css/css/nes.min.css"}],"../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"cash-dom":"node_modules/cash-dom/dist/cash.js","gsap":"node_modules/gsap/index.js","gsap/ScrollToPlugin":"node_modules/gsap/ScrollToPlugin.js","gsap/TextPlugin":"node_modules/gsap/TextPlugin.js","../data/gamedata.json":"data/gamedata.json","./gameController.js":"js/gameController.js","nes.css/css/nes.min.css":"node_modules/nes.css/css/nes.min.css"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -8636,9 +8670,9 @@ var checkedAssets, assetsToAccept;
 var parent = module.bundle.parent;
 
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
-  var hostname = "" || location.hostname;
+  var hostname = "0.0.0.0" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61926" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59679" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -8814,5 +8848,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js","js/app.js"], null)
+},{}]},{},["../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/app.js"], null)
 //# sourceMappingURL=/app.c3f9f951.js.map

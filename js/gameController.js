@@ -22,7 +22,7 @@ export default class GameController {
           
         //generate progress icons
         datasource.screens.forEach((item) => {
-            tmp_statusbar.find('ul').append(`<li></li>`);
+            tmp_statusbar.find('ul').append(`<li><img src="${images.section.svg}" /></li>`);
         });
 
         
