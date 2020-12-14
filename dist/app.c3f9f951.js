@@ -8107,7 +8107,7 @@ var GameController = /*#__PURE__*/function () {
         }
       }
 
-      var screen_template = "<section class=\"screen ".concat(data.outcome, "\">\n                                    <img class=\"cover\" src=\"").concat(cover_filename, "\" alt=\"\">\n                                    <div class='text_wrapper'>\n                                        <h1> <img src=\"").concat(icon_filename, "\" /><span>").concat(data.title, "</span></h1>\n                                        <div class=\"text\">").concat(data.text, "</div>\n                                        <div class=\"gradient\"></div>\n                                        <div class='button_wrapper'>\n                                            <div class=\"buttons\"></div>\n                                        </div>\n                                    </div>\n                                </section>");
+      var screen_template = "<section class=\"screen ".concat(data.outcome, "\">\n                                    <img class=\"cover\" src=\"").concat(cover_filename, "\" alt=\"\">\n                                    <div class='text_wrapper'>\n                                        <h1> <img src=\"").concat(icon_filename, "\" /><span>").concat(data.title, "</span></h1>\n                                        <div class=\"text\">").concat(data.text, "</div>\n                                        <div class=\"gradient\"></div>\n                                        <div class=\"buttons\"></div>\n                                    </div>\n                                </section>");
       var scr_dom = (0, _cashDom.default)(screen_template).appendTo(this._app);
 
       if (!visible) {
@@ -8454,8 +8454,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
       y: offset
     }, "<");
     intro.play();
-    (0, _cashDom.default)("#app").hide();
-    (0, _cashDom.default)(".intro").show();
+    (0, _cashDom.default)("#app").show();
+    (0, _cashDom.default)(".intro").hide();
     (0, _cashDom.default)(".register").hide();
     (0, _cashDom.default)(".highscore").hide();
     var frController = new _gameController.default(_gamedata.default, (0, _cashDom.default)('#app'), 0); //Start the gem in the proper div.

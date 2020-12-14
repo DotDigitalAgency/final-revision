@@ -257,7 +257,7 @@ body {
 #app {
     background-color: theme.$bg-default;
     position: absolute;
-    width:100vw;
+    width:100%;
     height:100%;
     display: none;
 }
@@ -277,17 +277,22 @@ section.statusbar {
     
     ul {
         margin: 0px;
-        margin-right: 20px;
+        margin-right: 0px;
         padding: 0px;
-        width: 100%;
+        width: auto;
         list-style-type: none;
         display: flex;
         align-content: stretch;
+        flex-grow: 2;
 
         li {
-            flex-grow: 1;
+            // flex-grow: 1;
             margin-right: 2px;
             opacity: .2;
+
+            img {
+                width: 9px;
+            }
 
             &.done {
                 opacity: .6;
@@ -374,6 +379,7 @@ section.screen {
         margin-top:10px;
         width: 90%;
         line-height: 100%;
+        height:100%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -451,7 +457,7 @@ section.screen {
     div.gradient {
         display: block;
         background: theme.$gradient-default;
-        height:3vh;
+        height:8vh;
     }
 
     div.buttons {
@@ -470,6 +476,18 @@ section.screen {
 
 }
 
+//Iphone 6 SE
+@media screen and (max-width: 360px){ 
+    section.screen {
+        font-size: 110%;
+        img.cover {
+            // margin-top:-10vh;
+            height: 25vh;
+        }
+    }
+}
+
+//Desktop
 @media screen and (min-width: 1024px){
     
     section.screen {
