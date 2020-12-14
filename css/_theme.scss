@@ -37,7 +37,7 @@ $font-base_size:16pt;
 }
 
 @mixin font-text($_color: $text_color) {
-    font-family: 'AprilSans-Regular';
+    font-family: 'AprilSans-Regular' !important;
     color: $_color;
 }
 

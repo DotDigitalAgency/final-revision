@@ -184,12 +184,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/app.scss":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"./fonts/NeuePixelGrotesk.woff2":[["NeuePixelGrotesk.508b4171.woff2","css/fonts/NeuePixelGrotesk.woff2"],"css/fonts/NeuePixelGrotesk.woff2"],"./fonts/NeuePixelGrotesk.woff":[["NeuePixelGrotesk.2689d184.woff","css/fonts/NeuePixelGrotesk.woff"],"css/fonts/NeuePixelGrotesk.woff"],"./fonts/AprilSans-Regular.woff2":[["AprilSans-Regular.4456bfb7.woff2","css/fonts/AprilSans-Regular.woff2"],"css/fonts/AprilSans-Regular.woff2"],"./fonts/AprilSans-Regular.woff":[["AprilSans-Regular.9fd97004.woff","css/fonts/AprilSans-Regular.woff"],"css/fonts/AprilSans-Regular.woff"],"_css_loader":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./bundle-url":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +212,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62446" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64359" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -394,4 +389,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/app.b7af7c5c.js.map
+//# sourceMappingURL=/index.js.map

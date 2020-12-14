@@ -15,14 +15,200 @@
 body {
   margin: 0px;
   padding: 0px;
+  font-family: "AprilSans-Regular" !important;
+  color: white;
+  font-size: 16pt;
+  color: white;
+  height: 100vh;
+  background-color: #38984D;
+}
+body img {
+  image-rendering: pixelated;
+}
+body img.cover {
+  width: 100%;
+  margin: auto;
+  max-height: 40vh;
+  object-fit: cover;
+}
+body img.spinner {
+  display: none;
+}
+body .screen-defaults {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "AprilSans-Regular" !important;
+  color: white;
+  font-size: 16pt;
+  background: #38984D;
+  font-size: 150%;
+  position: absolute;
+}
+body .screen-defaults div.gradient {
+  display: block;
+  background: linear-gradient(0deg, #75c25b 0%, #75c25b 19.9%, rgba(117, 194, 91, 0.8) 20%, rgba(117, 194, 91, 0.8) 39.9%, rgba(117, 194, 91, 0.6) 40%, rgba(117, 194, 91, 0.6) 59.9%, rgba(117, 194, 91, 0.4) 60%, rgba(117, 194, 91, 0.4) 79.9%, rgba(117, 194, 91, 0.2) 80%);
+}
+body .screen-defaults h1 {
+  font-weight: normal;
+}
+body .loading {
+  display: none;
+  opacity: 0;
+  z-index: 500;
+  background-color: #212529 !important;
+  text-align: center;
+  position: absolute;
+}
+body .loading img.spinner {
+  display: block;
+  width: 30vw;
+  margin: auto;
+  padding-top: 30vh;
+}
+body .loading .nes-container {
+  width: 80%;
+  display: block;
+  margin: auto !important;
+  top: 35vh;
+  height: 80px;
+  font-size: 120%;
+}
+body .loading .nes-container progress {
+  height: 30px;
+}
+body .loading .nes-container img {
+  height: 30px;
+}
+
+.intro {
+  width: 100%;
+  height: 200%;
+  display: block;
+  background-color: #ff5638;
+  position: absolute;
+  z-index: 100;
+  overflow: hidden;
+  text-align: center;
+}
+.intro img.intro_title {
+  width: 70%;
+  margin-top: 40vh;
+}
+.intro img.intro_graphics {
+  width: 170vw;
+  margin-left: -10vw;
+  margin-top: 60%;
+}
+.intro div.menu {
+  background-color: #38984D;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+.intro div.menu h1 {
+  font-weight: normal;
+  font-size: 400%;
+  text-align: center;
+  line-height: 70%;
+  margin-bottom: 30px;
+  color: white;
+}
+.intro div.menu label span {
+  font-size: 200%;
+}
+.intro div.menu label input {
+  margin-top: 20px !important;
+}
+.intro div.menu button {
+  font-size: 200%;
+  margin-bottom: 5%;
+  line-height: 90%;
+  width: 100%;
+  display: block;
+}
+
+.register {
+  display: none;
+  z-index: 450;
+}
+.register img.cover {
+  margin-top: -30px;
+}
+.register div.gradient {
+  height: 20vh;
+}
+.register .nes-field {
+  background-color: #75c25b;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+.register .nes-field p {
+  line-height: 100%;
+}
+.register .nes-field input {
+  background-color: #38984D;
+}
+.register .nes-field ::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+.register .nes-field button {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.highscore {
+  justify-content: center;
+  height: auto !important;
+  min-height: 100%;
+  padding-bottom: 15vh;
+}
+.highscore h1 {
+  text-align: center;
+}
+.highscore img.cover {
+  margin-top: -30px;
+}
+.highscore div.gradient {
+  height: 20vh;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  z-index: 100;
+}
+.highscore button {
+  position: fixed;
+  bottom: 0px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  z-index: 300;
+}
+.highscore table {
+  width: 90%;
+  flex-grow: 2;
+  margin: auto !important;
+  background-color: #38984D !important;
+  table-layout: auto;
+  font-size: 100%;
+}
+.highscore table td {
+  text-align: center;
+  padding: 10px;
+}
+.highscore table tr td:first-child {
+  width: 10vw !important;
 }
 
 #app {
   background-color: #38984D;
-  font-family: "AprilSans-Regular";
-  color: white;
+  position: absolute;
+  width: 100vw;
   height: 100vh;
-  font-size: 16pt;
+  display: none;
 }
 
 section.statusbar {
@@ -34,7 +220,8 @@ section.statusbar {
   align-items: center;
   height: 5vh;
   position: absolute;
-  z-index: 10;
+  z-index: 200;
+  height: 5%;
 }
 section.statusbar ul {
   margin: 0px;
@@ -48,15 +235,15 @@ section.statusbar ul {
 section.statusbar ul li {
   flex-grow: 1;
   height: 5px;
-  background-color: black;
+  background-color: white;
   margin-right: 2px;
-  opacity: 0.1;
+  opacity: 0.2;
 }
 section.statusbar ul li.done {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 section.statusbar ul li.active {
-  opacity: 1;
+  opacity: 0.8;
 }
 section.statusbar div {
   display: flex;
@@ -77,26 +264,22 @@ section.statusbar div span {
 section.screen {
   display: flex;
   flex-direction: column;
+  font-family: "AprilSans-Regular" !important;
+  color: white;
+  font-size: 16pt;
   background: #38984D;
   padding-top: 5vh;
-  height: 100%;
   width: 100%;
   z-index: 1;
+  height: 100vh;
   position: fixed;
   align-items: flex-start;
 }
 section.screen div.text_wrapper {
-  flex-grow: 2;
   display: flex;
   flex-direction: column;
   width: 100%;
-}
-section.screen img.cover {
-  width: 100%;
-  margin: auto;
-  max-height: 40vh;
-  object-fit: cover;
-  image-rendering: pixelated;
+  height: 100%;
 }
 section.screen h1 {
   padding-left: 10px;
@@ -104,18 +287,24 @@ section.screen h1 {
   margin: auto;
   font-size: 150%;
   font-weight: normal;
-  width: 90%;
+  width: 70%;
   font-variant-numeric: tabular-nums lining-nums;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 350%;
+  text-align: right;
 }
 section.screen h1 img {
-  display: none;
+  width: 13vw;
+  display: inline-block;
 }
 section.screen div.text {
   padding-left: 10px;
   padding-right: 10px;
   flex-grow: 2;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 10px;
   width: 90%;
   line-height: 100%;
   display: flex;
@@ -127,9 +316,13 @@ section.screen div.text .nes-container {
 }
 section.screen div.text .nes-container h3.title {
   background-color: #38984D;
-  margin-top: -1.8rem !important;
+  margin-top: -1.5rem !important;
   font-size: 75%;
   margin-bottom: 0px;
+}
+section.screen div.text .nes-container.popout {
+  width: 115%;
+  margin-left: -7%;
 }
 section.screen.positive {
   background: #38984D;
@@ -138,14 +331,13 @@ section.screen.positive div.gradient {
   background: linear-gradient(0deg, #75c25b 0%, #75c25b 19.9%, rgba(117, 194, 91, 0.8) 20%, rgba(117, 194, 91, 0.8) 39.9%, rgba(117, 194, 91, 0.6) 40%, rgba(117, 194, 91, 0.6) 59.9%, rgba(117, 194, 91, 0.4) 60%, rgba(117, 194, 91, 0.4) 79.9%, rgba(117, 194, 91, 0.2) 80%);
 }
 section.screen.positive h1 {
-  font-size: 400%;
-  text-align: center;
+  font-size: 350%;
+  text-align: right;
 }
 section.screen.positive h1 img {
   display: inline-block;
-  width: 15vw;
 }
-section.screen.positive .nes-container div.buttons {
+section.screen.positive div.buttons {
   background: #75c25b;
 }
 section.screen.negative {
@@ -155,12 +347,11 @@ section.screen.negative div.gradient {
   background: linear-gradient(0deg, #ff9e42 0%, #ff9e42 19.9%, rgba(255, 158, 66, 0.8) 20%, rgba(255, 158, 66, 0.8) 39.9%, rgba(255, 158, 66, 0.6) 40%, rgba(255, 158, 66, 0.6) 59.9%, rgba(255, 158, 66, 0.4) 60%, rgba(255, 158, 66, 0.4) 79.9%, rgba(255, 158, 66, 0.2) 80%);
 }
 section.screen.negative h1 {
-  font-size: 400%;
+  font-size: 350%;
   text-align: center;
 }
 section.screen.negative h1 img {
   display: inline-block;
-  width: 15vw;
 }
 section.screen.negative div.buttons {
   background: #ff9e42;
@@ -168,7 +359,7 @@ section.screen.negative div.buttons {
 section.screen div.gradient {
   display: block;
   background: linear-gradient(0deg, #75c25b 0%, #75c25b 19.9%, rgba(117, 194, 91, 0.8) 20%, rgba(117, 194, 91, 0.8) 39.9%, rgba(117, 194, 91, 0.6) 40%, rgba(117, 194, 91, 0.6) 59.9%, rgba(117, 194, 91, 0.4) 60%, rgba(117, 194, 91, 0.4) 79.9%, rgba(117, 194, 91, 0.2) 80%);
-  height: 5vh;
+  height: 3vh;
 }
 section.screen div.buttons {
   display: flex;

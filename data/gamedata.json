@@ -1,11 +1,13 @@
 {
     "name": "Final Revision VII",
     "base_value": 10000,
+    "highscore_url": `//46.101.119.204/games?_sort=score:DESC`,
+    "register_url": `//46.101.119.204/games`,
     "screens": [
         {   "title":"",
             "image": "cover_1.png",
             "text" : `Utolsó előtti héten, a céges karácsonyi bulin megcsörren a telefonod.<br/><br/>
-            <div class="nes-container with-title is-rounded is-dark"><h3 class="title">+72 40 512 879</h3>
+            <div class="nes-container with-title is-rounded is-dark popout"><h3 class="title">+72 40 512 879</h3>
                 <p class="typewriter">Szia! Én vagyok a Mikulás, ho ho ho!<br/>
                 Egy karácsonyi promó kampányra lenne szükségünk itt, az északi sarkon! <br/><br/>
                 Mert egy gyerek sem maradhat ajándék nélkül. </p>
@@ -34,7 +36,7 @@
         {   "title":"",
             "image": "cover_2.png",
             "text" : `Szerencsére a telefont következő email váltásból midnen kitisztul.Te is érzed, hogy itt nem babra megy a játék. A világ legnagyobb love brandje pottyant az öledbe, kösd fel a gatyát, és mutasd meg, mi a kreatív szakma csúcsa!
-                    <br/><br/>Lehet, hogy az idő kevés, de jó munkát csak megalapozott stratégiával lehet végezni.`,
+                    Lehet, hogy az idő kevés, de jó munkát csak megalapozott stratégiával lehet végezni.`,
             "actions" : [
                 {   "title" : "Kutatásra fel!", 
                     "action": "next"
@@ -383,13 +385,17 @@
                 }
             ]
         },
-        {   "title":"",
+        {   "title":"$1000",
+            "icon": "coin.gif",
             "image": "cover_gamewon.png",
-            "text" : `Gratulálok, megnyerted a játékot!`,
+            "text" : `<p>Valljuk be, te se hitted hogy ez sikerülni fog! Viszont valahogy összeraktad, ezért lehet hogy ezzel a szuper öszeggel fogjuk támogatni a alapitvany_neve-t.</p>
+            <p>ps.: Az itt megadott adatokat nagyon-nagyon bizalmasan fogjuk kezelni, és max. csak a Mikulásnak adjuk tovább.</p>`,
             "type" : "game_won",
+            "outcome": "endgame",
             "actions" : [
                 {   "title" : "Feliratkozom a toplistára!", 
                     "action": "highscore"
+
                 }
             ]
         }

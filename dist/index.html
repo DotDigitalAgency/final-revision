@@ -7,10 +7,54 @@
     <script async="" src="/app.c3f9f951.js"></script>
     <link rel="stylesheet" href="/app.b7af7c5c.css">
 <link rel="stylesheet" href="/app.c3f9f951.css"><script src="/app.b7af7c5c.js"></script></head>
-<body> 
-    <!-- <div class="intro"> -->
-        <!-- <img src="img/intro_logo.png" alt=""> -->
-    <!-- </div> -->
+<body>
+    <div class="intro">
+        <img class="intro_title" src="/intro_logo.e9c34bdf.png" alt="">
+        <img class="intro_graphics" src="/intro_graphics.79b1960b.png" alt="">
+        <div class="menu">
+            <h1>Final Revision MCMXX</h1>
+            <button id="start" class="nes-btn">Start Game</button>
+            <button id="highscore" class="nes-btn">High Score</button>
+        </div>
+    </div>
+    <div class="register screen-defaults">
+        <img class="cover" src="/cover_highscore.e6f1580d.png" alt="">
+        <div class="gradient"></div>
+        <div class="nes-field is-inline">
+            <p>Titkosan kezelünk minden adatot, és csak akkor írunk neked ha valamilyen csoda folytán bekerültél a top 3-ba. Az e-mail címed csak mi látjuk. Becsszó! </p>
+            <label for="name">Reklámos neved</label>
+            <input type="text" id="name" class="nes-input is-dark" placeholder="Krampusz">
+            <label for="email">E-mail címed (nem lesz látható)</label>
+            <input type="text" id="email" class="nes-input is-dark" placeholder="krampusz@mikulas.com">
+            <button id="register" class="nes-btn is-normal">Fuck yeah!</button>
+          </div>
+    </div>
+
+    <div class="highscore screen-defaults">
+        <img class="cover" src="/cover_highscore.e6f1580d.png" alt="">
+        <h1>High Scores</h1>
+        <table class="nes-table is-bordered is-dark">
+           <tbody></tbody>
+        </table>
+          <div class="gradient"></div>
+          <button id="back" class="nes-btn is-normal">Lesz ez még jobb is!</button>
+        
+    </div>
+
+    <div class="loading screen-defaults">
+        <div class="nes-container is-rounded is-dark">
+            <progress id="loading-bar" class="nes-progress" value="12" max="100"></progress>
+            <div class="success">
+                <img src="/icon_success.7965b1e3.png" alt="">
+                Adatok elmentve!
+            </div>
+            <div class="error">
+                <img src="/icon_error.9cd9df31.png" alt="">
+               Adatvesztés!
+            </div>
+          </div>
+    </div>
+    <!-- <div class="highscore"></div> -->
     <div id="app"></div>
 </body>
 </html>
