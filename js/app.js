@@ -33,9 +33,9 @@ $(function () {
     intro.to("div.intro div.menu", {duration: 2, y: offset},"<");
     intro.play();
     
-    $("#app").show();
+    $("#app").hide();
     $(".intro").hide();
-    $(".register").hide();
+    $(".register").show();
     $(".highscore").hide();
     
     

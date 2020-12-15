@@ -7439,9 +7439,9 @@ module.exports = {
   "screens": [{
     "title": "",
     "image": "santa_couple_2-min.gif",
-    "text": "Utols\xF3 el\u0151tti h\xE9ten, a c\xE9ges kar\xE1csonyi bulin megcs\xF6rren a telefonod.<br/><br/>\n            <div class=\"nes-container with-title is-rounded is-dark popout\"><h3 class=\"title\">+72 40 512 879</h3>\n                <p class=\"typewriter\">Szia! \xC9n vagyok a Mikul\xE1s, ho ho ho!<br/>\n                Egy kar\xE1csonyi prom\xF3 kamp\xE1nyra lenne sz\xFCks\xE9g\xFCnk itt, az \xE9szaki sarkon! <br/><br/>\n                Mert egy gyerek sem maradhat aj\xE1nd\xE9k n\xE9lk\xFCl. </p>\n            </div>",
+    "text": "Utols\xF3 el\u0151tti h\xE9ten, a c\xE9ges kar\xE1csonyi bulin megcs\xF6rren a telefonod.<br/><br/>\n            <div class=\"nes-container with-title is-rounded is-dark popout\"><h3 class=\"title\">+72 40 512 879</h3>\n                <p class=\"typewriter\">Szia! \xC9n vagyok a Mikul\xE1s, ho ho ho!<br/>\n                Egy kar\xE1csonyi prom\xF3 kamp\xE1nyra lenne sz\xFCks\xE9g\xFCnk itt, az \xC9szaki-sarkon! <br/><br/>\n                Egy gyerek sem maradhat aj\xE1nd\xE9k n\xE9lk\xFCl! </p>\n            </div>",
     "actions": [{
-      "title": "Megpróbálsz úgy tenni, mintha értenéd, amit mond",
+      "title": "Megpróbálsz úgy tenni, mintha értenéd, amit mond...",
       "outcome": "positive",
       "text": "<p>Valami Mikl\xF3s \xE9jszakai gyereksarkot akar?? Egyre fur\xE1bb \xFCgyfeleid vannak. Miut\xE1n letetted, elmorzsolsz egy im\xE1t, hogy eml\xE9kezz valamire az elhangzottakb\xF3l..</p>",
       "cta": "És este lett, és reggel...",
@@ -7462,7 +7462,7 @@ module.exports = {
   }, {
     "title": "",
     "image": "Santa_cloud-min.gif",
-    "text": "Szerencs\xE9re a telefont k\xF6vetkez\u0151 email v\xE1lt\xE1sb\xF3l midnen kitisztul.Te is \xE9rzed, hogy itt nem babra megy a j\xE1t\xE9k. A vil\xE1g legnagyobb love brandje pottyant az \xF6ledbe, k\xF6sd fel a gaty\xE1t, \xE9s mutasd meg, mi a kreat\xEDv szakma cs\xFAcsa!\n                    Lehet, hogy az id\u0151 kev\xE9s, de j\xF3 munk\xE1t csak megalapozott strat\xE9gi\xE1val lehet v\xE9gezni.",
+    "text": "Szerencs\xE9re a telefont k\xF6vet\u0151 e-mail v\xE1lt\xE1sb\xF3l minden kitisztul. Te is \xE9rzed, hogy itt nem babra megy a j\xE1t\xE9k. A vil\xE1g legnagyobb love-brandje pottyant az \xF6ledbe, k\xF6sd fel a gaty\xE1t, \xE9s mutasd meg, mi a kreat\xEDv szakma cs\xFAcsa!<br><br>\n            Lehet, hogy az id\u0151 kev\xE9s, de j\xF3 munk\xE1t csak megalapozott strat\xE9gi\xE1val lehet v\xE9gezni.",
     "actions": [{
       "title": "Kutatásra fel!",
       "action": "next"
@@ -7504,7 +7504,7 @@ module.exports = {
       "action": "render_outcome",
       "value": -0.1
     }, {
-      "title": "Összegyűjtöd december összes ajándékosztóját: Joloupukki, Karácsonyi angyalok, húsvéti nyuszi - jöhet mindenki, abból baj nem lehet.",
+      "title": "Összegyűjtöd december összes ajándékosztóját: Joloupukki, Karácsonyi Angyalok, Húsvéti Nyuszi - jöhet mindenki, abból baj nem lehet.",
       "outcome": "positive",
       "text": "3 napod elment, a client service director őrjöng, de a Mikulás hálás az alapos munkáért.",
       "cta": "Így már összeáll a brief?",
@@ -7516,12 +7516,12 @@ module.exports = {
   }, {
     "title": "",
     "image": "cover_5.gif",
-    "text": "Az insight kutatás és a versenytárs elemzés már elegendő, hogy egy minimális briefet összerakjon a stratégiai osztály. Még talán egy picit hosszabb is lett mint kellene.",
+    "text": "Az insight-kutatás és a versenytárselemzés már elegendő, hogy egy minimális briefet összerakjon a stratégiai osztály. Még talán egy picit hosszabb is lett mint kellene.",
     "actions": [{
-      "title": "Megkéred, a plannereket, hogy húzzanak a 73 oldalból, és megkíméled a kreatívokat?",
+      "title": "Megkéred, a plannereket, hogy húzzanak a 73 oldalból, és megkíméled a kreatívokat.",
       "outcome": "positive",
-      "text": "A kreatívok lelkesek. Már csak napok kérdése és feldolgozzák az információt!",
-      "cta": "Ok",
+      "text": "A kreatívok lelkesek! Már csak napok kérdése és feldolgozzák az információt!",
+      "cta": "Végre, kezdődhet a munka!",
       "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
@@ -7529,8 +7529,8 @@ module.exports = {
     }, {
       "title": "A több az jobb. Ha nem marad ki semmi, kevesebb a hibalehetőség.",
       "outcome": "negative",
-      "text": "Hát nem maradt ki semmit. Három Art Director, egy copywriter és egy ppc-s  felmond. Az utóbbinak nem világos a relevanciája.",
-      "cta": "Ok",
+      "text": "Hát nem maradt ki semmi. Három art director, egy copywriter és egy ppc-s  felmond a brief láttán. Az utóbbinak nem világos a relevanciája.",
+      "cta": "Gyengék!!",
       "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
@@ -7539,12 +7539,12 @@ module.exports = {
   }, {
     "title": "",
     "image": "cover_6.png",
-    "text": "Biztos ami biztos, éjszaka átdobod  abriefet a Mikulásnak, hogy ő is átnézze. Bízol benne, hogy az egyetlen reakciója, az lesz, hogy “Ho Ho Ho”... Másnap már délelőtt fél 11-kor csörög a telefonod. Az ilyen hajnali órákban még nem vagy ügyfélkompatibilis.",
+    "text": "Biztos ami biztos, éjszaka átdobod a briefet a Mikulásnak, hogy ő is átnézze. Bízol benne, hogy az egyetlen reakciója, az lesz, hogy “Ho Ho Ho”... Másnap már délelőtt fél 11-kor csörög a telefonod. Az ilyen hajnali órákban még nem vagy ügyfélkompatibilis.",
     "actions": [{
       "title": "Adjunk neki egy esélyt, hátha mond valami érdekeset.",
       "outcome": "positive",
-      "text": "Megérte felvenni, büdzsét akarnak növelni! Ez már nem sülhet el rosszul... - gondolod, tévesen. :D ",
-      "cta": "Ok",
+      "text": "Megérte felvenni, büdzsét akarnak növelni! Ez már nem sülhet el rosszul... - gondolod, tévesen. 😈",
+      "cta": "Ajjaj.",
       "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
@@ -7553,7 +7553,7 @@ module.exports = {
       "title": "Nem ma fogok hajnali telefonokra válaszolgatni.",
       "outcome": "negative",
       "text": "Hagyod csörögni, majd hív mást, ha fontos. Erre nem kerül sor, a  Mikulás elfelejti, hogy mit akart mondani. Így sosem tudod meg, miről maradsz le... ha ha ha... khm... ho ho ho.",
-      "cta": "Ok",
+      "cta": "Annyi baj legyen!",
       "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
@@ -7578,20 +7578,20 @@ module.exports = {
   }, {
     "title": "",
     "image": "cover_9.png",
-    "text": "Kezedben érzed a Cannes Liont, annyira jó ötlet találtatok ki tegnap éjjel a Központ pultosával.Vegyesen szerepelnek benne kemény drogok, kurvák és gyerekkórus, de tudod hogy konform ötletek a kukának készülnek.",
+    "text": "Kezedben érzed a Cannes Liont, annyira jó ötletet találtatok ki tegnap éjjel a Központ pultosával. Vegyesen szerepelnek benne keménydrogok, kurvák és gyerekkórus, de tudod, hogy konform ötletek a kukának készülnek.",
     "actions": [{
-      "title": "Így hogy aludtál rá, lehet tényleg kicsit meredek lett ez a koncepció. Finomitasz rajta egy kicsit.",
+      "title": "Így, hogy aludtál rá, lehet tényleg meredek lett ez a koncepció. Finomítasz rajta egy kicsit.",
       "outcome": "positive",
-      "text": "Jót tett az ötletnek hogy kicsit visszavettél, igy mar anyádnak is tetszik.",
+      "text": "Jót tett az ötletnek, hogy kicsit visszavettél, így már anyádnak is tetszik.",
       "cta": "Halleluja!",
       "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
     }, {
-      "title": "Házon belül is néznek nagyokat, de ezt most nem a elengedni.",
+      "title": "Házon belül is néznek nagyokat, de ezt most nem fogod elengedni.",
       "outcome": "negative",
-      "text": " Számitottál a botrányra, de a fizetéscsökkentés es a kirugásod kilátásba helyezése még is meglepett.",
+      "text": "Számítottál a botrányra, de a fizetéscsökkentés és a kirúgásod kilátásba helyezése még téged is meglepett.",
       "cta": "Tisztelet a bátraknak. :(",
       "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
@@ -7655,7 +7655,7 @@ module.exports = {
   }, {
     "title": "",
     "image": "cover_13.png",
-    "text": "B\xE1r senki nem k\xEDv\xE1ncsi a v\xE9lem\xE9ny\xFCkre, vetk\u0151z\u0151s l\xE1nyok k\xF6teless\xE9g\xFCknek \xE9rzik, hogy j\xF3l megszak\xE9rts\xE9k a szuper koncepci\xF3dat, \xE9s azzal a lend\xFClettel t\xF6nkre is teszik az eg\xE9szet. Szerint\xFCk az \u0151 kieg\xE9sz\xEDt\xE9seikkel m\xE1r sokkal jobban fog m\u0171k\xF6dni a kamp\xE1ny. Donald szerint t\xF6kmindegy, mik a koncepci\xF3k, \u0151 nyert.",
+    "text": "B\xE1r senki nem k\xEDv\xE1ncsi a v\xE9lem\xE9ny\xFCkre, a vetk\u0151z\u0151s l\xE1nyok k\xF6teless\xE9g\xFCknek \xE9rzik, hogy j\xF3l megszak\xE9rts\xE9k a szuper koncepci\xF3dat, \xE9s azzal a lend\xFClettel t\xF6nkre is teszik az eg\xE9szet. Szerint\xFCk az \u0151 kieg\xE9sz\xEDt\xE9seikkel m\xE1r sokkal jobban fog m\u0171k\xF6dni a kamp\xE1ny. Donald szerint t\xF6kmindegy, mik a koncepci\xF3k, \u0151 nyert.",
     "actions": [{
       "title": "Pánikolva megszakítod a hívást, és próbálsz újracsatlakozni.",
       "outcome": "negative",
@@ -7705,7 +7705,7 @@ module.exports = {
     "actions": [{
       "title": "\u0150ket egy m\xE1sik t\xE1rgyal\xF3ba k\xFCld\xF6d, hogy ott v\xE1rj\xE1k a Mikul\xE1st.",
       "outcome": "negative",
-      "text": "Mikor meg\xE9rkezett a Mikul\xE1s a l\xE1nyokhoz ment els\u0151re, pedig a recin mondt\xE1k, hogy ne oda! Kezded elvesz\xEDteni a poz\xEDci\xF3d az \xFCgyf\xE9ln\xE9l.",
+      "text": "Mikor meg\xE9rkezett a Mikul\xE1s a l\xE1nyokhoz ment els\u0151re, pedig a recin mondt\xE1k, hogy ne oda! Kezded elvesz\xEDteni a poz\xEDci\xF3d az \xFCgyf\xE9ln\xE9l, de a zseni\xE1lis prezid szerencs\xE9re kih\xFAz a slamasztik\xE1b\xF3l. A Mikul\xE1s nem \xF6r\xFCl, de megvette az \xF6tleted!",
       "cta": "Mégiscsak ez a lényeg, nem?",
       "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
@@ -7724,7 +7724,7 @@ module.exports = {
   }, {
     "title": "",
     "image": "cover_17.png",
-    "text": "Ez nem volt egyszer\u0171 menet, de a neheze m\xE9g h\xE1tra van! Egy \xE9jszak\xE1d van lenyomni a gy\xE1rt\xE1st. Ezt lehetetlen!",
+    "text": "Ez nem volt egyszer\u0171 menet, de a neheze m\xE9g h\xE1travan! Egy \xE9jszak\xE1d maradt lenyomni a gy\xE1rt\xE1st. Ezt lehetetlen!",
     "actions": [{
       "title": "Yep! :(",
       "action": "next"
@@ -7759,7 +7759,7 @@ module.exports = {
     "actions": [{
       "title": "Kiviszed a mosd\xF3ba, lelocsolod v\xEDzzel, \xE9s sztoikus nyugalommal led\u0151lsz a kanap\xE9ra.",
       "outcome": "negative",
-      "text": "Minden hi\xE1ba. A kimer\xFClts\xE9g \xE9s a kit\xF6lt\xF6tt pia megteszi a hat\xE1s\xE1t. 1 percen bel\xFCl elalszol. Mi lesz \xEDgy a kar\xE1csonnyal?",
+      "text": "Minden hi\xE1ba. Teljes stresszben \xE9s szorong\xE1sban t\xF6lt\xF6d az \xE9jszak\xE1t, nem kev\xE9s alkohol t\xE1rsas\xE1g\xE1ban. Hajnalban bev\xE1nszorogsz az irod\xE1ba, fejben m\xE1r a felmond\xF3 levele negyedik verzi\xF3j\xE1t fogalmazgatod.",
       "cta": "Mi lesz így Mikulással??",
       "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
@@ -7768,7 +7768,7 @@ module.exports = {
     }, {
       "title": "Eloltod a g\xE9ped, \xE9s k\xE9ts\xE9gbeesetten pr\xF3b\xE1lsz \xE9letet lehelni bele!",
       "outcome": "negative",
-      "text": "Minden hi\xE1ba. A kimer\xFClts\xE9g \xE9s a kit\xF6lt\xF6tt pia megteszi a hat\xE1s\xE1t. 1 percen bel\xFCl elalszol. Mi lesz \xEDgy a kar\xE1csonnyal?",
+      "text": "Minden hi\xE1ba. A kimer\xFClts\xE9g \xE9s a kit\xF6lt\xF6tt pia megteszi a hat\xE1s\xE1t. 1 percen bel\xFCl elalszol.",
       "cta": "Mi lesz így Mikulással??",
       "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
@@ -7778,9 +7778,9 @@ module.exports = {
   }, {
     "title": "",
     "image": "cover_20.png",
-    "text": "A lead\xE1s k\xE1osza teljesen ki\xFCt\xF6tt t\xE9ged. M\xE1snap reggel az irod\xE1ban \xE9bredsz halk kar\xE1csonyi zen\xE9re \xE9s a r\xE9nszarvasok nesz\xE9re. A Mikul\xE1s \xE9rkezett meg hatalmas aj\xE1nd\xE9kokkal, akit k\xF6vetnek a boldog koll\xE9g\xE1k. \xC9rthetelen ami t\xF6rt\xE9nik! H\xE1t nem tudj\xE1k, hogy nem tudtad leadni a megrendel\xE9st??",
+    "text": "A lead\xE1s k\xE1osza teljesen ki\xFCt\xF6tt t\xE9ged. Reggel az irod\xE1ban \xE9bredsz halk kar\xE1csonyi zen\xE9re \xE9s a r\xE9nszarvasok nesz\xE9re. A Mikul\xE1s \xE9rkezett meg hatalmas aj\xE1nd\xE9kokkal, akit a boldog koll\xE9g\xE1k k\xF6vetnek. \xC9rthetelen ami t\xF6rt\xE9nik! H\xE1t nem tudj\xE1k, hogy nem tudtad leadni a megrendel\xE9st??",
     "actions": [{
-      "title": "Mi lesz most?!",
+      "title": "??? 😲",
       "action": "next"
     }]
   }, {
@@ -7795,7 +7795,7 @@ module.exports = {
     "title": "$1000",
     "icon": "coin.gif",
     "image": "cover_gamewon.png",
-    "text": "<p>Valljuk be, te se hitted hogy ez siker\xFClni fog! Viszont valahogy \xF6sszeraktad, ez\xE9rt sanszos hogy ezzel a szuper \xF6szeggel is fogjuk t\xE1mogatni a r\xE1szorul\xF3 gyerekeket.</p>\n            <p>ps.: Az itt megadott adatokat nagyon-nagyon bizalmasan fogjuk kezelni, \xE9s max. csak a Mikul\xE1snak adjuk tov\xE1bb.</p>",
+    "text": "<p>Valljuk be, te sem hitted, hogy ez siker\xFClni fog! Viszont valahogy \xF6sszeraktad, ez\xE9rt sanszos, hogy ezzel a szuper \xF6sszeggel is t\xE1mogatni fogjuk a r\xE1szorul\xF3 gyerekeket.</p>\n            <p>ps.: Az itt megadott adatokat nagyon-nagyon bizalmasan fogjuk kezelni, \xE9s max. csak a Mikul\xE1snak adjuk tov\xE1bb.</p>",
     "type": "game_won",
     "outcome": "endgame",
     "actions": [{
@@ -8463,9 +8463,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
       y: offset
     }, "<");
     intro.play();
-    (0, _cashDom.default)("#app").show();
+    (0, _cashDom.default)("#app").hide();
     (0, _cashDom.default)(".intro").hide();
-    (0, _cashDom.default)(".register").hide();
+    (0, _cashDom.default)(".register").show();
     (0, _cashDom.default)(".highscore").hide();
     var frController = new _gameController.default(_gamedata.default, (0, _cashDom.default)('#app'), 0); //Start the gem in the proper div.
     //Handling game finished event

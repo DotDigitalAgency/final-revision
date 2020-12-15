@@ -499,6 +499,32 @@ section.screen {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+
+        font-size: 200%;
+
+        img.cover {
+            margin-bottom: 20vh !important;
+        }
+
+        .text_wrapper {
+            margin-bottom: 20vh !important;
+        }
+
+        button {
+            height: fit-content;
+        }
+    }
+
+    .screen-defaults {
+
+        
+        
+         img.cover {
+             position: absolute;
+             left: 0px;
+             top:0px;
+         }
+
     }
 
     .text_wrapper.nes-container.is-rounded.is-dark{
@@ -544,10 +570,10 @@ section.screen {
     section.statusbar {
         left: 10%;
         max-width: 80%;
+        font-size: 150%;
     }
 
     section.statusbar ul {
-        justify-content: space-between;
         margin-right: 20px;
     }
 
