@@ -79,7 +79,7 @@ export default class GameController {
     
     //Generate new screen
     addScreen(data,visible = true) {
-        const text_wrapper = window.innerWidth>1024 ? 'text_wrapper nes-container is-rounded is-dark' : 'text_wrapper'; //show correct border or borderless style responsive
+
         var cover_filename = data.image.split('.');
         cover_filename = images[cover_filename[0]][cover_filename[1]];
 
@@ -101,7 +101,7 @@ export default class GameController {
         
         var screen_template = `<section class="screen ${data.outcome}">
                                     <img class="cover" src="${cover_filename}" alt="">
-                                    <div class='${text_wrapper}'>
+                                    <div class='text_wrapper'>
                                         <h1> <img src="${icon_filename}" /><span>${data.title}</span></h1>
                                         <div class="text">${data.text}</div>
                                         <div class="gradient"></div>
@@ -223,4 +223,3 @@ export default class GameController {
     }
     
 }
-

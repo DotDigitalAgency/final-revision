@@ -6,8 +6,6 @@ body {
     @include theme.font-text;
     font-size: theme.$font-base_size;
     color: theme.$text_color;
-    // display: flex;
-    // align-items: center;
     height:100%;
     background-color: theme.$bg-default;
 
@@ -16,11 +14,9 @@ body {
     }
 
     img.cover {
-        // padding: theme.$base-padding;
-
         width:100%;
         margin:auto;
-        // max-height: 45vh;
+        max-height: 30vh;
         object-fit: contain;
         
     }
@@ -195,7 +191,6 @@ body {
     }
 }
 
-
 .highscore {
 
     justify-content: center;
@@ -264,7 +259,6 @@ body {
 
 section.statusbar {
     display: flex;
-    // border: 1px solid red;
     width:100%;
     padding: theme.$base-padding;
     flex-direction: row;
@@ -279,14 +273,14 @@ section.statusbar {
         margin: 0px;
         margin-right: 0px;
         padding: 0px;
-        width: auto;
+        width: 100%;
         list-style-type: none;
         display: flex;
         align-content: stretch;
         flex-grow: 2;
 
         li {
-            // flex-grow: 1;
+            flex-grow: 1;
             margin-right: 2px;
             opacity: .2;
 
@@ -308,7 +302,7 @@ section.statusbar {
         // width: 80px;
         display: flex;
         align-items: center;
-        
+        margin-top:3px;
 
         img.coin {
             
@@ -321,6 +315,7 @@ section.statusbar {
             @include theme.font-numbers;
             font-size: 80%;
             text-align: right;
+            padding-top: 3px;
             
         }
     }
@@ -340,6 +335,7 @@ section.screen {
     height:100%;
     position: fixed;
     align-items: flex-start;
+    font-size: 135%;
 
     div.text_wrapper {
         display: flex;
@@ -379,7 +375,7 @@ section.screen {
         margin-top:10px;
         width: 90%;
         line-height: 100%;
-        height:100%;
+        // height:100%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -468,21 +464,30 @@ section.screen {
     }
 
     button {
-        font-size:100%;
         margin-bottom: 4%;
         line-height: 90%;
+        min-height: fit-content;
+        -webkit-appearance: none;
     }
-
-
 }
 
 //Iphone 6 SE
-@media screen and (max-width: 360px){ 
+@media screen and (max-width: 330px){ 
     section.screen {
         font-size: 110%;
         img.cover {
-            // margin-top:-10vh;
-            height: 25vh;
+            height: 20vh;
+        }
+    }
+}
+
+//iPhone 8
+@media screen and (min-width: 340px) and (max-height: 600px){ 
+
+    section.screen {
+        font-size: 130%;
+        img.cover {
+            height: 22vh;
         }
     }
 }
@@ -494,6 +499,32 @@ section.screen {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+
+        font-size: 200%;
+
+        img.cover {
+            margin-bottom: 20vh !important;
+        }
+
+        .text_wrapper {
+            margin-bottom: 20vh !important;
+        }
+
+        button {
+            height: fit-content;
+        }
+    }
+
+    .screen-defaults {
+
+        
+        
+         img.cover {
+             position: absolute;
+             left: 0px;
+             top:0px;
+         }
+
     }
 
     .text_wrapper.nes-container.is-rounded.is-dark{
@@ -539,10 +570,10 @@ section.screen {
     section.statusbar {
         left: 10%;
         max-width: 80%;
+        font-size: 150%;
     }
 
     section.statusbar ul {
-        justify-content: space-between;
         margin-right: 20px;
     }
 
