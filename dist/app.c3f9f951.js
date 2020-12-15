@@ -7804,16 +7804,8 @@ module.exports = {
     }]
   }]
 };
-},{}],"img/Money_glitter_v1-min.gif":[function(require,module,exports) {
-module.exports = "/Money_glitter_v1-min.af0de227.gif";
-},{}],"img/Money_glitter_v2-min.gif":[function(require,module,exports) {
-module.exports = "/Money_glitter_v2-min.7d248cd4.gif";
-},{}],"img/Santa_cloud-min.gif":[function(require,module,exports) {
-module.exports = "/Santa_cloud-min.6e8b9c55.gif";
 },{}],"img/coin.gif":[function(require,module,exports) {
 module.exports = "/coin.fa42f039.gif";
-},{}],"img/Santa_hand_-min.gif":[function(require,module,exports) {
-module.exports = "/Santa_hand_-min.b5796e9b.gif";
 },{}],"img/cover_1.png":[function(require,module,exports) {
 module.exports = "/cover_1.916796b9.png";
 },{}],"img/cover_10.png":[function(require,module,exports) {
@@ -7822,10 +7814,10 @@ module.exports = "/cover_10.854b4ee7.png";
 module.exports = "/cover_11.239bdb11.png";
 },{}],"img/cover_12.png":[function(require,module,exports) {
 module.exports = "/cover_12.81d65a03.png";
-},{}],"img/cover_14.png":[function(require,module,exports) {
-module.exports = "/cover_14.e2483095.png";
 },{}],"img/cover_13.png":[function(require,module,exports) {
 module.exports = "/cover_13.ebb5a050.png";
+},{}],"img/cover_14.png":[function(require,module,exports) {
+module.exports = "/cover_14.e2483095.png";
 },{}],"img/cover_15.png":[function(require,module,exports) {
 module.exports = "/cover_15.14f2863a.png";
 },{}],"img/cover_16.png":[function(require,module,exports) {
@@ -7840,10 +7832,10 @@ module.exports = "/cover_19.fb70ec20.png";
 module.exports = "/cover_2.5f61d66c.png";
 },{}],"img/cover_20.png":[function(require,module,exports) {
 module.exports = "/cover_20.b25b7df5.png";
-},{}],"img/cover_3.gif":[function(require,module,exports) {
-module.exports = "/cover_3.84edea39.gif";
 },{}],"img/cover_21.png":[function(require,module,exports) {
 module.exports = "/cover_21.beef5618.png";
+},{}],"img/cover_3.gif":[function(require,module,exports) {
+module.exports = "/cover_3.84edea39.gif";
 },{}],"img/cover_3.png":[function(require,module,exports) {
 module.exports = "/cover_3.2d1488ca.png";
 },{}],"img/cover_4.gif":[function(require,module,exports) {
@@ -7860,26 +7852,26 @@ module.exports = "/cover_6.6d60b95f.png";
 module.exports = "/cover_7.11d58592.png";
 },{}],"img/cover_8.png":[function(require,module,exports) {
 module.exports = "/cover_8.f2c1363b.png";
-},{}],"img/cover_gamewon.png":[function(require,module,exports) {
-module.exports = "/cover_gamewon.4a95d48b.png";
 },{}],"img/cover_9.png":[function(require,module,exports) {
 module.exports = "/cover_9.4e605972.png";
-},{}],"img/favicon-16.png":[function(require,module,exports) {
-module.exports = "/favicon-16.c9047867.png";
+},{}],"img/cover_gamewon.png":[function(require,module,exports) {
+module.exports = "/cover_gamewon.4a95d48b.png";
 },{}],"img/cover_highscore.png":[function(require,module,exports) {
 module.exports = "/cover_highscore.e6f1580d.png";
+},{}],"img/favicon-16.png":[function(require,module,exports) {
+module.exports = "/favicon-16.c9047867.png";
 },{}],"img/favicon-180.png":[function(require,module,exports) {
 module.exports = "/favicon-180.e5376efc.png";
-},{}],"img/fr_opengraph.jpg":[function(require,module,exports) {
-module.exports = "/fr_opengraph.dcea2945.jpg";
 },{}],"img/favicon-32.png":[function(require,module,exports) {
 module.exports = "/favicon-32.340f3664.png";
+},{}],"img/fr_opengraph.jpg":[function(require,module,exports) {
+module.exports = "/fr_opengraph.dcea2945.jpg";
+},{}],"img/icon_error.png":[function(require,module,exports) {
+module.exports = "/icon_error.9cd9df31.png";
 },{}],"img/icon_success.png":[function(require,module,exports) {
 module.exports = "/icon_success.7965b1e3.png";
 },{}],"img/intro_graphics.png":[function(require,module,exports) {
 module.exports = "/intro_graphics.79b1960b.png";
-},{}],"img/icon_error.png":[function(require,module,exports) {
-module.exports = "/icon_error.9cd9df31.png";
 },{}],"img/intro_logo.png":[function(require,module,exports) {
 module.exports = "/intro_logo.e9c34bdf.png";
 },{}],"img/logo.png":[function(require,module,exports) {
@@ -7890,30 +7882,26 @@ module.exports = "/lose_cover.cc07fd4f.png";
 module.exports = "/lose_icon.d988ab9a.png";
 },{}],"img/mistletoe.png":[function(require,module,exports) {
 module.exports = "/mistletoe.86c86e37.png";
+},{}],"img/Money_glitter_v1-min.gif":[function(require,module,exports) {
+module.exports = "/Money_glitter_v1-min.af0de227.gif";
+},{}],"img/Money_glitter_v2-min.gif":[function(require,module,exports) {
+module.exports = "/Money_glitter_v2-min.7d248cd4.gif";
+},{}],"img/Santa_cloud-min.gif":[function(require,module,exports) {
+module.exports = "/Santa_cloud-min.6e8b9c55.gif";
 },{}],"img/santa_couple_2-min.gif":[function(require,module,exports) {
 module.exports = "/santa_couple_2-min.dd21f6fe.gif";
-},{}],"img/win_cover.png":[function(require,module,exports) {
-module.exports = "/win_cover.7e212c11.png";
+},{}],"img/Santa_hand_-min.gif":[function(require,module,exports) {
+module.exports = "/Santa_hand_-min.b5796e9b.gif";
 },{}],"img/section.svg":[function(require,module,exports) {
 module.exports = "/section.0e9c70c5.svg";
+},{}],"img/win_cover.png":[function(require,module,exports) {
+module.exports = "/win_cover.7e212c11.png";
 },{}],"img/win_icon.png":[function(require,module,exports) {
 module.exports = "/win_icon.3b946e2a.png";
 },{}],"img/*.*":[function(require,module,exports) {
 module.exports = {
-  "Money_glitter_v1-min": {
-    "gif": require("./Money_glitter_v1-min.gif")
-  },
-  "Money_glitter_v2-min": {
-    "gif": require("./Money_glitter_v2-min.gif")
-  },
-  "Santa_cloud-min": {
-    "gif": require("./Santa_cloud-min.gif")
-  },
   "coin": {
     "gif": require("./coin.gif")
-  },
-  "Santa_hand_-min": {
-    "gif": require("./Santa_hand_-min.gif")
   },
   "cover_1": {
     "png": require("./cover_1.png")
@@ -7927,11 +7915,11 @@ module.exports = {
   "cover_12": {
     "png": require("./cover_12.png")
   },
-  "cover_14": {
-    "png": require("./cover_14.png")
-  },
   "cover_13": {
     "png": require("./cover_13.png")
+  },
+  "cover_14": {
+    "png": require("./cover_14.png")
   },
   "cover_15": {
     "png": require("./cover_15.png")
@@ -7954,12 +7942,12 @@ module.exports = {
   "cover_20": {
     "png": require("./cover_20.png")
   },
+  "cover_21": {
+    "png": require("./cover_21.png")
+  },
   "cover_3": {
     "gif": require("./cover_3.gif"),
     "png": require("./cover_3.png")
-  },
-  "cover_21": {
-    "png": require("./cover_21.png")
   },
   "cover_4": {
     "gif": require("./cover_4.gif"),
@@ -7978,35 +7966,35 @@ module.exports = {
   "cover_8": {
     "png": require("./cover_8.png")
   },
-  "cover_gamewon": {
-    "png": require("./cover_gamewon.png")
-  },
   "cover_9": {
     "png": require("./cover_9.png")
   },
-  "favicon-16": {
-    "png": require("./favicon-16.png")
+  "cover_gamewon": {
+    "png": require("./cover_gamewon.png")
   },
   "cover_highscore": {
     "png": require("./cover_highscore.png")
   },
+  "favicon-16": {
+    "png": require("./favicon-16.png")
+  },
   "favicon-180": {
     "png": require("./favicon-180.png")
+  },
+  "favicon-32": {
+    "png": require("./favicon-32.png")
   },
   "fr_opengraph": {
     "jpg": require("./fr_opengraph.jpg")
   },
-  "favicon-32": {
-    "png": require("./favicon-32.png")
+  "icon_error": {
+    "png": require("./icon_error.png")
   },
   "icon_success": {
     "png": require("./icon_success.png")
   },
   "intro_graphics": {
     "png": require("./intro_graphics.png")
-  },
-  "icon_error": {
-    "png": require("./icon_error.png")
   },
   "intro_logo": {
     "png": require("./intro_logo.png")
@@ -8023,20 +8011,32 @@ module.exports = {
   "mistletoe": {
     "png": require("./mistletoe.png")
   },
+  "Money_glitter_v1-min": {
+    "gif": require("./Money_glitter_v1-min.gif")
+  },
+  "Money_glitter_v2-min": {
+    "gif": require("./Money_glitter_v2-min.gif")
+  },
+  "Santa_cloud-min": {
+    "gif": require("./Santa_cloud-min.gif")
+  },
   "santa_couple_2-min": {
     "gif": require("./santa_couple_2-min.gif")
   },
-  "win_cover": {
-    "png": require("./win_cover.png")
+  "Santa_hand_-min": {
+    "gif": require("./Santa_hand_-min.gif")
   },
   "section": {
     "svg": require("./section.svg")
+  },
+  "win_cover": {
+    "png": require("./win_cover.png")
   },
   "win_icon": {
     "png": require("./win_icon.png")
   }
 };
-},{"./Money_glitter_v1-min.gif":"img/Money_glitter_v1-min.gif","./Money_glitter_v2-min.gif":"img/Money_glitter_v2-min.gif","./Santa_cloud-min.gif":"img/Santa_cloud-min.gif","./coin.gif":"img/coin.gif","./Santa_hand_-min.gif":"img/Santa_hand_-min.gif","./cover_1.png":"img/cover_1.png","./cover_10.png":"img/cover_10.png","./cover_11.png":"img/cover_11.png","./cover_12.png":"img/cover_12.png","./cover_14.png":"img/cover_14.png","./cover_13.png":"img/cover_13.png","./cover_15.png":"img/cover_15.png","./cover_16.png":"img/cover_16.png","./cover_17.png":"img/cover_17.png","./cover_18.png":"img/cover_18.png","./cover_19.png":"img/cover_19.png","./cover_2.png":"img/cover_2.png","./cover_20.png":"img/cover_20.png","./cover_3.gif":"img/cover_3.gif","./cover_21.png":"img/cover_21.png","./cover_3.png":"img/cover_3.png","./cover_4.gif":"img/cover_4.gif","./cover_4.png":"img/cover_4.png","./cover_5.gif":"img/cover_5.gif","./cover_5.png":"img/cover_5.png","./cover_6.png":"img/cover_6.png","./cover_7.png":"img/cover_7.png","./cover_8.png":"img/cover_8.png","./cover_gamewon.png":"img/cover_gamewon.png","./cover_9.png":"img/cover_9.png","./favicon-16.png":"img/favicon-16.png","./cover_highscore.png":"img/cover_highscore.png","./favicon-180.png":"img/favicon-180.png","./fr_opengraph.jpg":"img/fr_opengraph.jpg","./favicon-32.png":"img/favicon-32.png","./icon_success.png":"img/icon_success.png","./intro_graphics.png":"img/intro_graphics.png","./icon_error.png":"img/icon_error.png","./intro_logo.png":"img/intro_logo.png","./logo.png":"img/logo.png","./lose_cover.png":"img/lose_cover.png","./lose_icon.png":"img/lose_icon.png","./mistletoe.png":"img/mistletoe.png","./santa_couple_2-min.gif":"img/santa_couple_2-min.gif","./win_cover.png":"img/win_cover.png","./section.svg":"img/section.svg","./win_icon.png":"img/win_icon.png"}],"js/gameController.js":[function(require,module,exports) {
+},{"./coin.gif":"img/coin.gif","./cover_1.png":"img/cover_1.png","./cover_10.png":"img/cover_10.png","./cover_11.png":"img/cover_11.png","./cover_12.png":"img/cover_12.png","./cover_13.png":"img/cover_13.png","./cover_14.png":"img/cover_14.png","./cover_15.png":"img/cover_15.png","./cover_16.png":"img/cover_16.png","./cover_17.png":"img/cover_17.png","./cover_18.png":"img/cover_18.png","./cover_19.png":"img/cover_19.png","./cover_2.png":"img/cover_2.png","./cover_20.png":"img/cover_20.png","./cover_21.png":"img/cover_21.png","./cover_3.gif":"img/cover_3.gif","./cover_3.png":"img/cover_3.png","./cover_4.gif":"img/cover_4.gif","./cover_4.png":"img/cover_4.png","./cover_5.gif":"img/cover_5.gif","./cover_5.png":"img/cover_5.png","./cover_6.png":"img/cover_6.png","./cover_7.png":"img/cover_7.png","./cover_8.png":"img/cover_8.png","./cover_9.png":"img/cover_9.png","./cover_gamewon.png":"img/cover_gamewon.png","./cover_highscore.png":"img/cover_highscore.png","./favicon-16.png":"img/favicon-16.png","./favicon-180.png":"img/favicon-180.png","./favicon-32.png":"img/favicon-32.png","./fr_opengraph.jpg":"img/fr_opengraph.jpg","./icon_error.png":"img/icon_error.png","./icon_success.png":"img/icon_success.png","./intro_graphics.png":"img/intro_graphics.png","./intro_logo.png":"img/intro_logo.png","./logo.png":"img/logo.png","./lose_cover.png":"img/lose_cover.png","./lose_icon.png":"img/lose_icon.png","./mistletoe.png":"img/mistletoe.png","./Money_glitter_v1-min.gif":"img/Money_glitter_v1-min.gif","./Money_glitter_v2-min.gif":"img/Money_glitter_v2-min.gif","./Santa_cloud-min.gif":"img/Santa_cloud-min.gif","./santa_couple_2-min.gif":"img/santa_couple_2-min.gif","./Santa_hand_-min.gif":"img/Santa_hand_-min.gif","./section.svg":"img/section.svg","./win_cover.png":"img/win_cover.png","./win_icon.png":"img/win_icon.png"}],"js/gameController.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8312,7 +8312,7 @@ var GameController = /*#__PURE__*/function () {
 }();
 
 exports.default = GameController;
-},{"cash-dom":"node_modules/cash-dom/dist/cash.js","../img/*.*":"img/*.*","gsap":"node_modules/gsap/index.js","gsap/TextPlugin":"node_modules/gsap/TextPlugin.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"cash-dom":"node_modules/cash-dom/dist/cash.js","../img/*.*":"img/*.*","gsap":"node_modules/gsap/index.js","gsap/TextPlugin":"node_modules/gsap/TextPlugin.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -8344,7 +8344,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -8379,12 +8379,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"node_modules/nes.css/css/nes.min.css":[function(require,module,exports) {
+},{"./bundle-url":"../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/bundle-url.js"}],"node_modules/nes.css/css/nes.min.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/app.js":[function(require,module,exports) {
+},{"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js"}],"js/app.js":[function(require,module,exports) {
 "use strict";
 
 var _cashDom = _interopRequireDefault(require("cash-dom"));
@@ -8695,7 +8695,7 @@ window.addEventListener('resize', function (e) {
   var classes = ['nes-container', 'is-rounded', 'is-dark'];
   window.innerWidth > 1024 ? (_textWrapper$classLis = textWrapper.classList).add.apply(_textWrapper$classLis, classes) : (_textWrapper$classLis2 = textWrapper.classList).remove.apply(_textWrapper$classLis2, classes);
 });
-},{"cash-dom":"node_modules/cash-dom/dist/cash.js","gsap":"node_modules/gsap/index.js","gsap/ScrollToPlugin":"node_modules/gsap/ScrollToPlugin.js","gsap/TextPlugin":"node_modules/gsap/TextPlugin.js","../data/gamedata.json":"data/gamedata.json","./gameController.js":"js/gameController.js","nes.css/css/nes.min.css":"node_modules/nes.css/css/nes.min.css"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"cash-dom":"node_modules/cash-dom/dist/cash.js","gsap":"node_modules/gsap/index.js","gsap/ScrollToPlugin":"node_modules/gsap/ScrollToPlugin.js","gsap/TextPlugin":"node_modules/gsap/TextPlugin.js","../data/gamedata.json":"data/gamedata.json","./gameController.js":"js/gameController.js","nes.css/css/nes.min.css":"node_modules/nes.css/css/nes.min.css"}],"../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -8721,9 +8721,9 @@ var checkedAssets, assetsToAccept;
 var parent = module.bundle.parent;
 
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
-  var hostname = "0.0.0.0" || location.hostname;
+  var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57293" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61477" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -8899,5 +8899,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/app.js"], null)
+},{}]},{},["../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js","js/app.js"], null)
 //# sourceMappingURL=/app.c3f9f951.js.map
