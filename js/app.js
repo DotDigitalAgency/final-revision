@@ -33,11 +33,11 @@ $(function () {
     intro.to("div.intro div.menu", {duration: 2, y: offset},"<");
     intro.play();
     
-    $("#app").hide();
-    $(".intro").show();
+    $("#app").show();
+    $(".intro").hide();
     $(".register").hide();
     $(".highscore").hide();
-
+    
     //showHighScore();
     
     let frController = new gameController(gameData,$('#app'),0); //Start the gem in the proper div.

@@ -349,7 +349,7 @@
             "actions" : [
                 {   "title" : `Kiviszed a mosdóba, lelocsolod vízzel, és sztoikus nyugalommal ledőlsz a kanapéra.`, 
                     "outcome": "negative",                    
-                    "text": `Minden hiába. Teljes stresszben és szorongásban töltöd az éjszakát, nem kevés alkohol társaságában. Hajnalban bevánszorogsz az irodába, fejben már a felmondó levele negyedik verzióját fogalmazgatod.`,
+                    "text": `Minden hiába. Teljes stresszben és szorongásban töltöd az éjszakát, nem kevés alkohol társaságában. Hajnalban bevánszorogsz az irodába, fejben már a felmondó leveled negyedik verzióját fogalmazgatod.`,
                     "cta": "Mi lesz így Mikulással??",
                     "image":"Santa_hand_-min.gif",
                     "icon":"lose_icon.png",
