@@ -316,7 +316,6 @@ section.screen div.text {
   margin-top: 10px;
   width: 90%;
   line-height: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -388,11 +387,21 @@ section.screen button {
   font-size: 100%;
   margin-bottom: 4%;
   line-height: 90%;
+  min-height: fit-content;
+  -webkit-appearance: none;
 }
 
 @media screen and (max-width: 360px) {
   section.screen {
     font-size: 110%;
+  }
+  section.screen img.cover {
+    height: 25vh;
+  }
+}
+@media screen and (max-height: 600px) {
+  section.screen {
+    font-size: 130%;
   }
   section.screen img.cover {
     height: 25vh;
