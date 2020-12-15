@@ -33,8 +33,8 @@ $(function () {
     intro.to("div.intro div.menu", {duration: 2, y: offset},"<");
     intro.play();
     
-    $("#app").show();
-    $(".intro").hide();
+    $("#app").hide();
+    $(".intro").show();
     $(".register").hide();
     $(".highscore").hide();
     
