@@ -530,13 +530,24 @@ section.screen {
         max-width: 100px;
     }
 
+    //endgame img snow
     section.screen.endgame h1 img {
         max-width: 100px;
     }
-
+    
+    //statusbar style
     section.statusbar {
         left: 10%;
         max-width: 80%;
+    }
+
+    section.statusbar ul {
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+
+    section.statusbar ul li img {
+        width: 11px;
     }
 
  
