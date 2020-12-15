@@ -443,7 +443,7 @@ section.screen button {
   }
 
   div.text {
-    padding-bottom: 10%;
+    padding-bottom: 3%;
   }
 
   section.screen img.cover,
@@ -559,8 +559,9 @@ section.screen.negative h1 img {
   }
 
   .register img.cover {
-    width: 40%;
+    max-width: 60%;
     padding-top: 1%;
+    position: static;
   }
 
   .nes-field.is-inline {
@@ -571,6 +572,15 @@ section.screen.negative h1 img {
 
   div.gradient.register {
     position: static;
+  }
+
+  .endscore {
+    position: static !important;
+  }
+
+  .highscore table {
+    margin-bottom: 5% !important;
+    max-width: 900px;
   }
 }
 

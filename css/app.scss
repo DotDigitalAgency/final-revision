@@ -536,7 +536,7 @@ section.screen {
     }
 
     div.text{
-        padding-bottom: 10%;
+        padding-bottom: 3%;
     }
 
     //flexbox - children layout
@@ -668,8 +668,9 @@ section.screen {
 
 //register screen
 .register img.cover{
-    width: 40%;
+    max-width: 60%;
     padding-top:1%;
+    position: static;
 }
 .nes-field.is-inline {
     flex-direction: column;
@@ -680,6 +681,17 @@ section.screen {
 div.gradient.register {
     position:static;
 }
+
+//highscores
+.endscore {
+    position: static !important;
+}
+
+.highscore table{
+    margin-bottom: 5% !important;
+    max-width: 900px;
+}
+
 
     
 }
