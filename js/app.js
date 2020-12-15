@@ -202,3 +202,9 @@ $(function () {
   });
 
 });
+
+window.addEventListener('resize', (e)=>{
+  let textWrapper = document.querySelector('.text_wrapper');
+  const classes = ['nes-container', 'is-rounded', 'is-dark'];
+  window.innerWidth>1024 ? textWrapper.classList.add(...classes): textWrapper.classList.remove(...classes);
+});
