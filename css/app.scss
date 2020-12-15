@@ -528,9 +528,41 @@ section.screen {
 
     div.intro {
 
-        .menu {
-            padding-bottom: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        text-align: center;
+
+        .intro_title {
+            width: 20%;
+            margin-top: 40vh;
         }
+
+        .intro_graphics {
+            width:60vw;
+            position: absolute;
+            right:-15vw;
+            bottom:0%;
+            // margin-top: 10%;
+        }
+        .menu {
+            width: 30vw;    
+            height: auto;
+            background-color: transparent;
+            position: absolute;
+            top: 40%;
+            left: 15%;
+
+            img {
+                min-width: 20vw;
+            }
+
+            button {
+                margin-bottom: 2vh !important;
+            }
+        }
+
     }
 
     div.register {
@@ -664,36 +696,6 @@ section.screen {
         margin-top: -25%;
         margin-bottom: 3%;
     }
-
-    .intro {
-        height: min-content;      
-    
-        img.intro_title {
-            width: 50%;
-            margin-top: 40vh;
-        }
-    
-        img.intro_graphics {
-            width:70vw;
-            margin-top: 10%;
-        }
-    
-        div.menu {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            
-            h1 {
-                font-size: 200%;
-            }
-    
-            button {
-                width:80%;
-            }
-        }
-    
-        
-    }  
 //intro button fix   
 #start,
 #highscore {

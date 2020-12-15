@@ -434,8 +434,35 @@ section.screen button {
     top: 0px;
   }
 
+  div.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  div.intro .intro_title {
+    width: 20%;
+    margin-top: 40vh;
+  }
+  div.intro .intro_graphics {
+    width: 60vw;
+    position: absolute;
+    right: -15vw;
+    bottom: 0%;
+  }
   div.intro .menu {
-    padding-bottom: 400px;
+    width: 30vw;
+    height: auto;
+    background-color: transparent;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+  }
+  div.intro .menu img {
+    min-width: 20vw;
+  }
+  div.intro .menu button {
+    margin-bottom: 2vh !important;
   }
 
   div.register {
@@ -553,29 +580,6 @@ section.screen.negative h1 img {
     width: 50%;
     margin-top: -25%;
     margin-bottom: 3%;
-  }
-
-  .intro {
-    height: min-content;
-  }
-  .intro img.intro_title {
-    width: 50%;
-    margin-top: 40vh;
-  }
-  .intro img.intro_graphics {
-    width: 70vw;
-    margin-top: 10%;
-  }
-  .intro div.menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .intro div.menu h1 {
-    font-size: 200%;
-  }
-  .intro div.menu button {
-    width: 80%;
   }
 
   #start,

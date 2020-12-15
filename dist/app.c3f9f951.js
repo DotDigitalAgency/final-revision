@@ -8114,7 +8114,11 @@ var GameController = /*#__PURE__*/function () {
         if (data.outcome == "endgame") {
           data.title = "$".concat(Number(this.money).toLocaleString());
         }
-      }
+      } //preload next image
+      // console.log();
+      // var img=new Image();
+      // img.src=url;
+
 
       var screen_template = "<section class=\"screen ".concat(data.outcome, "\">\n                                    <img class=\"cover\" src=\"").concat(cover_filename, "\" alt=\"\">\n                                    <div class='text_wrapper'>\n                                        <h1> <img src=\"").concat(icon_filename, "\" /><span>").concat(data.title, "</span></h1>\n                                        <div class=\"text\">").concat(data.text, "</div>\n                                        <div class=\"gradient\"></div>\n                                        <div class=\"buttons\"></div>\n                                    </div>\n                                </section>");
       var scr_dom = (0, _cashDom.default)(screen_template).appendTo(this._app);
@@ -8433,35 +8437,70 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
       paused: true
     });
 
-    intro.fromTo(".intro_title", {
-      opacity: 0,
-      y: 100
-    }, {
-      y: 0,
-      opacity: 1,
-      duration: 3
-    });
-    intro.fromTo(".intro_graphics", {
-      opacity: 0
-    }, {
-      opacity: 1,
-      duration: 3,
-      delay: -1
-    });
-    intro.to(".intro_graphics", {
-      duration: 2,
-      y: offset,
-      delay: -.5
-    });
-    intro.to(".intro_title", {
-      y: -400,
-      opacity: 0,
-      duration: 1
-    }, "<");
-    intro.to("div.intro div.menu", {
-      duration: 2,
-      y: offset
-    }, "<");
+    console.log();
+
+    if ((0, _cashDom.default)('body').width() < 1024) {
+      //mobile intro
+      intro.fromTo(".intro_title", {
+        opacity: 0,
+        y: 100
+      }, {
+        y: 0,
+        opacity: 1,
+        duration: 3
+      });
+      intro.fromTo(".intro_graphics", {
+        opacity: 0
+      }, {
+        opacity: 1,
+        duration: 3,
+        delay: -1
+      });
+      intro.to(".intro_graphics", {
+        duration: 2,
+        y: offset,
+        delay: -.5
+      });
+      intro.to(".intro_title", {
+        y: -400,
+        opacity: 0,
+        duration: 1
+      }, "<");
+      intro.to("div.intro div.menu", {
+        duration: 2,
+        y: offset
+      }, "<");
+    } else {
+      intro.fromTo(".intro_title", {
+        opacity: 0,
+        y: 100
+      }, {
+        y: 0,
+        opacity: 1,
+        duration: 3
+      });
+      intro.to(".intro_title", {
+        duration: 2,
+        opacity: 0,
+        delay: 0
+      });
+      intro.fromTo(".intro_graphics", {
+        opacity: 0,
+        y: +100
+      }, {
+        opacity: 1,
+        duration: 3,
+        y: 0
+      }, "<");
+      intro.fromTo(".menu", {
+        opacity: 0
+      }, {
+        opacity: 1,
+        duration: 2,
+        delay: -1
+      });
+    }
+
     intro.play();
     (0, _cashDom.default)("#app").hide();
     (0, _cashDom.default)(".intro").show();

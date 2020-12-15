@@ -96,6 +96,13 @@ export default class GameController {
                 data.title = `$${Number(this.money).toLocaleString()}`
             }
         }
+        
+        //preload next image
+        // console.log();
+
+        // var img=new Image();
+        // img.src=url;
+
 
 
         
