@@ -521,6 +521,7 @@ section.screen {
              position: absolute;
              left: 0px;
              top:0px;
+
          }
 
     }
@@ -529,6 +530,38 @@ section.screen {
 
         .menu {
             padding-bottom: 400px;
+        }
+    }
+
+    div.register {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 200%;
+
+        img.cover {
+            position: relative !important;
+            margin: 0;
+            width: 60vw;
+            margin-left:-30vw;
+            // margin-left:5vw;
+        }
+
+        .nes-field {
+            background-color: transparent;
+            width: 40vw;
+        }
+
+        .gradient {
+            position: absolute !important;
+            bottom:0px;
+
+        }
+    }
+
+    div.loading {
+        .nes-container {
+            margin-top: 40vh !important
         }
     }
 
@@ -671,24 +704,18 @@ section.screen {
     margin-bottom: 2%;
 }
 
-//register screen
-.register img.cover{
-    max-width: 60%;
-    padding-top:1%;
-    position: static;
-}
 .nes-field.is-inline {
     flex-direction: column;
     padding-left: 2%;
     padding-right: 2%;
 }
 
-div.gradient.register {
+div.register div.gradient {
     position:static;
 }
 
 //highscores
-.endscore {
+div.highscore img.cover {
     position: static !important;
 }
 

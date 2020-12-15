@@ -37,8 +37,9 @@ $(function () {
     $(".intro").show();
     $(".register").hide();
     $(".highscore").hide();
+
     
-    //showHighScore();
+    // showHighScore();
     
     let frController = new gameController(gameData,$('#app'),0); //Start the gem in the proper div.
     //Handling game finished event

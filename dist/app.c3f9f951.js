@@ -8466,7 +8466,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     (0, _cashDom.default)("#app").hide();
     (0, _cashDom.default)(".intro").show();
     (0, _cashDom.default)(".register").hide();
-    (0, _cashDom.default)(".highscore").hide(); //showHighScore();
+    (0, _cashDom.default)(".highscore").hide(); // showHighScore();
 
     var frController = new _gameController.default(_gamedata.default, (0, _cashDom.default)('#app'), 0); //Start the gem in the proper div.
     //Handling game finished event
