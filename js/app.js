@@ -36,8 +36,8 @@ $(function () {
 
 
 
-    $("#app").show();
-    $(".intro").hide();
+    $("#app").hide();
+    $(".intro").show();
     $(".register").hide();
     $(".highscore").hide();
     

@@ -7469,7 +7469,7 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "cover_3.png",
+    "image": "cover_3.gif",
     "text": "A strat\xE9giai oszt\xE1ly nagy l\xE9ptekkel pr\xF3b\xE1l insightokat gy\u0171jteni kiscsoportos interj\xFAkkal, melynek egyik tagja, Rudika, \xFCv\xF6ltve k\xF6veteli mag\xE1nak a nintend\xF3t kar\xE1csonyra.",
     "actions": [{
       "title": "Kirakod az interjúról, nem törődve azzal, hogy az apja, id. Rudolf, emiatt simán elkaszálhatja a kampányod.",
@@ -7492,7 +7492,7 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "cover_4.png",
+    "image": "cover_4.gif",
     "text": "Az ügyfél ragaszkodik hozzá, hogy versenytárselemzést is csináljatok. Hát, globálisan azért elég megosztott ez az ajándékozás-témakör, jobb ebbe bele sem kezdeni...",
     "actions": [{
       "title": "Maradsz a Mikulás-sztorinál, és jobb híján a krampuszról készítesz desktop research-öt.",
@@ -7515,7 +7515,7 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "cover_5.png",
+    "image": "cover_5.gif",
     "text": "Az insight kutatás és a versenytárs elemzés már elegendő, hogy egy minimális briefet összerakjon a stratégiai osztály. Még talán egy picit hosszabb is lett mint kellene.",
     "actions": [{
       "title": "Megkéred, a plannereket, hogy húzzanak a 73 oldalból, és megkíméled a kreatívokat?",
@@ -7808,10 +7808,10 @@ module.exports = {
 module.exports = "/Money_glitter_v1-min.af0de227.gif";
 },{}],"img/Money_glitter_v2-min.gif":[function(require,module,exports) {
 module.exports = "/Money_glitter_v2-min.7d248cd4.gif";
-},{}],"img/Santa_hand_-min.gif":[function(require,module,exports) {
-module.exports = "/Santa_hand_-min.b5796e9b.gif";
 },{}],"img/Santa_cloud-min.gif":[function(require,module,exports) {
 module.exports = "/Santa_cloud-min.6e8b9c55.gif";
+},{}],"img/Santa_hand_-min.gif":[function(require,module,exports) {
+module.exports = "/Santa_hand_-min.b5796e9b.gif";
 },{}],"img/coin.gif":[function(require,module,exports) {
 module.exports = "/coin.fa42f039.gif";
 },{}],"img/cover_1.png":[function(require,module,exports) {
@@ -7820,10 +7820,10 @@ module.exports = "/cover_1.916796b9.png";
 module.exports = "/cover_10.854b4ee7.png";
 },{}],"img/cover_11.png":[function(require,module,exports) {
 module.exports = "/cover_11.239bdb11.png";
-},{}],"img/cover_13.png":[function(require,module,exports) {
-module.exports = "/cover_13.ebb5a050.png";
 },{}],"img/cover_12.png":[function(require,module,exports) {
 module.exports = "/cover_12.81d65a03.png";
+},{}],"img/cover_13.png":[function(require,module,exports) {
+module.exports = "/cover_13.ebb5a050.png";
 },{}],"img/cover_14.png":[function(require,module,exports) {
 module.exports = "/cover_14.e2483095.png";
 },{}],"img/cover_15.png":[function(require,module,exports) {
@@ -7842,10 +7842,16 @@ module.exports = "/cover_2.5f61d66c.png";
 module.exports = "/cover_20.b25b7df5.png";
 },{}],"img/cover_21.png":[function(require,module,exports) {
 module.exports = "/cover_21.beef5618.png";
+},{}],"img/cover_3.gif":[function(require,module,exports) {
+module.exports = "/cover_3.84edea39.gif";
 },{}],"img/cover_3.png":[function(require,module,exports) {
 module.exports = "/cover_3.2d1488ca.png";
+},{}],"img/cover_4.gif":[function(require,module,exports) {
+module.exports = "/cover_4.438d8ebd.gif";
 },{}],"img/cover_4.png":[function(require,module,exports) {
 module.exports = "/cover_4.a9eee83c.png";
+},{}],"img/cover_5.gif":[function(require,module,exports) {
+module.exports = "/cover_5.fbdba136.gif";
 },{}],"img/cover_5.png":[function(require,module,exports) {
 module.exports = "/cover_5.0cf0eaea.png";
 },{}],"img/cover_6.png":[function(require,module,exports) {
@@ -7860,14 +7866,14 @@ module.exports = "/cover_9.4e605972.png";
 module.exports = "/cover_gamewon.4a95d48b.png";
 },{}],"img/cover_highscore.png":[function(require,module,exports) {
 module.exports = "/cover_highscore.e6f1580d.png";
-},{}],"img/favicon-16.png":[function(require,module,exports) {
-module.exports = "/favicon-16.c9047867.png";
 },{}],"img/favicon-180.png":[function(require,module,exports) {
 module.exports = "/favicon-180.e5376efc.png";
-},{}],"img/favicon-32.png":[function(require,module,exports) {
-module.exports = "/favicon-32.340f3664.png";
+},{}],"img/favicon-16.png":[function(require,module,exports) {
+module.exports = "/favicon-16.c9047867.png";
 },{}],"img/fr_opengraph.jpg":[function(require,module,exports) {
 module.exports = "/fr_opengraph.dcea2945.jpg";
+},{}],"img/favicon-32.png":[function(require,module,exports) {
+module.exports = "/favicon-32.340f3664.png";
 },{}],"img/icon_error.png":[function(require,module,exports) {
 module.exports = "/icon_error.9cd9df31.png";
 },{}],"img/icon_success.png":[function(require,module,exports) {
@@ -7878,10 +7884,10 @@ module.exports = "/intro_graphics.79b1960b.png";
 module.exports = "/intro_logo.e9c34bdf.png";
 },{}],"img/logo.png":[function(require,module,exports) {
 module.exports = "/logo.cecc779a.png";
-},{}],"img/lose_cover.png":[function(require,module,exports) {
-module.exports = "/lose_cover.cc07fd4f.png";
 },{}],"img/lose_icon.png":[function(require,module,exports) {
 module.exports = "/lose_icon.d988ab9a.png";
+},{}],"img/lose_cover.png":[function(require,module,exports) {
+module.exports = "/lose_cover.cc07fd4f.png";
 },{}],"img/mistletoe.png":[function(require,module,exports) {
 module.exports = "/mistletoe.86c86e37.png";
 },{}],"img/santa_couple_2-min.gif":[function(require,module,exports) {
@@ -7900,11 +7906,11 @@ module.exports = {
   "Money_glitter_v2-min": {
     "gif": require("./Money_glitter_v2-min.gif")
   },
-  "Santa_hand_-min": {
-    "gif": require("./Santa_hand_-min.gif")
-  },
   "Santa_cloud-min": {
     "gif": require("./Santa_cloud-min.gif")
+  },
+  "Santa_hand_-min": {
+    "gif": require("./Santa_hand_-min.gif")
   },
   "coin": {
     "gif": require("./coin.gif")
@@ -7918,11 +7924,11 @@ module.exports = {
   "cover_11": {
     "png": require("./cover_11.png")
   },
-  "cover_13": {
-    "png": require("./cover_13.png")
-  },
   "cover_12": {
     "png": require("./cover_12.png")
+  },
+  "cover_13": {
+    "png": require("./cover_13.png")
   },
   "cover_14": {
     "png": require("./cover_14.png")
@@ -7952,12 +7958,15 @@ module.exports = {
     "png": require("./cover_21.png")
   },
   "cover_3": {
+    "gif": require("./cover_3.gif"),
     "png": require("./cover_3.png")
   },
   "cover_4": {
+    "gif": require("./cover_4.gif"),
     "png": require("./cover_4.png")
   },
   "cover_5": {
+    "gif": require("./cover_5.gif"),
     "png": require("./cover_5.png")
   },
   "cover_6": {
@@ -7978,17 +7987,17 @@ module.exports = {
   "cover_highscore": {
     "png": require("./cover_highscore.png")
   },
-  "favicon-16": {
-    "png": require("./favicon-16.png")
-  },
   "favicon-180": {
     "png": require("./favicon-180.png")
   },
-  "favicon-32": {
-    "png": require("./favicon-32.png")
+  "favicon-16": {
+    "png": require("./favicon-16.png")
   },
   "fr_opengraph": {
     "jpg": require("./fr_opengraph.jpg")
+  },
+  "favicon-32": {
+    "png": require("./favicon-32.png")
   },
   "icon_error": {
     "png": require("./icon_error.png")
@@ -8005,11 +8014,11 @@ module.exports = {
   "logo": {
     "png": require("./logo.png")
   },
-  "lose_cover": {
-    "png": require("./lose_cover.png")
-  },
   "lose_icon": {
     "png": require("./lose_icon.png")
+  },
+  "lose_cover": {
+    "png": require("./lose_cover.png")
   },
   "mistletoe": {
     "png": require("./mistletoe.png")
@@ -8027,7 +8036,7 @@ module.exports = {
     "png": require("./win_icon.png")
   }
 };
-},{"./Money_glitter_v1-min.gif":"img/Money_glitter_v1-min.gif","./Money_glitter_v2-min.gif":"img/Money_glitter_v2-min.gif","./Santa_hand_-min.gif":"img/Santa_hand_-min.gif","./Santa_cloud-min.gif":"img/Santa_cloud-min.gif","./coin.gif":"img/coin.gif","./cover_1.png":"img/cover_1.png","./cover_10.png":"img/cover_10.png","./cover_11.png":"img/cover_11.png","./cover_13.png":"img/cover_13.png","./cover_12.png":"img/cover_12.png","./cover_14.png":"img/cover_14.png","./cover_15.png":"img/cover_15.png","./cover_16.png":"img/cover_16.png","./cover_17.png":"img/cover_17.png","./cover_18.png":"img/cover_18.png","./cover_19.png":"img/cover_19.png","./cover_2.png":"img/cover_2.png","./cover_20.png":"img/cover_20.png","./cover_21.png":"img/cover_21.png","./cover_3.png":"img/cover_3.png","./cover_4.png":"img/cover_4.png","./cover_5.png":"img/cover_5.png","./cover_6.png":"img/cover_6.png","./cover_7.png":"img/cover_7.png","./cover_8.png":"img/cover_8.png","./cover_9.png":"img/cover_9.png","./cover_gamewon.png":"img/cover_gamewon.png","./cover_highscore.png":"img/cover_highscore.png","./favicon-16.png":"img/favicon-16.png","./favicon-180.png":"img/favicon-180.png","./favicon-32.png":"img/favicon-32.png","./fr_opengraph.jpg":"img/fr_opengraph.jpg","./icon_error.png":"img/icon_error.png","./icon_success.png":"img/icon_success.png","./intro_graphics.png":"img/intro_graphics.png","./intro_logo.png":"img/intro_logo.png","./logo.png":"img/logo.png","./lose_cover.png":"img/lose_cover.png","./lose_icon.png":"img/lose_icon.png","./mistletoe.png":"img/mistletoe.png","./santa_couple_2-min.gif":"img/santa_couple_2-min.gif","./section.svg":"img/section.svg","./win_cover.png":"img/win_cover.png","./win_icon.png":"img/win_icon.png"}],"js/gameController.js":[function(require,module,exports) {
+},{"./Money_glitter_v1-min.gif":"img/Money_glitter_v1-min.gif","./Money_glitter_v2-min.gif":"img/Money_glitter_v2-min.gif","./Santa_cloud-min.gif":"img/Santa_cloud-min.gif","./Santa_hand_-min.gif":"img/Santa_hand_-min.gif","./coin.gif":"img/coin.gif","./cover_1.png":"img/cover_1.png","./cover_10.png":"img/cover_10.png","./cover_11.png":"img/cover_11.png","./cover_12.png":"img/cover_12.png","./cover_13.png":"img/cover_13.png","./cover_14.png":"img/cover_14.png","./cover_15.png":"img/cover_15.png","./cover_16.png":"img/cover_16.png","./cover_17.png":"img/cover_17.png","./cover_18.png":"img/cover_18.png","./cover_19.png":"img/cover_19.png","./cover_2.png":"img/cover_2.png","./cover_20.png":"img/cover_20.png","./cover_21.png":"img/cover_21.png","./cover_3.gif":"img/cover_3.gif","./cover_3.png":"img/cover_3.png","./cover_4.gif":"img/cover_4.gif","./cover_4.png":"img/cover_4.png","./cover_5.gif":"img/cover_5.gif","./cover_5.png":"img/cover_5.png","./cover_6.png":"img/cover_6.png","./cover_7.png":"img/cover_7.png","./cover_8.png":"img/cover_8.png","./cover_9.png":"img/cover_9.png","./cover_gamewon.png":"img/cover_gamewon.png","./cover_highscore.png":"img/cover_highscore.png","./favicon-180.png":"img/favicon-180.png","./favicon-16.png":"img/favicon-16.png","./fr_opengraph.jpg":"img/fr_opengraph.jpg","./favicon-32.png":"img/favicon-32.png","./icon_error.png":"img/icon_error.png","./icon_success.png":"img/icon_success.png","./intro_graphics.png":"img/intro_graphics.png","./intro_logo.png":"img/intro_logo.png","./logo.png":"img/logo.png","./lose_icon.png":"img/lose_icon.png","./lose_cover.png":"img/lose_cover.png","./mistletoe.png":"img/mistletoe.png","./santa_couple_2-min.gif":"img/santa_couple_2-min.gif","./section.svg":"img/section.svg","./win_cover.png":"img/win_cover.png","./win_icon.png":"img/win_icon.png"}],"js/gameController.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8454,8 +8463,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
       y: offset
     }, "<");
     intro.play();
-    (0, _cashDom.default)("#app").show();
-    (0, _cashDom.default)(".intro").hide();
+    (0, _cashDom.default)("#app").hide();
+    (0, _cashDom.default)(".intro").show();
     (0, _cashDom.default)(".register").hide();
     (0, _cashDom.default)(".highscore").hide();
     var frController = new _gameController.default(_gamedata.default, (0, _cashDom.default)('#app'), 0); //Start the gem in the proper div.
@@ -8707,7 +8716,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "0.0.0.0" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59851" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49437" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

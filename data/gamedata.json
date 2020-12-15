@@ -44,7 +44,7 @@
             ]
         },
         {   "title":"",
-            "image": "cover_3.png",
+            "image": "cover_3.gif",
             "text" : `A stratégiai osztály nagy léptekkel próbál insightokat gyűjteni kiscsoportos interjúkkal, melynek egyik tagja, Rudika, üvöltve követeli magának a nintendót karácsonyra.`,
             "actions" : [
                 {   "title" : "Kirakod az interjúról, nem törődve azzal, hogy az apja, id. Rudolf, emiatt simán elkaszálhatja a kampányod.", 
@@ -68,7 +68,7 @@
             ]
         },
         {   "title":"",
-            "image": "cover_4.png",
+            "image": "cover_4.gif",
             "text" : "Az ügyfél ragaszkodik hozzá, hogy versenytárselemzést is csináljatok. Hát, globálisan azért elég megosztott ez az ajándékozás-témakör, jobb ebbe bele sem kezdeni...",
             "actions" : [
                 {   "title" : "Maradsz a Mikulás-sztorinál, és jobb híján a krampuszról készítesz desktop research-öt.", 
@@ -92,7 +92,7 @@
             ]
         },
         {   "title":"",
-            "image": "cover_5.png",
+            "image": "cover_5.gif",
             "text" : "Az insight kutatás és a versenytárs elemzés már elegendő, hogy egy minimális briefet összerakjon a stratégiai osztály. Még talán egy picit hosszabb is lett mint kellene.",
             "actions" : [
                 {   "title" : "Megkéred, a plannereket, hogy húzzanak a 73 oldalból, és megkíméled a kreatívokat?", 
