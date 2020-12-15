@@ -7434,8 +7434,8 @@ _getGSAP() && gsap.registerPlugin(TextPlugin);
 module.exports = {
   "name": "Final Revision VII",
   "base_value": 20000,
-  "highscore_url": "//46.101.119.204/games?_sort=score:DESC",
-  "register_url": "//46.101.119.204/games",
+  "highscore_url": "//xmas.dotcreative.hu/games?_sort=score:DESC",
+  "register_url": "//xmas.dotcreative.hu/games",
   "screens": [{
     "title": "",
     "image": "santa_couple_2-min.gif",
@@ -7469,14 +7469,14 @@ module.exports = {
     }]
   }, {
     "title": "",
-    "image": "cover_3.png",
+    "image": "cover_3.gif",
     "text": "A strat\xE9giai oszt\xE1ly nagy l\xE9ptekkel pr\xF3b\xE1l insightokat gy\u0171jteni kiscsoportos interj\xFAkkal, melynek egyik tagja, Rudika, \xFCv\xF6ltve k\xF6veteli mag\xE1nak a nintend\xF3t kar\xE1csonyra.",
     "actions": [{
       "title": "Kirakod az interjúról, nem törődve azzal, hogy az apja, id. Rudolf, emiatt simán elkaszálhatja a kampányod.",
       "outcome": "negative",
       "text": "A Mikulás nem annyira értékeli, hogy nem tudsz bánni a gyerekekkel. Megígéred neki, hogy újra elvégzed a Code of Conduct traininget, két napig nem térsz magadhoz!",
       "cta": "Lássuk, mi jöhet még...",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7485,21 +7485,21 @@ module.exports = {
       "outcome": "positive",
       "text": "Kollégáid összesöprik a romjaidat a tárgyalóból, ez kemény menet volt, de úgy néz ki, megérte! ",
       "cta": "A Mikulásért bármit!",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
     }]
   }, {
     "title": "",
-    "image": "cover_4.png",
+    "image": "cover_4.gif",
     "text": "Az ügyfél ragaszkodik hozzá, hogy versenytárselemzést is csináljatok. Hát, globálisan azért elég megosztott ez az ajándékozás-témakör, jobb ebbe bele sem kezdeni...",
     "actions": [{
       "title": "Maradsz a Mikulás-sztorinál, és jobb híján a krampuszról készítesz desktop research-öt.",
       "outcome": "negative",
       "text": "Hamarabb végeztél, de mint kiderült, a krampusz is a Mikulás alkalmazottja. Kuka az egész munka.",
       "cta": "Azért egy briefet össze tudunk már rakni?",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7508,21 +7508,21 @@ module.exports = {
       "outcome": "positive",
       "text": "3 napod elment, a client service director őrjöng, de a Mikulás hálás az alapos munkáért.",
       "cta": "Így már összeáll a brief?",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
     }]
   }, {
     "title": "",
-    "image": "cover_5.png",
+    "image": "cover_5.gif",
     "text": "Az insight kutatás és a versenytárs elemzés már elegendő, hogy egy minimális briefet összerakjon a stratégiai osztály. Még talán egy picit hosszabb is lett mint kellene.",
     "actions": [{
       "title": "Megkéred, a plannereket, hogy húzzanak a 73 oldalból, és megkíméled a kreatívokat?",
       "outcome": "positive",
       "text": "A kreatívok lelkesek. Már csak napok kérdése és feldolgozzák az információt!",
       "cta": "Ok",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7531,7 +7531,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Hát nem maradt ki semmit. Három Art Director, egy copywriter és egy ppc-s  felmond. Az utóbbinak nem világos a relevanciája.",
       "cta": "Ok",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7545,7 +7545,7 @@ module.exports = {
       "outcome": "positive",
       "text": "Megérte felvenni, büdzsét akarnak növelni! Ez már nem sülhet el rosszul... - gondolod, tévesen. :D ",
       "cta": "Ok",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7554,7 +7554,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Hagyod csörögni, majd hív mást, ha fontos. Erre nem kerül sor, a  Mikulás elfelejti, hogy mit akart mondani. Így sosem tudod meg, miről maradsz le... ha ha ha... khm... ho ho ho.",
       "cta": "Ok",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7584,7 +7584,7 @@ module.exports = {
       "outcome": "positive",
       "text": "Jót tett az ötletnek hogy kicsit visszavettél, igy mar anyádnak is tetszik.",
       "cta": "Halleluja!",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7593,7 +7593,7 @@ module.exports = {
       "outcome": "negative",
       "text": " Számitottál a botrányra, de a fizetéscsökkentés es a kirugásod kilátásba helyezése még is meglepett.",
       "cta": "Tisztelet a bátraknak. :(",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7607,7 +7607,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Mindegy volt, hogy v\xE1rtatok-e r\xE1 vagy sem. Mikor f\xE9l \xF3r\xE1s k\xE9s\xE9ssel meg\xE9rkezett a \"kasz\xE1s\", mindent kikuk\xE1zott",
       "cta": "Van még ott, ahonnan ez jött!",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7616,7 +7616,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Mindegy volt, hogy v\xE1rtatok-e r\xE1 vagy sem. Mikor f\xE9l \xF3r\xE1s k\xE9s\xE9ssel meg\xE9rkezett a \"kasz\xE1s\", mindent kikuk\xE1zott",
       "cta": "Van még ott, ahonnan ez jött!",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7630,7 +7630,7 @@ module.exports = {
       "outcome": "negative",
       "text": "H\xE1t, iz\xE9... egy picit elment az id\u0151 az \xE9p\xFCletvet\xEDt\xE9s b\xE1mul\xE1s\xE1val \xE9s a forralt bor vedel\xE9ssel...",
       "cta": "A lényeg, hogy készen vagyunk, ezt nézd, Mikulás!",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7639,7 +7639,7 @@ module.exports = {
       "outcome": "positive",
       "text": "F\xE9l \xF3ra alatt 4 kerek koncepci\xF3.  Mit kell ezt t\xFAlizgulni.",
       "cta": "Mutassuk meg a Mikulásnak!",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7661,7 +7661,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Pech, \xFAjrah\xEDv\xE1sn\xE1l is ugyanaz a csapat fogad. A Mikul\xE1s el\xE9gedettnek t\u0171nik a l\xE1nyok \xF6tlet\xE9vel, \xEDgy k\xE9nytelen vagy azzal tov\xE1bbmenni.",
       "cta": "Lássuk, mit lehet kihozni ebből!",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7670,7 +7670,7 @@ module.exports = {
       "outcome": "positive",
       "text": "Nem \xFAgy t\u0171nik, mintha a Mikul\xE1st zavarn\xE1k a kaotikus k\xF6r\xFClm\xE9nyek. Szerinte remek\xFCl halad a munka.",
       "cta": "Éljen a kreatív káosz!",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7684,7 +7684,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Mindig a kreat\xEDv igazgat\xF3 \xF6tlete a legjobb. Ut\xE1na j\xF6n az \xFCgyf\xE9l, a m\xE9ly tekintet\u0171 sz\xF6veg\xEDr\xF3, aki tetszik, \xE9s csak ut\xE1na a Cannes Lions!",
       "cta": "Igen, ezt a sorrendet mindig elfelejted.",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7693,7 +7693,7 @@ module.exports = {
       "outcome": "positive",
       "text": "Nal\xE1tod, nem vagy te h\xFClye gyerek! A kreat\xEDv igazgat\xF3 \xF6tlete a legjobb \xF6tlet. Mindig!",
       "cta": "Jár a keksz!",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7707,7 +7707,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Mikor meg\xE9rkezett a Mikul\xE1s a l\xE1nyokhoz ment els\u0151re, pedig a recin mondt\xE1k, hogy ne oda! Kezded elvesz\xEDteni a poz\xEDci\xF3d az \xFCgyf\xE9ln\xE9l.",
       "cta": "Mégiscsak ez a lényeg, nem?",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7716,7 +7716,7 @@ module.exports = {
       "outcome": "positive",
       "text": "A Mikul\xE1s nem \xF6r\xFCl, hogy Suzzy \xE9s Alyshya szakm\xE1t v\xE1ltanak. De ha boldogok a rekl\xE1mosok k\xF6z\xF6tt, akkor mi\xE9rt ne... Tetszik neki a kamp\xE1ny\xF6tlet!",
       "cta": "Ho ho ho ho!",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7738,7 +7738,7 @@ module.exports = {
       "outcome": "negative",
       "text": "A Mikul\xE1s alig v\xE1rja m\xE1r a Kar\xE1csonyt, nincs halaszt\xE1s! Marad a dugi pia? :'(",
       "cta": "Egészségünkre!",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7747,7 +7747,7 @@ module.exports = {
       "outcome": "positive",
       "text": "T\xFAl sok rajtad a stressz mostan\xE1ban. Egy kis laz\xEDt\xE1s j\xF3t fog tenni.",
       "cta": "Egészségünkre!",
-      "image": "win_cover.png",
+      "image": "Money_glitter_v1-min.gif",
       "icon": "win_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7761,7 +7761,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Minden hi\xE1ba. A kimer\xFClts\xE9g \xE9s a kit\xF6lt\xF6tt pia megteszi a hat\xE1s\xE1t. 1 percen bel\xFCl elalszol. Mi lesz \xEDgy a kar\xE1csonnyal?",
       "cta": "Mi lesz így Mikulással??",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": -0.1
@@ -7770,7 +7770,7 @@ module.exports = {
       "outcome": "negative",
       "text": "Minden hi\xE1ba. A kimer\xFClts\xE9g \xE9s a kit\xF6lt\xF6tt pia megteszi a hat\xE1s\xE1t. 1 percen bel\xFCl elalszol. Mi lesz \xEDgy a kar\xE1csonnyal?",
       "cta": "Mi lesz így Mikulással??",
-      "image": "lose_cover.png",
+      "image": "Santa_hand_-min.gif",
       "icon": "lose_icon.png",
       "action": "render_outcome",
       "value": 0.1
@@ -7804,8 +7804,18 @@ module.exports = {
     }]
   }]
 };
+},{}],"img/Money_glitter_v1-min.gif":[function(require,module,exports) {
+module.exports = "/Money_glitter_v1-min.af0de227.gif";
+},{}],"img/Money_glitter_v2-min.gif":[function(require,module,exports) {
+module.exports = "/Money_glitter_v2-min.7d248cd4.gif";
+},{}],"img/Santa_cloud-min.gif":[function(require,module,exports) {
+module.exports = "/Santa_cloud-min.6e8b9c55.gif";
+},{}],"img/Santa_hand_-min.gif":[function(require,module,exports) {
+module.exports = "/Santa_hand_-min.b5796e9b.gif";
 },{}],"img/coin.gif":[function(require,module,exports) {
 module.exports = "/coin.fa42f039.gif";
+},{}],"img/cover_1.png":[function(require,module,exports) {
+module.exports = "/cover_1.916796b9.png";
 },{}],"img/cover_10.png":[function(require,module,exports) {
 module.exports = "/cover_10.854b4ee7.png";
 },{}],"img/cover_11.png":[function(require,module,exports) {
@@ -7822,34 +7832,48 @@ module.exports = "/cover_15.14f2863a.png";
 module.exports = "/cover_16.a773e12b.png";
 },{}],"img/cover_17.png":[function(require,module,exports) {
 module.exports = "/cover_17.e7ecab84.png";
-},{}],"img/cover_19.png":[function(require,module,exports) {
-module.exports = "/cover_19.fb70ec20.png";
 },{}],"img/cover_18.png":[function(require,module,exports) {
 module.exports = "/cover_18.f2999c70.png";
+},{}],"img/cover_19.png":[function(require,module,exports) {
+module.exports = "/cover_19.fb70ec20.png";
 },{}],"img/cover_2.png":[function(require,module,exports) {
 module.exports = "/cover_2.5f61d66c.png";
 },{}],"img/cover_20.png":[function(require,module,exports) {
 module.exports = "/cover_20.b25b7df5.png";
 },{}],"img/cover_21.png":[function(require,module,exports) {
 module.exports = "/cover_21.beef5618.png";
+},{}],"img/cover_3.gif":[function(require,module,exports) {
+module.exports = "/cover_3.84edea39.gif";
 },{}],"img/cover_3.png":[function(require,module,exports) {
 module.exports = "/cover_3.2d1488ca.png";
+},{}],"img/cover_4.gif":[function(require,module,exports) {
+module.exports = "/cover_4.438d8ebd.gif";
 },{}],"img/cover_4.png":[function(require,module,exports) {
 module.exports = "/cover_4.a9eee83c.png";
+},{}],"img/cover_5.gif":[function(require,module,exports) {
+module.exports = "/cover_5.fbdba136.gif";
 },{}],"img/cover_5.png":[function(require,module,exports) {
 module.exports = "/cover_5.0cf0eaea.png";
 },{}],"img/cover_6.png":[function(require,module,exports) {
 module.exports = "/cover_6.6d60b95f.png";
-},{}],"img/cover_8.png":[function(require,module,exports) {
-module.exports = "/cover_8.f2c1363b.png";
 },{}],"img/cover_7.png":[function(require,module,exports) {
 module.exports = "/cover_7.11d58592.png";
+},{}],"img/cover_8.png":[function(require,module,exports) {
+module.exports = "/cover_8.f2c1363b.png";
 },{}],"img/cover_9.png":[function(require,module,exports) {
 module.exports = "/cover_9.4e605972.png";
-},{}],"img/cover_highscore.png":[function(require,module,exports) {
-module.exports = "/cover_highscore.e6f1580d.png";
 },{}],"img/cover_gamewon.png":[function(require,module,exports) {
 module.exports = "/cover_gamewon.4a95d48b.png";
+},{}],"img/cover_highscore.png":[function(require,module,exports) {
+module.exports = "/cover_highscore.e6f1580d.png";
+},{}],"img/favicon-180.png":[function(require,module,exports) {
+module.exports = "/favicon-180.e5376efc.png";
+},{}],"img/favicon-16.png":[function(require,module,exports) {
+module.exports = "/favicon-16.c9047867.png";
+},{}],"img/fr_opengraph.jpg":[function(require,module,exports) {
+module.exports = "/fr_opengraph.dcea2945.jpg";
+},{}],"img/favicon-32.png":[function(require,module,exports) {
+module.exports = "/favicon-32.340f3664.png";
 },{}],"img/icon_error.png":[function(require,module,exports) {
 module.exports = "/icon_error.9cd9df31.png";
 },{}],"img/icon_success.png":[function(require,module,exports) {
@@ -7860,34 +7884,39 @@ module.exports = "/intro_graphics.79b1960b.png";
 module.exports = "/intro_logo.e9c34bdf.png";
 },{}],"img/logo.png":[function(require,module,exports) {
 module.exports = "/logo.cecc779a.png";
-},{}],"img/cover_1.png":[function(require,module,exports) {
-module.exports = "/cover_1.916796b9.png";
 },{}],"img/lose_icon.png":[function(require,module,exports) {
 module.exports = "/lose_icon.d988ab9a.png";
-},{}],"img/mistletoe.png":[function(require,module,exports) {
-module.exports = "/mistletoe.86c86e37.png";
-},{}],"img/Money_glitter_v1-min.gif":[function(require,module,exports) {
-module.exports = "/Money_glitter_v1-min.af0de227.gif";
-},{}],"img/Santa_cloud-min.gif":[function(require,module,exports) {
-module.exports = "/Santa_cloud-min.6e8b9c55.gif";
-},{}],"img/santa_couple_2-min.gif":[function(require,module,exports) {
-module.exports = "/santa_couple_2-min.dd21f6fe.gif";
-},{}],"img/Santa_hand_-min.gif":[function(require,module,exports) {
-module.exports = "/Santa_hand_-min.b5796e9b.gif";
-},{}],"img/section.svg":[function(require,module,exports) {
-module.exports = "/section.0e9c70c5.svg";
 },{}],"img/lose_cover.png":[function(require,module,exports) {
 module.exports = "/lose_cover.cc07fd4f.png";
+},{}],"img/mistletoe.png":[function(require,module,exports) {
+module.exports = "/mistletoe.86c86e37.png";
+},{}],"img/santa_couple_2-min.gif":[function(require,module,exports) {
+module.exports = "/santa_couple_2-min.dd21f6fe.gif";
+},{}],"img/section.svg":[function(require,module,exports) {
+module.exports = "/section.0e9c70c5.svg";
 },{}],"img/win_cover.png":[function(require,module,exports) {
 module.exports = "/win_cover.7e212c11.png";
 },{}],"img/win_icon.png":[function(require,module,exports) {
 module.exports = "/win_icon.3b946e2a.png";
-},{}],"img/Money_glitter_v2-min.gif":[function(require,module,exports) {
-module.exports = "/Money_glitter_v2-min.7d248cd4.gif";
 },{}],"img/*.*":[function(require,module,exports) {
 module.exports = {
+  "Money_glitter_v1-min": {
+    "gif": require("./Money_glitter_v1-min.gif")
+  },
+  "Money_glitter_v2-min": {
+    "gif": require("./Money_glitter_v2-min.gif")
+  },
+  "Santa_cloud-min": {
+    "gif": require("./Santa_cloud-min.gif")
+  },
+  "Santa_hand_-min": {
+    "gif": require("./Santa_hand_-min.gif")
+  },
   "coin": {
     "gif": require("./coin.gif")
+  },
+  "cover_1": {
+    "png": require("./cover_1.png")
   },
   "cover_10": {
     "png": require("./cover_10.png")
@@ -7913,11 +7942,11 @@ module.exports = {
   "cover_17": {
     "png": require("./cover_17.png")
   },
-  "cover_19": {
-    "png": require("./cover_19.png")
-  },
   "cover_18": {
     "png": require("./cover_18.png")
+  },
+  "cover_19": {
+    "png": require("./cover_19.png")
   },
   "cover_2": {
     "png": require("./cover_2.png")
@@ -7929,31 +7958,46 @@ module.exports = {
     "png": require("./cover_21.png")
   },
   "cover_3": {
+    "gif": require("./cover_3.gif"),
     "png": require("./cover_3.png")
   },
   "cover_4": {
+    "gif": require("./cover_4.gif"),
     "png": require("./cover_4.png")
   },
   "cover_5": {
+    "gif": require("./cover_5.gif"),
     "png": require("./cover_5.png")
   },
   "cover_6": {
     "png": require("./cover_6.png")
   },
-  "cover_8": {
-    "png": require("./cover_8.png")
-  },
   "cover_7": {
     "png": require("./cover_7.png")
+  },
+  "cover_8": {
+    "png": require("./cover_8.png")
   },
   "cover_9": {
     "png": require("./cover_9.png")
   },
+  "cover_gamewon": {
+    "png": require("./cover_gamewon.png")
+  },
   "cover_highscore": {
     "png": require("./cover_highscore.png")
   },
-  "cover_gamewon": {
-    "png": require("./cover_gamewon.png")
+  "favicon-180": {
+    "png": require("./favicon-180.png")
+  },
+  "favicon-16": {
+    "png": require("./favicon-16.png")
+  },
+  "fr_opengraph": {
+    "jpg": require("./fr_opengraph.jpg")
+  },
+  "favicon-32": {
+    "png": require("./favicon-32.png")
   },
   "icon_error": {
     "png": require("./icon_error.png")
@@ -7970,44 +8014,29 @@ module.exports = {
   "logo": {
     "png": require("./logo.png")
   },
-  "cover_1": {
-    "png": require("./cover_1.png")
-  },
   "lose_icon": {
     "png": require("./lose_icon.png")
+  },
+  "lose_cover": {
+    "png": require("./lose_cover.png")
   },
   "mistletoe": {
     "png": require("./mistletoe.png")
   },
-  "Money_glitter_v1-min": {
-    "gif": require("./Money_glitter_v1-min.gif")
-  },
-  "Santa_cloud-min": {
-    "gif": require("./Santa_cloud-min.gif")
-  },
   "santa_couple_2-min": {
     "gif": require("./santa_couple_2-min.gif")
   },
-  "Santa_hand_-min": {
-    "gif": require("./Santa_hand_-min.gif")
-  },
   "section": {
     "svg": require("./section.svg")
-  },
-  "lose_cover": {
-    "png": require("./lose_cover.png")
   },
   "win_cover": {
     "png": require("./win_cover.png")
   },
   "win_icon": {
     "png": require("./win_icon.png")
-  },
-  "Money_glitter_v2-min": {
-    "gif": require("./Money_glitter_v2-min.gif")
   }
 };
-},{"./coin.gif":"img/coin.gif","./cover_10.png":"img/cover_10.png","./cover_11.png":"img/cover_11.png","./cover_12.png":"img/cover_12.png","./cover_13.png":"img/cover_13.png","./cover_14.png":"img/cover_14.png","./cover_15.png":"img/cover_15.png","./cover_16.png":"img/cover_16.png","./cover_17.png":"img/cover_17.png","./cover_19.png":"img/cover_19.png","./cover_18.png":"img/cover_18.png","./cover_2.png":"img/cover_2.png","./cover_20.png":"img/cover_20.png","./cover_21.png":"img/cover_21.png","./cover_3.png":"img/cover_3.png","./cover_4.png":"img/cover_4.png","./cover_5.png":"img/cover_5.png","./cover_6.png":"img/cover_6.png","./cover_8.png":"img/cover_8.png","./cover_7.png":"img/cover_7.png","./cover_9.png":"img/cover_9.png","./cover_highscore.png":"img/cover_highscore.png","./cover_gamewon.png":"img/cover_gamewon.png","./icon_error.png":"img/icon_error.png","./icon_success.png":"img/icon_success.png","./intro_graphics.png":"img/intro_graphics.png","./intro_logo.png":"img/intro_logo.png","./logo.png":"img/logo.png","./cover_1.png":"img/cover_1.png","./lose_icon.png":"img/lose_icon.png","./mistletoe.png":"img/mistletoe.png","./Money_glitter_v1-min.gif":"img/Money_glitter_v1-min.gif","./Santa_cloud-min.gif":"img/Santa_cloud-min.gif","./santa_couple_2-min.gif":"img/santa_couple_2-min.gif","./Santa_hand_-min.gif":"img/Santa_hand_-min.gif","./section.svg":"img/section.svg","./lose_cover.png":"img/lose_cover.png","./win_cover.png":"img/win_cover.png","./win_icon.png":"img/win_icon.png","./Money_glitter_v2-min.gif":"img/Money_glitter_v2-min.gif"}],"js/gameController.js":[function(require,module,exports) {
+},{"./Money_glitter_v1-min.gif":"img/Money_glitter_v1-min.gif","./Money_glitter_v2-min.gif":"img/Money_glitter_v2-min.gif","./Santa_cloud-min.gif":"img/Santa_cloud-min.gif","./Santa_hand_-min.gif":"img/Santa_hand_-min.gif","./coin.gif":"img/coin.gif","./cover_1.png":"img/cover_1.png","./cover_10.png":"img/cover_10.png","./cover_11.png":"img/cover_11.png","./cover_12.png":"img/cover_12.png","./cover_13.png":"img/cover_13.png","./cover_14.png":"img/cover_14.png","./cover_15.png":"img/cover_15.png","./cover_16.png":"img/cover_16.png","./cover_17.png":"img/cover_17.png","./cover_18.png":"img/cover_18.png","./cover_19.png":"img/cover_19.png","./cover_2.png":"img/cover_2.png","./cover_20.png":"img/cover_20.png","./cover_21.png":"img/cover_21.png","./cover_3.gif":"img/cover_3.gif","./cover_3.png":"img/cover_3.png","./cover_4.gif":"img/cover_4.gif","./cover_4.png":"img/cover_4.png","./cover_5.gif":"img/cover_5.gif","./cover_5.png":"img/cover_5.png","./cover_6.png":"img/cover_6.png","./cover_7.png":"img/cover_7.png","./cover_8.png":"img/cover_8.png","./cover_9.png":"img/cover_9.png","./cover_gamewon.png":"img/cover_gamewon.png","./cover_highscore.png":"img/cover_highscore.png","./favicon-180.png":"img/favicon-180.png","./favicon-16.png":"img/favicon-16.png","./fr_opengraph.jpg":"img/fr_opengraph.jpg","./favicon-32.png":"img/favicon-32.png","./icon_error.png":"img/icon_error.png","./icon_success.png":"img/icon_success.png","./intro_graphics.png":"img/intro_graphics.png","./intro_logo.png":"img/intro_logo.png","./logo.png":"img/logo.png","./lose_icon.png":"img/lose_icon.png","./lose_cover.png":"img/lose_cover.png","./mistletoe.png":"img/mistletoe.png","./santa_couple_2-min.gif":"img/santa_couple_2-min.gif","./section.svg":"img/section.svg","./win_cover.png":"img/win_cover.png","./win_icon.png":"img/win_icon.png"}],"js/gameController.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8072,8 +8101,6 @@ var GameController = /*#__PURE__*/function () {
       var _this = this;
 
       var visible = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
-      var text_wrapper = window.innerWidth > 1024 ? 'text_wrapper nes-container is-rounded is-dark' : 'text_wrapper'; //show correct border or borderless style responsive
-
       var cover_filename = data.image.split('.');
       cover_filename = _.default[cover_filename[0]][cover_filename[1]];
       var icon_filename;
@@ -8089,7 +8116,7 @@ var GameController = /*#__PURE__*/function () {
         }
       }
 
-      var screen_template = "<section class=\"screen ".concat(data.outcome, "\">\n                                    <img class=\"cover\" src=\"").concat(cover_filename, "\" alt=\"\">\n                                    <div class='").concat(text_wrapper, "'>\n                                        <h1> <img src=\"").concat(icon_filename, "\" /><span>").concat(data.title, "</span></h1>\n                                        <div class=\"text\">").concat(data.text, "</div>\n                                        <div class=\"gradient\"></div>\n                                        <div class=\"buttons\"></div>\n                                    </div>\n                                </section>");
+      var screen_template = "<section class=\"screen ".concat(data.outcome, "\">\n                                    <img class=\"cover\" src=\"").concat(cover_filename, "\" alt=\"\">\n                                    <div class='text_wrapper'>\n                                        <h1> <img src=\"").concat(icon_filename, "\" /><span>").concat(data.title, "</span></h1>\n                                        <div class=\"text\">").concat(data.text, "</div>\n                                        <div class=\"gradient\"></div>\n                                        <div class=\"buttons\"></div>\n                                    </div>\n                                </section>");
       var scr_dom = (0, _cashDom.default)(screen_template).appendTo(this._app);
 
       if (!visible) {
@@ -8222,7 +8249,6 @@ var GameController = /*#__PURE__*/function () {
       //restructure data to make it addscreen compatible
 
       var active_screen = (0, _cashDom.default)(current).closest('section');
-      console.log((0, _cashDom.default)(current).closest('section'));
       screenData.title = move_value < 0 ? "-$".concat(Math.abs(move_value)) : "+$".concat(move_value);
       screenData.actions = [{
         "title": screenData.cta,
@@ -8286,7 +8312,7 @@ var GameController = /*#__PURE__*/function () {
 }();
 
 exports.default = GameController;
-},{"cash-dom":"node_modules/cash-dom/dist/cash.js","../img/*.*":"img/*.*","gsap":"node_modules/gsap/index.js","gsap/TextPlugin":"node_modules/gsap/TextPlugin.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"cash-dom":"node_modules/cash-dom/dist/cash.js","../img/*.*":"img/*.*","gsap":"node_modules/gsap/index.js","gsap/TextPlugin":"node_modules/gsap/TextPlugin.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -8318,7 +8344,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -8353,12 +8379,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/bundle-url.js"}],"node_modules/nes.css/css/nes.min.css":[function(require,module,exports) {
+},{"./bundle-url":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"node_modules/nes.css/css/nes.min.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js"}],"js/app.js":[function(require,module,exports) {
+},{"_css_loader":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/app.js":[function(require,module,exports) {
 "use strict";
 
 var _cashDom = _interopRequireDefault(require("cash-dom"));
@@ -8383,10 +8409,25 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
     _gsap.gsap.registerPlugin(_TextPlugin.default);
 
-    _gsap.gsap.ticker.fps(8); // gsap.globalTimeline.ticker.fps(12);
+    _gsap.gsap.ticker.fps(8);
 
+    _gsap.gsap.to(".intro_graphics", {
+      opacity: 0,
+      duration: 0
+    });
 
-    var offset = 0 - ((0, _cashDom.default)('.intro_graphics').height() + 100);
+    _gsap.gsap.to(".intro_title", {
+      opacity: 0,
+      duration: 0
+    });
+
+    var img_height = Number((0, _cashDom.default)('.intro_graphics').height());
+
+    if (img_height == 0) {
+      img_height = 660;
+    }
+
+    var offset = 0 - (img_height + 100); //check if image is lopaded
 
     var intro = _gsap.gsap.timeline({
       paused: true
@@ -8516,6 +8557,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
         if (data.status == 200) {
           setLoadingScreen('success', 'highscore', true);
         } else {
+          console.log('error occured while submitting');
           setLoadingScreen('error', '', true);
         }
       });
@@ -8646,14 +8688,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     }
   });
 });
-window.addEventListener('resize', function (e) {
-  var _textWrapper$classLis, _textWrapper$classLis2;
-
-  var textWrapper = document.querySelector('.text_wrapper');
-  var classes = ['nes-container', 'is-rounded', 'is-dark'];
-  window.innerWidth > 1024 ? (_textWrapper$classLis = textWrapper.classList).add.apply(_textWrapper$classLis, classes) : (_textWrapper$classLis2 = textWrapper.classList).remove.apply(_textWrapper$classLis2, classes);
-});
-},{"cash-dom":"node_modules/cash-dom/dist/cash.js","gsap":"node_modules/gsap/index.js","gsap/ScrollToPlugin":"node_modules/gsap/ScrollToPlugin.js","gsap/TextPlugin":"node_modules/gsap/TextPlugin.js","../data/gamedata.json":"data/gamedata.json","./gameController.js":"js/gameController.js","nes.css/css/nes.min.css":"node_modules/nes.css/css/nes.min.css"}],"../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"cash-dom":"node_modules/cash-dom/dist/cash.js","gsap":"node_modules/gsap/index.js","gsap/ScrollToPlugin":"node_modules/gsap/ScrollToPlugin.js","gsap/TextPlugin":"node_modules/gsap/TextPlugin.js","../data/gamedata.json":"data/gamedata.json","./gameController.js":"js/gameController.js","nes.css/css/nes.min.css":"node_modules/nes.css/css/nes.min.css"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -8679,9 +8714,9 @@ var checkedAssets, assetsToAccept;
 var parent = module.bundle.parent;
 
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
-  var hostname = "" || location.hostname;
+  var hostname = "0.0.0.0" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50752" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49437" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -8857,5 +8892,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js","js/app.js"], null)
+},{}]},{},["../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/app.js"], null)
 //# sourceMappingURL=/app.c3f9f951.js.map

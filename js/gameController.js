@@ -205,7 +205,6 @@ export default class GameController {
 
         //restructure data to make it addscreen compatible
         var active_screen = $(current).closest('section');
-        console.log($(current).closest('section'))
         screenData.title = (move_value < 0) ? `-$${Math.abs(move_value)}` : `+$${move_value}`;
         
         screenData.actions = [{

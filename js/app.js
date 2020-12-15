@@ -17,10 +17,14 @@ $(function () {
     gsap.registerPlugin(ScrollToPlugin);
     gsap.registerPlugin(TextPlugin);
     gsap.ticker.fps(8)
-    // gsap.globalTimeline.ticker.fps(12);
-   
-    var offset = 0-($('.intro_graphics').height()+100);
 
+   
+    gsap.to(".intro_graphics", {opacity:0,duration:0});
+    gsap.to(".intro_title", {opacity:0,duration:0});
+    
+    var img_height = Number($('.intro_graphics').height());
+    if (img_height == 0) { img_height = 660;}
+    var offset = 0-(img_height+100); //check if image is lopaded
     var intro = gsap.timeline({paused:true});
     intro.fromTo(".intro_title", {opacity:0,y:100},{y:0, opacity:1, duration:3})
     intro.fromTo(".intro_graphics", {opacity:0},{opacity:1, duration:3, delay:-1})
@@ -28,6 +32,9 @@ $(function () {
     intro.to(".intro_title",{y:-400, opacity:0, duration:1},"<")
     intro.to("div.intro div.menu", {duration: 2, y: offset},"<");
     intro.play();
+    
+
+
 
     $("#app").hide();
     $(".intro").show();
@@ -71,7 +78,7 @@ $(function () {
     $("#register").on('click',(e) => {
 
       showLoading();
-
+      
       fetch(gameData.register_url, {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         mode: 'cors', // no-cors, *cors, same-origin
@@ -93,6 +100,7 @@ $(function () {
         if (data.status == 200) {
           setLoadingScreen('success','highscore',true);
         } else {
+          console.log('error occured while submitting');
           setLoadingScreen('error','',true);
         }
       });
@@ -128,7 +136,7 @@ $(function () {
 
     }).catch(err => { 
       //TODO: Add error handling
-      console.log('error occured while loading highscore DataCue')
+      console.log('error occured while loading highscore DataCue');
     });
   
   }
