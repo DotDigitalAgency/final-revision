@@ -28,6 +28,7 @@ body img {
 body img.cover {
   width: 100%;
   margin: auto;
+  max-height: 30vh;
   object-fit: contain;
 }
 body img.spinner {
@@ -235,13 +236,14 @@ section.statusbar ul {
   margin: 0px;
   margin-right: 0px;
   padding: 0px;
-  width: auto;
+  width: 100%;
   list-style-type: none;
   display: flex;
   align-content: stretch;
   flex-grow: 2;
 }
 section.statusbar ul li {
+  flex-grow: 1;
   margin-right: 2px;
   opacity: 0.2;
 }
@@ -257,6 +259,7 @@ section.statusbar ul li.active {
 section.statusbar div {
   display: flex;
   align-items: center;
+  margin-top: 3px;
 }
 section.statusbar div img.coin {
   width: 25px;
@@ -268,6 +271,7 @@ section.statusbar div span {
   color: white;
   font-size: 80%;
   text-align: right;
+  padding-top: 3px;
 }
 
 section.screen {
@@ -283,6 +287,7 @@ section.screen {
   height: 100%;
   position: fixed;
   align-items: flex-start;
+  font-size: 135%;
 }
 section.screen div.text_wrapper {
   display: flex;
@@ -384,27 +389,26 @@ section.screen div.buttons {
   background: #75c25b;
 }
 section.screen button {
-  font-size: 100%;
   margin-bottom: 4%;
   line-height: 90%;
   min-height: fit-content;
   -webkit-appearance: none;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 330px) {
   section.screen {
     font-size: 110%;
   }
   section.screen img.cover {
-    height: 25vh;
+    height: 20vh;
   }
 }
-@media screen and (max-height: 600px) {
+@media screen and (min-width: 340px) and (max-height: 600px) {
   section.screen {
     font-size: 130%;
   }
   section.screen img.cover {
-    height: 25vh;
+    height: 22vh;
   }
 }
 @media screen and (min-width: 1024px) {
