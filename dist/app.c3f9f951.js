@@ -8448,8 +8448,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
     var urlParams = new URLSearchParams(window.location.search);
     var user_name = urlParams.get('name').split(' ')[1];
-    (0, _cashDom.default)("#app").show();
-    (0, _cashDom.default)(".intro").hide();
+    (0, _cashDom.default)("#app").hide();
+    (0, _cashDom.default)(".intro").show();
     (0, _cashDom.default)(".register").hide();
     (0, _cashDom.default)(".highscore").hide();
 

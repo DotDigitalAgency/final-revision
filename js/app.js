@@ -31,8 +31,8 @@ $(function () {
     const urlParams = new URLSearchParams(window.location.search);
     const user_name = urlParams.get('name').split(' ')[1];
     
-    $("#app").show();
-    $(".intro").hide();
+    $("#app").hide();
+    $(".intro").show();
     $(".register").hide();
     $(".highscore").hide();
 
