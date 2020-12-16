@@ -29,7 +29,17 @@ $(function () {
     var intro = gsap.timeline({paused:true});
 
     const urlParams = new URLSearchParams(window.location.search);
-    const user_name = urlParams.get('name').split(' ')[1];
+    var user_name = '';
+
+    if (urlParams.get('name') != null) {
+      if (urlParams.get('name').split(' ').length > 1) {
+        user_name = urlParams.get('name').split(' ')[1];
+      } else {
+        user_name = '';
+      }
+    } else {
+      user_name = '';
+    }
     
     $("#app").hide();
     $(".intro").show();
@@ -37,16 +47,16 @@ $(function () {
     $(".highscore").hide();
 
     if ($('body').width() < 1024) { //mobile intro
-      intro.fromTo(".intro_title", {opacity:0,y:100},{y:0, opacity:1, duration:3})
-      intro.fromTo(".intro_graphics", {opacity:0},{opacity:1, duration:3, delay:-1})
+      intro.fromTo(".intro_title", {opacity:0,y:100},{y:0, opacity:1, duration:3});
+      intro.fromTo(".intro_graphics", {opacity:0},{opacity:1, duration:3, delay:-1});
       intro.to(".intro_graphics", {duration: 2, y: offset, delay:-.5});
-      intro.to(".intro_title",{y:-400, opacity:0, duration:1},"<")
-      intro.to("div.intro div.menu", {duration: 2, y: offset},"<");
+      intro.to(".intro_title",{y:-400, opacity:0, duration:1},"<");
+      intro.to("div.intro div.menu", {duration: 2, opacity:1,y: offset},"<");
     } else {
       intro.fromTo(".intro_title", {opacity:0,y:100},{y:0, opacity:1, duration:3})
       intro.to(".intro_title", {duration: 2, opacity:0, delay:0});
-      intro.fromTo(".intro_graphics", {opacity:0, y:+100},{opacity:1, duration:3,y:0},"<")
-      intro.fromTo(".menu", {opacity:0},{opacity:1, duration:2,delay:-1})
+      intro.fromTo(".intro_graphics", {opacity:0, y:+100},{opacity:1, duration:3,y:0},"<");
+      intro.fromTo(".menu", {opacity:0},{opacity:1, duration:2,delay:-1});
     }
     intro.play();
 
@@ -220,8 +230,8 @@ $(function () {
 
 });
 
-window.addEventListener('resize', (e)=>{
-  let textWrapper = document.querySelector('.text_wrapper');
-  const classes = ['nes-container', 'is-rounded', 'is-dark'];
-  window.innerWidth>1024 ? textWrapper.classList.add(...classes): textWrapper.classList.remove(...classes);
-});
+// window.addEventListener('resize', (e)=>{
+//   let textWrapper = document.querySelector('.text_wrapper');
+//   const classes = ['nes-container', 'is-rounded', 'is-dark'];
+//   window.innerWidth>1024 ? textWrapper.classList.add(...classes): textWrapper.classList.remove(...classes);
+// });

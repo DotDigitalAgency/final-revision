@@ -8447,7 +8447,18 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     });
 
     var urlParams = new URLSearchParams(window.location.search);
-    var user_name = urlParams.get('name').split(' ')[1];
+    var user_name = '';
+
+    if (urlParams.get('name') != null) {
+      if (urlParams.get('name').split(' ').length > 1) {
+        user_name = urlParams.get('name').split(' ')[1];
+      } else {
+        user_name = '';
+      }
+    } else {
+      user_name = '';
+    }
+
     (0, _cashDom.default)("#app").hide();
     (0, _cashDom.default)(".intro").show();
     (0, _cashDom.default)(".register").hide();
@@ -8482,6 +8493,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
       }, "<");
       intro.to("div.intro div.menu", {
         duration: 2,
+        opacity: 1,
         y: offset
       }, "<");
     } else {
@@ -8742,14 +8754,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
       nextLoadingAction();
     }
   });
-});
-window.addEventListener('resize', function (e) {
-  var _textWrapper$classLis, _textWrapper$classLis2;
-
-  var textWrapper = document.querySelector('.text_wrapper');
-  var classes = ['nes-container', 'is-rounded', 'is-dark'];
-  window.innerWidth > 1024 ? (_textWrapper$classLis = textWrapper.classList).add.apply(_textWrapper$classLis, classes) : (_textWrapper$classLis2 = textWrapper.classList).remove.apply(_textWrapper$classLis2, classes);
-});
+}); // window.addEventListener('resize', (e)=>{
+//   let textWrapper = document.querySelector('.text_wrapper');
+//   const classes = ['nes-container', 'is-rounded', 'is-dark'];
+//   window.innerWidth>1024 ? textWrapper.classList.add(...classes): textWrapper.classList.remove(...classes);
+// });
 },{"cash-dom":"node_modules/cash-dom/dist/cash.js","gsap":"node_modules/gsap/index.js","gsap/ScrollToPlugin":"node_modules/gsap/ScrollToPlugin.js","gsap/TextPlugin":"node_modules/gsap/TextPlugin.js","../data/gamedata.json":"data/gamedata.json","./gameController.js":"js/gameController.js","nes.css/css/nes.min.css":"node_modules/nes.css/css/nes.min.css"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
