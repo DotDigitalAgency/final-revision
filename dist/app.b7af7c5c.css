@@ -457,9 +457,10 @@ section.screen button {
     position: absolute;
     top: 40%;
     left: 15%;
+    text-align: center;
   }
   div.intro .menu img {
-    min-width: 20vw;
+    min-width: 25vw;
   }
   div.intro .menu button {
     margin-bottom: 2vh !important;
@@ -484,6 +485,15 @@ section.screen button {
   div.register .gradient {
     position: absolute !important;
     bottom: 0px;
+  }
+
+  div.highscore {
+    text-align: center;
+    align-items: center;
+  }
+  div.highscore button {
+    max-width: 30vw;
+    margin-bottom: 3% !important;
   }
 
   div.loading .nes-container {

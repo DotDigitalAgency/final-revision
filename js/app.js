@@ -21,13 +21,20 @@ $(function () {
    
     gsap.to(".intro_graphics", {opacity:0,duration:0});
     gsap.to(".intro_title", {opacity:0,duration:0});
+    gsap.to(".intro div.menu", {opacity:0,duration:0});
     
     var img_height = Number($('.intro_graphics').height());
     if (img_height == 0) { img_height = 660;}
     var offset = 0-(img_height+100); //check if image is lopaded
     var intro = gsap.timeline({paused:true});
 
-    console.log();
+    const urlParams = new URLSearchParams(window.location.search);
+    const user_name = urlParams.get('name').split(' ')[1];
+    
+    $("#app").show();
+    $(".intro").hide();
+    $(".register").hide();
+    $(".highscore").hide();
 
     if ($('body').width() < 1024) { //mobile intro
       intro.fromTo(".intro_title", {opacity:0,y:100},{y:0, opacity:1, duration:3})
@@ -42,21 +49,20 @@ $(function () {
       intro.fromTo(".menu", {opacity:0},{opacity:1, duration:2,delay:-1})
     }
     intro.play();
-    
-    $("#app").hide();
-    $(".intro").show();
-    $(".register").hide();
-    $(".highscore").hide();
 
     // showHighScore();
     
     let frController = new gameController(gameData,$('#app'),0); //Start the gem in the proper div.
     //Handling game finished event
-    frController.onFinish = () => { 
+    frController.onFinish = () => { //show register screen
       $("div.register").show();
       gsap.fromTo("div.register",{autoAlpha:0},{autoAlpha:1, duration:1, onComplete:function () {
         $('#app').hide();
       }});
+
+      if (user_name.length > 0) {
+        $('div.register #name').val(user_name);
+      }
     }
 
 

@@ -553,9 +553,10 @@ section.screen {
             position: absolute;
             top: 40%;
             left: 15%;
+            text-align: center;
 
             img {
-                min-width: 20vw;
+                min-width: 25vw;
             }
 
             button {
@@ -588,6 +589,15 @@ section.screen {
             position: absolute !important;
             bottom:0px;
 
+        }
+    }
+
+    div.highscore {
+        text-align: center;
+        align-items: center;
+        button {
+            max-width: 30vw;
+            margin-bottom: 3% !important;
         }
     }
 

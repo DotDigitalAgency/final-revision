@@ -98,13 +98,14 @@ export default class GameController {
         }
         
         //preload next image
-        // console.log();
-
-        // var img=new Image();
-        // img.src=url;
-
-
-
+        // var next_image = this._ds.screens[this.progress+1].image
+       
+        // if (next_image != undefined) {
+        //     var preload_filename = data.image.split('.');
+        //     preload_filename = images[preload_filename[0]][preload_filename[1]];
+        //     var img=new Image();
+        //     img.src=preload_filename;
+        // }
         
         var screen_template = `<section class="screen ${data.outcome}">
                                     <img class="cover" src="${cover_filename}" alt="">
