@@ -12,16 +12,21 @@ import "nes.css/css/nes.min.css";
 
 
 $(function () {
+
+  $("div.intro").hide();
+  $("#app").hide();
+  $(".register").hide();
+  $(".highscore").hide();
+
   $(document).ready(function () {
 
     gsap.registerPlugin(ScrollToPlugin);
     gsap.registerPlugin(TextPlugin);
     gsap.ticker.fps(8)
 
-   
     gsap.to(".intro_graphics", {opacity:0,duration:0});
     gsap.to(".intro_title", {opacity:0,duration:0});
-    gsap.to(".intro div.menu", {opacity:0,duration:0});
+    gsap.to("div.menu", {opacity:0,duration:0});
     
     var img_height = Number($('.intro_graphics').height());
     if (img_height == 0) { img_height = 660;}
@@ -41,10 +46,7 @@ $(function () {
       user_name = '';
     }
     
-    $("#app").hide();
     $(".intro").show();
-    $(".register").hide();
-    $(".highscore").hide();
 
     if ($('body').width() < 1024) { //mobile intro
       intro.fromTo(".intro_title", {opacity:0,y:100},{y:0, opacity:1, duration:3});
@@ -55,12 +57,12 @@ $(function () {
     } else {
       intro.fromTo(".intro_title", {opacity:0,y:100},{y:0, opacity:1, duration:3})
       intro.to(".intro_title", {duration: 2, opacity:0, delay:0});
-      intro.fromTo(".intro_graphics", {opacity:0, y:+100},{opacity:1, duration:3,y:0},"<");
-      intro.fromTo(".menu", {opacity:0},{opacity:1, duration:2,delay:-1});
+      intro.fromTo(".intro_graphics", {opacity:0, y:+100},{opacity:1, duration:2,y:0},"<");
+      intro.fromTo(".menu", {opacity:0},{opacity:1, duration:2, delay:.5},"<");
     }
     intro.play();
 
-    // showHighScore();
+  
     
     let frController = new gameController(gameData,$('#app'),0); //Start the gem in the proper div.
     //Handling game finished event

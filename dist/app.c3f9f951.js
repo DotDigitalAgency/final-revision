@@ -8412,6 +8412,10 @@ require("nes.css/css/nes.min.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _cashDom.default)(function () {
+  (0, _cashDom.default)("div.intro").hide();
+  (0, _cashDom.default)("#app").hide();
+  (0, _cashDom.default)(".register").hide();
+  (0, _cashDom.default)(".highscore").hide();
   (0, _cashDom.default)(document).ready(function () {
     _gsap.gsap.registerPlugin(_ScrollToPlugin.default);
 
@@ -8429,7 +8433,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
       duration: 0
     });
 
-    _gsap.gsap.to(".intro div.menu", {
+    _gsap.gsap.to("div.menu", {
       opacity: 0,
       duration: 0
     });
@@ -8459,10 +8463,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
       user_name = '';
     }
 
-    (0, _cashDom.default)("#app").hide();
     (0, _cashDom.default)(".intro").show();
-    (0, _cashDom.default)(".register").hide();
-    (0, _cashDom.default)(".highscore").hide();
 
     if ((0, _cashDom.default)('body').width() < 1024) {
       //mobile intro
@@ -8515,7 +8516,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
         y: +100
       }, {
         opacity: 1,
-        duration: 3,
+        duration: 2,
         y: 0
       }, "<");
       intro.fromTo(".menu", {
@@ -8523,8 +8524,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
       }, {
         opacity: 1,
         duration: 2,
-        delay: -1
-      });
+        delay: .5
+      }, "<");
     }
 
     intro.play(); // showHighScore();
