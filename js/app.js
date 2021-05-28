@@ -49,14 +49,14 @@ $(function () {
     $(".intro").show();
 
     if ($('body').width() < 1024) { //mobile intro
-      intro.fromTo(".intro_title", {opacity:0,y:100},{y:0, opacity:1, duration:3});
-      intro.fromTo(".intro_graphics", {opacity:0},{opacity:1, duration:3, delay:-1});
+     // intro.fromTo(".intro_title", {opacity:0,y:100},{y:0, opacity:1, duration:3});
+     // intro.fromTo(".intro_graphics", {opacity:0},{opacity:1, duration:3, delay:-1});
       intro.to(".intro_graphics", {duration: 2, y: offset, delay:-.5});
       intro.to(".intro_title",{y:-400, opacity:0, duration:1},"<");
       intro.to("div.intro div.menu", {duration: 2, opacity:1,y: offset},"<");
     } else {
-      intro.fromTo(".intro_title", {opacity:0,y:100},{y:0, opacity:1, duration:3})
-      intro.to(".intro_title", {duration: 2, opacity:0, delay:0});
+      // intro.fromTo(".intro_title", {opacity:0,y:100},{y:0, opacity:1, duration:3})
+      // intro.to(".intro_title", {duration: 2, opacity:0, delay:0});
       intro.fromTo(".intro_graphics", {opacity:0, y:+100},{opacity:1, duration:2,y:0},"<");
       intro.fromTo(".menu", {opacity:0},{opacity:1, duration:2, delay:.5},"<");
     }

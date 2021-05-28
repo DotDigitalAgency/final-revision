@@ -7816,26 +7816,26 @@ module.exports = "/Santa_hand_-min.b5796e9b.gif";
 module.exports = "/coin.fa42f039.gif";
 },{}],"img/cover_1.png":[function(require,module,exports) {
 module.exports = "/cover_1.916796b9.png";
-},{}],"img/cover_11.png":[function(require,module,exports) {
-module.exports = "/cover_11.239bdb11.png";
 },{}],"img/cover_10.png":[function(require,module,exports) {
 module.exports = "/cover_10.854b4ee7.png";
+},{}],"img/cover_11.png":[function(require,module,exports) {
+module.exports = "/cover_11.239bdb11.png";
 },{}],"img/cover_12.png":[function(require,module,exports) {
 module.exports = "/cover_12.81d65a03.png";
-},{}],"img/cover_14.png":[function(require,module,exports) {
-module.exports = "/cover_14.e2483095.png";
 },{}],"img/cover_13.png":[function(require,module,exports) {
 module.exports = "/cover_13.ebb5a050.png";
+},{}],"img/cover_14.png":[function(require,module,exports) {
+module.exports = "/cover_14.e2483095.png";
 },{}],"img/cover_15.png":[function(require,module,exports) {
 module.exports = "/cover_15.14f2863a.png";
 },{}],"img/cover_16.png":[function(require,module,exports) {
 module.exports = "/cover_16.a773e12b.png";
 },{}],"img/cover_17.png":[function(require,module,exports) {
 module.exports = "/cover_17.e7ecab84.png";
-},{}],"img/cover_19.png":[function(require,module,exports) {
-module.exports = "/cover_19.fb70ec20.png";
 },{}],"img/cover_18.png":[function(require,module,exports) {
 module.exports = "/cover_18.f2999c70.png";
+},{}],"img/cover_19.png":[function(require,module,exports) {
+module.exports = "/cover_19.fb70ec20.png";
 },{}],"img/cover_2.png":[function(require,module,exports) {
 module.exports = "/cover_2.5f61d66c.png";
 },{}],"img/cover_20.png":[function(require,module,exports) {
@@ -7856,16 +7856,16 @@ module.exports = "/cover_5.fbdba136.gif";
 module.exports = "/cover_5.0cf0eaea.png";
 },{}],"img/cover_6.png":[function(require,module,exports) {
 module.exports = "/cover_6.6d60b95f.png";
-},{}],"img/cover_8.png":[function(require,module,exports) {
-module.exports = "/cover_8.f2c1363b.png";
 },{}],"img/cover_7.png":[function(require,module,exports) {
 module.exports = "/cover_7.11d58592.png";
+},{}],"img/cover_8.png":[function(require,module,exports) {
+module.exports = "/cover_8.f2c1363b.png";
 },{}],"img/cover_9.png":[function(require,module,exports) {
 module.exports = "/cover_9.4e605972.png";
-},{}],"img/cover_highscore.png":[function(require,module,exports) {
-module.exports = "/cover_highscore.e6f1580d.png";
 },{}],"img/cover_gamewon.png":[function(require,module,exports) {
 module.exports = "/cover_gamewon.4a95d48b.png";
+},{}],"img/cover_highscore.png":[function(require,module,exports) {
+module.exports = "/cover_highscore.e6f1580d.png";
 },{}],"img/favicon-16.png":[function(require,module,exports) {
 module.exports = "/favicon-16.c9047867.png";
 },{}],"img/favicon-180.png":[function(require,module,exports) {
@@ -7918,20 +7918,20 @@ module.exports = {
   "cover_1": {
     "png": require("./cover_1.png")
   },
-  "cover_11": {
-    "png": require("./cover_11.png")
-  },
   "cover_10": {
     "png": require("./cover_10.png")
+  },
+  "cover_11": {
+    "png": require("./cover_11.png")
   },
   "cover_12": {
     "png": require("./cover_12.png")
   },
-  "cover_14": {
-    "png": require("./cover_14.png")
-  },
   "cover_13": {
     "png": require("./cover_13.png")
+  },
+  "cover_14": {
+    "png": require("./cover_14.png")
   },
   "cover_15": {
     "png": require("./cover_15.png")
@@ -7942,11 +7942,11 @@ module.exports = {
   "cover_17": {
     "png": require("./cover_17.png")
   },
-  "cover_19": {
-    "png": require("./cover_19.png")
-  },
   "cover_18": {
     "png": require("./cover_18.png")
+  },
+  "cover_19": {
+    "png": require("./cover_19.png")
   },
   "cover_2": {
     "png": require("./cover_2.png")
@@ -7972,20 +7972,20 @@ module.exports = {
   "cover_6": {
     "png": require("./cover_6.png")
   },
-  "cover_8": {
-    "png": require("./cover_8.png")
-  },
   "cover_7": {
     "png": require("./cover_7.png")
+  },
+  "cover_8": {
+    "png": require("./cover_8.png")
   },
   "cover_9": {
     "png": require("./cover_9.png")
   },
-  "cover_highscore": {
-    "png": require("./cover_highscore.png")
-  },
   "cover_gamewon": {
     "png": require("./cover_gamewon.png")
+  },
+  "cover_highscore": {
+    "png": require("./cover_highscore.png")
   },
   "favicon-16": {
     "png": require("./favicon-16.png")
@@ -8036,7 +8036,7 @@ module.exports = {
     "png": require("./win_icon.png")
   }
 };
-},{"./Money_glitter_v1-min.gif":"img/Money_glitter_v1-min.gif","./Money_glitter_v2-min.gif":"img/Money_glitter_v2-min.gif","./Santa_cloud-min.gif":"img/Santa_cloud-min.gif","./Santa_hand_-min.gif":"img/Santa_hand_-min.gif","./coin.gif":"img/coin.gif","./cover_1.png":"img/cover_1.png","./cover_11.png":"img/cover_11.png","./cover_10.png":"img/cover_10.png","./cover_12.png":"img/cover_12.png","./cover_14.png":"img/cover_14.png","./cover_13.png":"img/cover_13.png","./cover_15.png":"img/cover_15.png","./cover_16.png":"img/cover_16.png","./cover_17.png":"img/cover_17.png","./cover_19.png":"img/cover_19.png","./cover_18.png":"img/cover_18.png","./cover_2.png":"img/cover_2.png","./cover_20.png":"img/cover_20.png","./cover_21.png":"img/cover_21.png","./cover_3.gif":"img/cover_3.gif","./cover_3.png":"img/cover_3.png","./cover_4.gif":"img/cover_4.gif","./cover_4.png":"img/cover_4.png","./cover_5.gif":"img/cover_5.gif","./cover_5.png":"img/cover_5.png","./cover_6.png":"img/cover_6.png","./cover_8.png":"img/cover_8.png","./cover_7.png":"img/cover_7.png","./cover_9.png":"img/cover_9.png","./cover_highscore.png":"img/cover_highscore.png","./cover_gamewon.png":"img/cover_gamewon.png","./favicon-16.png":"img/favicon-16.png","./favicon-180.png":"img/favicon-180.png","./favicon-32.png":"img/favicon-32.png","./fr_opengraph.jpg":"img/fr_opengraph.jpg","./icon_error.png":"img/icon_error.png","./icon_success.png":"img/icon_success.png","./intro_graphics.png":"img/intro_graphics.png","./intro_logo.png":"img/intro_logo.png","./logo.png":"img/logo.png","./lose_cover.png":"img/lose_cover.png","./lose_icon.png":"img/lose_icon.png","./mistletoe.png":"img/mistletoe.png","./santa_couple_2-min.gif":"img/santa_couple_2-min.gif","./section.svg":"img/section.svg","./win_cover.png":"img/win_cover.png","./win_icon.png":"img/win_icon.png"}],"js/gameController.js":[function(require,module,exports) {
+},{"./Money_glitter_v1-min.gif":"img/Money_glitter_v1-min.gif","./Money_glitter_v2-min.gif":"img/Money_glitter_v2-min.gif","./Santa_cloud-min.gif":"img/Santa_cloud-min.gif","./Santa_hand_-min.gif":"img/Santa_hand_-min.gif","./coin.gif":"img/coin.gif","./cover_1.png":"img/cover_1.png","./cover_10.png":"img/cover_10.png","./cover_11.png":"img/cover_11.png","./cover_12.png":"img/cover_12.png","./cover_13.png":"img/cover_13.png","./cover_14.png":"img/cover_14.png","./cover_15.png":"img/cover_15.png","./cover_16.png":"img/cover_16.png","./cover_17.png":"img/cover_17.png","./cover_18.png":"img/cover_18.png","./cover_19.png":"img/cover_19.png","./cover_2.png":"img/cover_2.png","./cover_20.png":"img/cover_20.png","./cover_21.png":"img/cover_21.png","./cover_3.gif":"img/cover_3.gif","./cover_3.png":"img/cover_3.png","./cover_4.gif":"img/cover_4.gif","./cover_4.png":"img/cover_4.png","./cover_5.gif":"img/cover_5.gif","./cover_5.png":"img/cover_5.png","./cover_6.png":"img/cover_6.png","./cover_7.png":"img/cover_7.png","./cover_8.png":"img/cover_8.png","./cover_9.png":"img/cover_9.png","./cover_gamewon.png":"img/cover_gamewon.png","./cover_highscore.png":"img/cover_highscore.png","./favicon-16.png":"img/favicon-16.png","./favicon-180.png":"img/favicon-180.png","./favicon-32.png":"img/favicon-32.png","./fr_opengraph.jpg":"img/fr_opengraph.jpg","./icon_error.png":"img/icon_error.png","./icon_success.png":"img/icon_success.png","./intro_graphics.png":"img/intro_graphics.png","./intro_logo.png":"img/intro_logo.png","./logo.png":"img/logo.png","./lose_cover.png":"img/lose_cover.png","./lose_icon.png":"img/lose_icon.png","./mistletoe.png":"img/mistletoe.png","./santa_couple_2-min.gif":"img/santa_couple_2-min.gif","./section.svg":"img/section.svg","./win_cover.png":"img/win_cover.png","./win_icon.png":"img/win_icon.png"}],"js/gameController.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8467,21 +8467,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
     if ((0, _cashDom.default)('body').width() < 1024) {
       //mobile intro
-      intro.fromTo(".intro_title", {
-        opacity: 0,
-        y: 100
-      }, {
-        y: 0,
-        opacity: 1,
-        duration: 3
-      });
-      intro.fromTo(".intro_graphics", {
-        opacity: 0
-      }, {
-        opacity: 1,
-        duration: 3,
-        delay: -1
-      });
+      // intro.fromTo(".intro_title", {opacity:0,y:100},{y:0, opacity:1, duration:3});
+      // intro.fromTo(".intro_graphics", {opacity:0},{opacity:1, duration:3, delay:-1});
       intro.to(".intro_graphics", {
         duration: 2,
         y: offset,
@@ -8498,19 +8485,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
         y: offset
       }, "<");
     } else {
-      intro.fromTo(".intro_title", {
-        opacity: 0,
-        y: 100
-      }, {
-        y: 0,
-        opacity: 1,
-        duration: 3
-      });
-      intro.to(".intro_title", {
-        duration: 2,
-        opacity: 0,
-        delay: 0
-      });
+      // intro.fromTo(".intro_title", {opacity:0,y:100},{y:0, opacity:1, duration:3})
+      // intro.to(".intro_title", {duration: 2, opacity:0, delay:0});
       intro.fromTo(".intro_graphics", {
         opacity: 0,
         y: +100
@@ -8528,8 +8504,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
       }, "<");
     }
 
-    intro.play(); // showHighScore();
-
+    intro.play();
     var frController = new _gameController.default(_gamedata.default, (0, _cashDom.default)('#app'), 0); //Start the gem in the proper div.
     //Handling game finished event
 
@@ -8786,9 +8761,9 @@ var checkedAssets, assetsToAccept;
 var parent = module.bundle.parent;
 
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
-  var hostname = "0.0.0.0" || location.hostname;
+  var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51446" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57390" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
